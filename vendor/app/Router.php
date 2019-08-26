@@ -40,8 +40,9 @@ class Router{
     private function dispatch()
     {   
         $uri = $this->removeQuery($_SERVER['REQUEST_URI']);
-
+        
         if($this->matchRoute($uri)){
+
             $controller = $this->route['controller'] . 'Controller';
             $action = $this->route['action'] . 'Action';
 
@@ -57,16 +58,16 @@ class Router{
                         $class_controller->$action();
                         $class_controller->getView();
                     }else{
-                        throw new \Exception('Метод ' . $action . ' класса - ' . $class_name . ' не найден');
+                        throw new \Exception('Метод ' . $action . ' класса - ' . $class_name . ' не найден', 500);
                     }
                 }else{
-                    throw new \Exception('Класс не найден - ' . $controller);
+                    throw new \Exception('Класс не найден - ' . $controller, 500);
                 }
             }else{
-                throw new \Exception('Файл контроллера не наден - ' . $file_controller);
+                throw new \Exception('Файл контроллера не наден - ' . $file_controller, 500);
             }
         }else{
-            throw new \Exception('Маршрут не найден');
+            throw new \Exception('Маршрут не найден', 500);
         }
     }
 

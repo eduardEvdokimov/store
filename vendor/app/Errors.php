@@ -39,28 +39,33 @@ class Errors
         $type = 'Произошла ошибка';
         $number_error = 1;
         $data = '';
-        $file = $this->error_file;
+        $log = $this->error_file;
 
         if($type_error == 'notice'){
             $type = 'Замечание';
-            $file = $this->notice_file;
+            $log = $this->notice_file;
         }
 
-        $f = fopen($file, 'r+b');
+        $f = fopen($log, 'r+b');
         flock($f, LOCK_SH);
 
-        if(filesize($file) != 0){
-            $data = fread($f, filesize($file));
+        if(filesize($log) != 0){
+            $data = fread($f, filesize($log));
             flock($f, LOCK_UN);
         }
 
         if(!empty($data)){
             $errors_arr = explode("\r\n\r\n", $data);
             
-            $id_last_error = count($errors_arr) - 2;
-            $last_error = $errors_arr[$id_last_error];
-            preg_match("#№\s(?<number>\d+)#i", $last_error, $m);
-            $number_error = $m['number'] + 1;
+            if(count($errors_arr) > 1){
+                $id_last_error = count($errors_arr) - 2;
+                $last_error = $errors_arr[$id_last_error];
+                preg_match("#№\s(?<number>\d+)#i", $last_error, $m);
+                $number_error = $m['number'] + 1;
+            }
+
+            
+            
         }
 
         $str = "$type № $number_error: " . date('d-m-Y в H:i:s') . "\r\n";

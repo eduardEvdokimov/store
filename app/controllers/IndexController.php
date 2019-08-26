@@ -2,14 +2,23 @@
 
 namespace app\controllers;
 
-class IndexController extends \store\base\Controller
+use \store\Db;
+use \store\Register;
+use \widgets\category\Category;
+
+class IndexController extends MainController
 {
     public function indexAction()
     {
-        $name = 'edik';
-        $user = ['password' => '123', 'email' => 'edik@mail.com'];
-        
-    }
+        $model = new \app\models\ProductModel;
+
+        $category = Category::getTree();
+        $htmlButtonSlider = $model->createChangedButton();
+       
+        $productSlider = $model->getProductSlider($htmlButtonSlider);
+        $data_id_carusel = Register::get('config')['data_id_carusel_index_page'];
+        $this->setParams(['htmlButtonSlider' => $htmlButtonSlider, 'productSlider' => $productSlider, 'data_id_carusel' => $data_id_carusel]);
+    }   
 
     public function productsAction()
     {

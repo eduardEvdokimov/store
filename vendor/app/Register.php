@@ -2,6 +2,8 @@
 
 namespace store;
 
+use \widgets\currency\Currency;
+
 class Register
 {
     private static $data = [];
@@ -26,5 +28,12 @@ class Register
     public static function gets()
     {
         return self::$data;
+    }
+
+    public static function setCurrency()
+    {
+        self::add('currencies', Currency::getCurrencies());
+        self::add('currentCurrency', Currency::getCurrentCurrency(self::get('currencies')));
+        self::add('simbolCurrency', Currency::getSimbol());
     }
 }

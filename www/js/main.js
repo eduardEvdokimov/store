@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
 	//on mobile - open submenu
 	$('.has-children').children('a').on('click', function(event){
 		//prevent default clicking on direct children of .has-children 
-		event.preventDefault();
+		//event.preventDefault();
 		var selected = $(this);
 		selected.next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('move-out');
 	});
@@ -60,5 +60,55 @@ jQuery(document).ready(function($){
 		}
 	}
 
+
+
+/* custom script */
+
+$('.currency').click(function(){
+    var currency = $(this).find('a').data('curr');
+    var cookie = getCookie('currency');
+    if(cookie == currency)
+        return;
+        
+    setCookie('currency', currency, {'max-age': 60 * 60 * 24 * 2});
+    document.location.reload(true);
+});
+
+
+
+
+/* custom script */
+
 	 
 });
+
+function getCookie(name) {
+  let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+function setCookie(name, value, options = {}) {
+
+  options = {
+    path: '/',
+    expires: new Date(Date.now() + 86400e3)
+  };
+
+  if (options.expires.toUTCString) {
+    options.expires = options.expires.toUTCString();
+  }
+
+  let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+  for (let optionKey in options) {
+    updatedCookie += "; " + optionKey;
+    let optionValue = options[optionKey];
+    if (optionValue !== true) {
+      updatedCookie += "=" + optionValue;
+    }
+  }
+
+  document.cookie = updatedCookie;
+}

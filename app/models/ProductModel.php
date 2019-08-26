@@ -1,0 +1,80 @@
+<?php
+
+namespace app\models;
+
+use \store\Register;
+
+
+class ProductModel extends MainModel
+{
+    public function createChangedButton()
+    {
+        $visibleCategory = Register::get('config')['category_index_page_slider'];
+        foreach ($visibleCategory as $key => $value) 
+            $visibleCategory[$key] = "'$value'";
+
+        $visibleCategorySql = implode(',', $visibleCategory);
+        $category = $this->db->query("SELECT id, title FROM category WHERE alias IN ($visibleCategorySql)");
+        return $category;
+    }
+
+    public function getProductSlider($selectedCategory)
+    {
+        foreach ($selectedCategory as $key => $value) {
+            $checkParent = $this->db->query("SELECT id FROM category WHERE parent_id={$value['id']}");
+            if(!empty($checkParent)){
+                $products[$value['title']] = $this->db->query("SELECT * FROM product WHERE category_id IN (SELECT id FROM category WHERE parent_id = '{$value['id']}') AND (hit=1 OR new=1 OR old_price > 0) LIMIT 8");
+            }else{
+                $products[$value['title']] = $this->db->query("SELECT * FROM product WHERE category_id={$value['id']} AND (hit=1 OR new=1 OR old_price > 0) LIMIT 8");
+            }
+
+            foreach ($products[$value['title']] as $key => $product) {
+                if(strlen($product['title']) > 30){
+                    $product['small_title'] = mb_substr($product['title'], 0, 30) . '...';
+                }else{
+                    $product['small_title'] = $product['title'];
+                }
+
+                $product['price'] = $this->recalcPrice($product['price']);
+                $product['old_price'] = $this->recalcPrice($product['old_price']);
+                    
+                    
+
+                if($product['old_price'] > 0){
+
+
+                    $discout = round((($product['old_price'] - $product['price']) * 100) / $product['old_price']);
+                    
+
+                    $product['sticker'] = "<div class='new-tag'><h6>{$discout}%</h6></div>";
+                
+                }elseif($product['hit'] > 0){
+                    $product['sticker'] = "<div class='new-tag'><h6>Топ</h6></div>";
+                }elseif($product['new'] > 0){
+                    $product['sticker'] = "<div class='new-tag'><h6>Новый</h6></div>";
+                }else{
+                    $product['sticker'] = '';
+                }
+                $products[$value['title']][$key] = $product;
+            }
+            
+        }
+
+        $this->recalcPrice(300);
+
+        return $products;
+    }
+
+    public function recalcPrice($price)
+    {
+        foreach (Register::get('currencies') as  $currency) {
+            if($currency['name'] == Register::get('currentCurrency')){
+                $currentCurrency = $currency;
+                break;
+            }
+        }
+        $price *= $currentCurrency['value'];
+        return round($price, 2);
+    }
+
+}
