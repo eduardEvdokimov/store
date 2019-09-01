@@ -11,6 +11,7 @@ class Category
     private $tpl = 'view';
     private $layout = 'default';
     private $category = [];
+    private $categoryTree;
 
     public function __construct($view = '', $layout = '')
     {
@@ -21,14 +22,15 @@ class Category
 
     private function run()
     {
-        $this->category = $this->getTree();
+        $this->category = self::get();
+        $this->categoryTree = $this->getTree($this->category);
         $this->getHtml();
     }
 
     private function getHtml()
     {
         $view = '';
-        foreach ($this->category as $key => $value) {
+        foreach ($this->categoryTree as $key => $value) {
             $view .= $this->loadView($value);
         }
         require 'layouts/' . $this->layout . '.php';
@@ -42,48 +44,51 @@ class Category
 
     }
 
-    public function getTree()
+    public static function get()
     {
         $category = Register::get('category');
-        
+        $cache = new Cache;
+
         if(empty($category)){
-            $cache = new Cache;
+
             $category = $cache->get('category');
 
             if(empty($category)){
+               
                 $db = Db::getInstance();
                 $category = $db->query('SELECT * FROM category');
-                return $this->createTree($category);
-            }else{
                 Register::add('category', $category);
-                return $category;
-            }
-        }else{
-            return $category;
-        }
-    }
+                $cache->add('category', $category, time() + 60 * 60 * 24 * 30);
+                
+            }else{
 
-    private function createTree($category)
-    {
-        $tree = [];
-        $newCategory = [];
+                Register::add('category', $category);
+                
+            }
+        }
+
         foreach ($category as $value) {
             $id = $value['id'];
             unset($value['id']);
             $newCategory[$id] = $value;
         }
+        return $newCategory;
 
-        foreach ($newCategory as $key => &$value) {
+    }
+
+    private function getTree($category)
+    {
+        $tree = [];
+
+        foreach ($category as $key => &$value) {
             if($value['parent_id'] == 0){
                 $tree[$key] = &$value;  
             }else{
-                $newCategory[$value['parent_id']]['child'][$key] = &$value;
+                $category[$value['parent_id']]['child'][$key] = &$value;
             }
         }
 
-        Register::add('category', $tree);
-        $cache = new Cache;
-        $cache->add('category', $tree, time() + 60 * 60 * 24 * 30);
+        
         return $tree;
     }
 }

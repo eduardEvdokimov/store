@@ -75,6 +75,81 @@ $('.currency').click(function(){
 });
 
 
+$('.stars_block ul li').mouseover(function(){
+    $(this).prevAll().each(function(index, value){
+        $(value).find('i').css('color', '#0280e1');
+    });
+
+    $(this).find('i').css('color', '#0280e1');
+});
+
+$('.stars_block ul li').mouseleave(function(){
+    $(this).prevAll().each(function(index, value){
+        $(value).find('i').css('color', '#d2d2d2');
+    });
+
+    $(this).find('i').css('color', '#d2d2d2');
+});
+
+
+$('#tabs li').click(function(){
+
+    
+    if($(this).attr('class') == 'active')
+        return;
+    
+    var dataType = $(this).data('type');
+    
+    if(dataType == 'kommentariy'){
+        
+        $('#kommentariy').addClass('disactive');
+        $('#otzuv_o_tovare').removeClass('disactive');
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+    }else{
+
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+
+        $('#kommentariy').removeClass('disactive');
+        $('#otzuv_o_tovare').addClass('disactive');  
+    }
+});
+
+
+
+$('.btn_response_comment').click(function(){
+    $(this).closest('li').find('.form_add_comment').removeClass('disactive');
+    $(this).closest('li').find('#footer_response').addClass('disactive');
+});
+
+$('#close_form_add_response').click(function(){
+    $(this).closest('li').find('.form_add_comment').addClass('disactive');
+    $(this).closest('li').find('#footer_response').removeClass('disactive');
+});
+
+$('.btn_view_responses').click(function(){
+    $(this).closest('li').find('.block_responses').removeClass('disactive');
+    $(this).closest('li').find('#footer_response').addClass('disactive');
+
+});
+
+$('#close_form_responses_response').click(function(){
+    $(this).closest('li').find('.block_responses').addClass('disactive');
+    $(this).closest('li').find('#footer_response').removeClass('disactive');
+});
+
+$('.bth_comment').click(function(){
+    $('.form_add_comment').removeClass('disactive');
+    $('.header_block_comments').addClass('disactive');
+    $('.list_comments').addClass('disactive');
+});
+
+$('.close_form_add_comment').click(function(){
+    $('.form_add_comment').addClass('disactive');
+    $('.header_block_comments').removeClass('disactive');
+    $('.list_comments').removeClass('disactive');
+});
 
 
 /* custom script */

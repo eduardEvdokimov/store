@@ -18,14 +18,17 @@ class Router{
     {
         foreach(self::$routes as $regexp => $path){
             if(preg_match("#$regexp#i", $uri, $m)){
+                foreach ($m as $key => $value) {
+                    if(is_string($key)){
+                        $this->route[$key] = $value;
+                    }
+                }
+
                 $controller = isset($m['controller']) ? $m['controller'] : $path['controller'];
-                $action = isset($m['action']) ? $m['action'] : $path['action'];
-                $prefix = isset($path['prefix']) ? '/' . $path['prefix'] : '';
-                
+                $action = isset($m['action']) ? $m['action'] : 'index';
                 $this->route['controller'] = $this->strToUpper($controller) ?: 'Index';
                 $this->route['action'] = $this->strToLower($action) ?: 'index';
-                $this->route['prefix'] = $prefix;
-
+                $this->route['prefix'] = isset($path['prefix']) ? $path['prefix'] : '';
                 return true;
             }
         }
@@ -46,7 +49,7 @@ class Router{
             $controller = $this->route['controller'] . 'Controller';
             $action = $this->route['action'] . 'Action';
 
-            $file_controller = str_replace('/', '\\', APP . "{$this->route['prefix']}" . '/controllers/' . $controller . '.php');
+            $file_controller = str_replace('/', '\\', APP . "/{$this->route['prefix']}" . '/controllers/' . $controller . '.php');
 
             if(file_exists($file_controller)){
                 include $file_controller;

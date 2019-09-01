@@ -304,3 +304,579 @@
 Файл: C:\OSPanel\domains\store.loc\app\controllers\MainController.php
 Код ошибки: 300
 
+Замечание № 52: 28-08-2019 в 11:07:02
+Ошибка: Undefined index: action
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 53: 28-08-2019 в 11:09:07
+Ошибка: Undefined index: action
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 54: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 55: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 56: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 57: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 58: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 59: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 60: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 61: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 62: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 63: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 64: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 65: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 66: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 67: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 68: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 69: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 70: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 71: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 72: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 73: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 74: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 75: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 76: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 77: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 78: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 79: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 80: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 81: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 82: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 83: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 84: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 85: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 86: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 87: 28-08-2019 в 11:14:35
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 88: 28-08-2019 в 11:14:36
+Ошибка: Undefined index: prefix
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 89: 28-08-2019 в 11:14:50
+Ошибка: Undefined index: controller
+Строка: 26
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 90: 28-08-2019 в 11:16:00
+Ошибка: Undefined index: prefix
+Строка: 52
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 300
+
+Замечание № 91: 28-08-2019 в 11:22:09
+Ошибка: Undefined index: alias
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 92: 28-08-2019 в 11:48:22
+Ошибка: Undefined index: old_price
+Строка: 89
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 93: 28-08-2019 в 11:50:57
+Ошибка: Undefined index: discount
+Строка: 51
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 94: 28-08-2019 в 19:07:30
+Ошибка: Undefined index: keywords
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 95: 29-08-2019 в 20:23:58
+Ошибка: Array to string conversion
+Строка: 94
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 96: 30-08-2019 в 09:16:20
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 97: 30-08-2019 в 09:18:15
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 98: 30-08-2019 в 09:19:39
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 99: 30-08-2019 в 09:21:15
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 100: 30-08-2019 в 09:22:57
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 101: 30-08-2019 в 09:27:35
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 102: 30-08-2019 в 09:27:56
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 103: 30-08-2019 в 09:28:44
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 104: 30-08-2019 в 09:29:15
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 105: 30-08-2019 в 09:31:07
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 106: 30-08-2019 в 09:34:55
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 107: 30-08-2019 в 09:52:01
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 108: 30-08-2019 в 10:01:27
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 109: 30-08-2019 в 10:01:47
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 110: 30-08-2019 в 10:04:48
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 111: 30-08-2019 в 10:05:00
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 112: 30-08-2019 в 10:06:42
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 113: 30-08-2019 в 10:07:24
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 114: 30-08-2019 в 10:10:30
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 115: 30-08-2019 в 10:10:45
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 116: 30-08-2019 в 10:11:04
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 117: 30-08-2019 в 10:12:29
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 118: 30-08-2019 в 10:13:47
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 119: 30-08-2019 в 10:21:15
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 120: 30-08-2019 в 10:22:26
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 121: 30-08-2019 в 10:27:16
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 122: 30-08-2019 в 10:27:45
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 123: 30-08-2019 в 10:59:46
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 124: 30-08-2019 в 11:00:41
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 125: 30-08-2019 в 11:01:59
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 126: 30-08-2019 в 11:03:04
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 127: 30-08-2019 в 11:03:10
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 128: 30-08-2019 в 11:05:27
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 129: 30-08-2019 в 11:54:57
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 130: 30-08-2019 в 11:57:21
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 131: 30-08-2019 в 11:57:32
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 132: 30-08-2019 в 11:57:40
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 133: 30-08-2019 в 12:02:41
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 134: 30-08-2019 в 12:06:59
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 135: 30-08-2019 в 17:57:01
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 136: 30-08-2019 в 17:57:17
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 137: 30-08-2019 в 17:58:49
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 138: 30-08-2019 в 17:59:10
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 139: 30-08-2019 в 18:00:30
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 140: 30-08-2019 в 18:00:56
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 141: 30-08-2019 в 18:01:29
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 142: 30-08-2019 в 18:01:46
+Ошибка: Undefined variable: breadcrumbs
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 143: 30-08-2019 в 20:22:01
+Ошибка: Undefined variable: product_category
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 144: 30-08-2019 в 20:24:31
+Ошибка: Array to string conversion
+Строка: 44
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 145: 30-08-2019 в 20:25:41
+Ошибка: Undefined variable: title
+Строка: 44
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 146: 30-08-2019 в 20:26:25
+Ошибка: Undefined variable: title
+Строка: 45
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 147: 30-08-2019 в 20:27:02
+Ошибка: Undefined variable: title
+Строка: 45
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+

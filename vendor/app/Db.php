@@ -40,7 +40,9 @@ class Db
         $this->lastRequest = $sql;
         $prepare = $this->conn->prepare($sql);
         if(strpos($sql, 'ELECT')){
-            $result = $prepare->execute($values)->fetchAll(\PDO::FETCH_ASSOC);
+            if($prepare->execute($values)){
+                $result = $prepare->fetchAll(\PDO::FETCH_ASSOC);
+            }
             return !empty($result) ? $result : '';
         }
         return $prepare->execute($values);

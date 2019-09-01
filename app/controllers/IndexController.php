@@ -12,12 +12,14 @@ class IndexController extends MainController
     {
         $model = new \app\models\ProductModel;
 
-        $category = Category::getTree();
+        
         $htmlButtonSlider = $model->createChangedButton();
        
         $productSlider = $model->getProductSlider($htmlButtonSlider);
         $data_id_carusel = Register::get('config')['data_id_carusel_index_page'];
         $this->setParams(['htmlButtonSlider' => $htmlButtonSlider, 'productSlider' => $productSlider, 'data_id_carusel' => $data_id_carusel]);
+
+        
     }   
 
     public function productsAction()

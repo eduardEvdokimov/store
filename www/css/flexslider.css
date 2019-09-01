@@ -43,8 +43,8 @@ ul.flex-direction-nav {
     margin: 1em 0;
 }
 .flex-control-thumbs img {
-	width: 100%;
-	height: auto;
+    max-width: 100px;
+	max-height: 120px;
 	display: block;
 	opacity: .7;
 	cursor: pointer;

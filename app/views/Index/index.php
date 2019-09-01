@@ -220,3 +220,42 @@
 		</div>  	
 	</div> 
 	<!-- //deals --> 
+	<!-- footer-top -->
+    <div class="w3agile-ftr-top">
+        <div class="container">
+            <div class="ftr-toprow">
+                <div class="col-md-4 ftr-top-grids">
+                    <div class="ftr-top-left">
+                        <i class="fa fa-truck" aria-hidden="true"></i>
+                    </div> 
+                    <div class="ftr-top-right">
+                        <h4>БЕСПЛАТНАЯ ДОСТАВКА</h4>
+                        <p>Закажите любой товар и вы приятно удивитесь, что за доставку платить не нужно</p>
+                    </div> 
+                    <div class="clearfix"> </div>
+                </div> 
+                <div class="col-md-4 ftr-top-grids">
+                    <div class="ftr-top-left">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div> 
+                    <div class="ftr-top-right">
+                        <h4>ЗАБОТА О ПОКУПАТЕЛЯХ</h4>
+                        <p>Мы позаботимся, чтоб покупка в нашем интернет-магазине прошла для Вас легко и быстро</p>
+                    </div> 
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-4 ftr-top-grids">
+                    <div class="ftr-top-left">
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                    </div> 
+                    <div class="ftr-top-right">
+                        <h4>ВЫСОКОЕ КАЧЕСТВО</h4>
+                        <p>Магазин дает гарантию за высокое качество за предлагаемую продукцию</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div> 
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- //footer-top --> 

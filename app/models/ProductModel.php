@@ -67,14 +67,32 @@ class ProductModel extends MainModel
 
     public function recalcPrice($price)
     {
-        foreach (Register::get('currencies') as  $currency) {
-            if($currency['name'] == Register::get('currentCurrency')){
-                $currentCurrency = $currency;
-                break;
+        if($price > 0){
+            foreach (Register::get('currencies') as  $currency) {
+                if($currency['name'] == Register::get('currentCurrency')){
+                    $currentCurrency = $currency;
+                    break;
+                }
             }
+            $price *= $currentCurrency['value'];
+            return round($price, 2);
         }
-        $price *= $currentCurrency['value'];
-        return round($price, 2);
+        return 0;
+        
+    }
+
+    public function getData($alias)
+    {
+        $data = $this->db->execute('SELECT * FROM product JOIN product_info ON id=id_product WHERE alias=?', [$alias])[0];
+        
+        $data['price'] = $this->recalcPrice($data['price']);
+        $data['old_price'] = $this->recalcPrice($data['old_price']);
+        if($data['old_price'] > 0){
+            $data['discount'] = round((($data['old_price'] - $data['price']) * 100) / $data['old_price']);
+        }
+
+        $data['hrefs_img'] = explode(',', $data['hrefs_img']);
+        return $data;
     }
 
 }
