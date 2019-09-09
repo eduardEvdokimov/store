@@ -5,6 +5,7 @@ namespace widgets\currency;
 use \store\Register;
 use \store\Cache;
 use \store\Db;
+use \app\controllers\CartController;
 
 class Currency
 {

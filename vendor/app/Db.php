@@ -20,7 +20,7 @@ class Db
         if($db instanceof \PDO){
             $this->conn = $db;
         }else{
-            new \Exception('Не удалось подключиться к БД', 500);
+            throw new \Exception('Не удалось подключиться к БД', 500);
         }
     }
     
@@ -35,6 +35,7 @@ class Db
 
     public function execute($sql, $values)
     {
+        
         if(empty($sql) && empty($values)) return false;
         $this->dbRequests[] = ['sql' => $sql, 'params' => $values];
         $this->lastRequest = $sql;

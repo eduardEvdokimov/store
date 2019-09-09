@@ -20,49 +20,50 @@ class ProductModel extends MainModel
 
     public function getProductSlider($selectedCategory)
     {
+       
         foreach ($selectedCategory as $key => $value) {
             $checkParent = $this->db->query("SELECT id FROM category WHERE parent_id={$value['id']}");
+
             if(!empty($checkParent)){
-                $products[$value['title']] = $this->db->query("SELECT * FROM product WHERE category_id IN (SELECT id FROM category WHERE parent_id = '{$value['id']}') AND (hit=1 OR new=1 OR old_price > 0) LIMIT 8");
+                $products = $this->db->query("SELECT * FROM product WHERE category_id IN (SELECT id FROM category WHERE parent_id = '{$value['id']}') AND (hit=1 OR new=1 OR old_price > 0) LIMIT 8");
             }else{
-                $products[$value['title']] = $this->db->query("SELECT * FROM product WHERE category_id={$value['id']} AND (hit=1 OR new=1 OR old_price > 0) LIMIT 8");
+                $products = $this->db->query("SELECT * FROM product WHERE category_id={$value['id']} AND (hit=1 OR new=1 OR old_price > 0) LIMIT 8");
             }
 
-            foreach ($products[$value['title']] as $key => $product) {
-                if(strlen($product['title']) > 30){
-                    $product['small_title'] = mb_substr($product['title'], 0, 30) . '...';
-                }else{
-                    $product['small_title'] = $product['title'];
-                }
-
-                $product['price'] = $this->recalcPrice($product['price']);
-                $product['old_price'] = $this->recalcPrice($product['old_price']);
-                    
-                    
-
-                if($product['old_price'] > 0){
-
-
-                    $discout = round((($product['old_price'] - $product['price']) * 100) / $product['old_price']);
-                    
-
-                    $product['sticker'] = "<div class='new-tag'><h6>{$discout}%</h6></div>";
-                
-                }elseif($product['hit'] > 0){
-                    $product['sticker'] = "<div class='new-tag'><h6>Топ</h6></div>";
-                }elseif($product['new'] > 0){
-                    $product['sticker'] = "<div class='new-tag'><h6>Новый</h6></div>";
-                }else{
-                    $product['sticker'] = '';
-                }
-                $products[$value['title']][$key] = $product;
-            }
-            
+            $result[$value['title']] = $this->createDataProduct($products);
         }
+        return $result;
+    }
 
-        $this->recalcPrice(300);
+    public function createDataProduct($products)
+    {
+        foreach ($products as $key => $product){
+            if(strlen($product['title']) > 30){
+                $product['small_title'] = mb_substr($product['title'], 0, 30) . '...';
+            }else{
+                $product['small_title'] = $product['title'];
+            }
 
-        return $products;
+            $product['price'] = $this->recalcPrice($product['price']);
+            $product['old_price'] = $this->recalcPrice($product['old_price']);
+                
+
+            if($product['old_price'] > 0){
+                $discout = round((($product['old_price'] - $product['price']) * 100) / $product['old_price']);
+                $product['sticker'] = "<div class='new-tag'><h6>{$discout}%</h6></div>";
+            }elseif($product['hit'] > 0){
+                $product['sticker'] = "<div class='new-tag'><h6>Топ</h6></div>";
+            }elseif($product['new'] > 0){
+                $product['sticker'] = "<div class='new-tag'><h6>Новый</h6></div>";
+            }else{
+                $product['sticker'] = '';
+            }
+
+            $product['old_price'] = ($product['old_price'] != 0) ? $product['old_price'] : ''; 
+
+            $result[] = $product;
+        }
+        return $result;
     }
 
     public function recalcPrice($price)

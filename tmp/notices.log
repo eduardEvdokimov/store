@@ -880,3 +880,885 @@
 Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
 Код ошибки: 300
 
+Замечание № 148: 02-09-2019 в 19:21:30
+Ошибка: Undefined variable: currentCategory
+Строка: 24
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 149: 02-09-2019 в 19:39:21
+Ошибка: Undefined index: title
+Строка: 7
+Файл: C:\OSPanel\domains\store.loc\app\views\Category\index.php
+Код ошибки: 300
+
+Замечание № 150: 03-09-2019 в 17:49:46
+Ошибка: Undefined index: key
+Строка: 36
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 151: 03-09-2019 в 18:08:01
+Ошибка: Undefined index: small_title
+Строка: 126
+Файл: C:\OSPanel\domains\store.loc\app\views\Index\index.php
+Код ошибки: 300
+
+Замечание № 152: 03-09-2019 в 18:08:44
+Ошибка: Undefined index: small_title
+Строка: 126
+Файл: C:\OSPanel\domains\store.loc\app\views\Index\index.php
+Код ошибки: 300
+
+Замечание № 153: 03-09-2019 в 18:08:51
+Ошибка: Undefined index: small_title
+Строка: 126
+Файл: C:\OSPanel\domains\store.loc\app\views\Index\index.php
+Код ошибки: 300
+
+Замечание № 154: 03-09-2019 в 18:10:52
+Ошибка: Undefined index: price
+Строка: 128
+Файл: C:\OSPanel\domains\store.loc\app\views\Index\index.php
+Код ошибки: 300
+
+Замечание № 155: 03-09-2019 в 18:11:20
+Ошибка: Undefined offset: 8
+Строка: 116
+Файл: C:\OSPanel\domains\store.loc\app\views\Index\index.php
+Код ошибки: 300
+
+Замечание № 156: 03-09-2019 в 18:12:43
+Ошибка: Undefined offset: 8
+Строка: 116
+Файл: C:\OSPanel\domains\store.loc\app\views\Index\index.php
+Код ошибки: 300
+
+Замечание № 157: 03-09-2019 в 18:17:07
+Ошибка: Undefined offset: 7
+Строка: 116
+Файл: C:\OSPanel\domains\store.loc\app\views\Index\index.php
+Код ошибки: 300
+
+Замечание № 158: 03-09-2019 в 18:37:16
+Ошибка: Undefined index: symbol
+Строка: 39
+Файл: C:\OSPanel\domains\store.loc\app\views\Category\products.php
+Код ошибки: 300
+
+Замечание № 159: 03-09-2019 в 18:56:23
+Ошибка: Only variables should be passed by reference
+Строка: 47
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 160: 03-09-2019 в 19:55:28
+Ошибка: Undefined offset: 0
+Строка: 43
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 161: 03-09-2019 в 19:55:54
+Ошибка: Undefined offset: 0
+Строка: 43
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 162: 03-09-2019 в 19:56:13
+Ошибка: Undefined offset: 0
+Строка: 43
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 163: 03-09-2019 в 20:19:36
+Ошибка: Undefined offset: 7
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 164: 03-09-2019 в 20:20:03
+Ошибка: Undefined offset: 7
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 165: 03-09-2019 в 20:20:44
+Ошибка: Undefined offset: 9
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 166: 03-09-2019 в 20:21:20
+Ошибка: Undefined offset: 9
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 167: 03-09-2019 в 20:21:35
+Ошибка: Undefined offset: 9
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 168: 03-09-2019 в 20:25:36
+Ошибка: Undefined variable: categoryTree
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 169: 03-09-2019 в 20:26:32
+Ошибка: Undefined offset: 0
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 170: 03-09-2019 в 20:27:02
+Ошибка: Undefined offset: 0
+Строка: 39
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 171: 03-09-2019 в 20:27:15
+Ошибка: Undefined offset: 0
+Строка: 39
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 172: 03-09-2019 в 20:27:28
+Ошибка: Undefined offset: 0
+Строка: 39
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 173: 03-09-2019 в 20:27:46
+Ошибка: Undefined offset: 0
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 174: 03-09-2019 в 20:28:02
+Ошибка: Undefined offset: 0
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 175: 03-09-2019 в 20:28:44
+Ошибка: Undefined offset: 0
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 176: 03-09-2019 в 20:29:12
+Ошибка: Undefined offset: 0
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 177: 03-09-2019 в 20:30:51
+Ошибка: Undefined offset: 0
+Строка: 41
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 178: 03-09-2019 в 20:31:36
+Ошибка: Undefined offset: 0
+Строка: 42
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 179: 03-09-2019 в 20:31:53
+Ошибка: Undefined offset: 0
+Строка: 42
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 180: 03-09-2019 в 20:32:22
+Ошибка: Undefined offset: 0
+Строка: 42
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 181: 04-09-2019 в 18:41:38
+Ошибка: Undefined index: COUNT(*)
+Строка: 64
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+
+Замечание № 182: 04-09-2019 в 20:36:15
+Ошибка: Undefined offset: 1
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\widgets\pagination\Pagination.php
+Код ошибки: 300
+
+Замечание № 183: 04-09-2019 в 20:36:32
+Ошибка: Undefined offset: 1
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\widgets\pagination\Pagination.php
+Код ошибки: 300
+
+Замечание № 184: 06-09-2019 в 21:08:32
+Ошибка: Undefined offset: 27
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 185: 06-09-2019 в 21:10:01
+Ошибка: Undefined offset: 27
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 186: 06-09-2019 в 21:10:52
+Ошибка: Undefined offset: 27
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 187: 06-09-2019 в 21:13:19
+Ошибка: Undefined index: 
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 188: 06-09-2019 в 21:14:52
+Ошибка: Undefined offset: 27
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 189: 06-09-2019 в 21:17:15
+Ошибка: Undefined index: 
+Строка: 39
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 190: 06-09-2019 в 21:18:15
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 191: 07-09-2019 в 09:34:25
+Ошибка: Undefined index: alias
+Строка: 406
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 192: 07-09-2019 в 09:34:25
+Ошибка: Undefined index: alias
+Строка: 406
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 193: 07-09-2019 в 09:34:27
+Ошибка: Undefined index: alias
+Строка: 406
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 194: 07-09-2019 в 09:34:28
+Ошибка: Undefined index: alias
+Строка: 406
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 195: 07-09-2019 в 11:01:48
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 196: 07-09-2019 в 11:02:16
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 197: 07-09-2019 в 17:05:59
+Ошибка: Undefined index: host
+Строка: 16
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 198: 07-09-2019 в 17:14:26
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 199: 07-09-2019 в 17:14:45
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 200: 07-09-2019 в 17:15:13
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 201: 07-09-2019 в 17:15:58
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 202: 07-09-2019 в 17:16:33
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 203: 07-09-2019 в 17:16:44
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 204: 07-09-2019 в 17:16:48
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 205: 07-09-2019 в 17:17:28
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 206: 07-09-2019 в 17:17:47
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 207: 07-09-2019 в 17:19:29
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 208: 07-09-2019 в 17:19:35
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 209: 07-09-2019 в 17:19:40
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 210: 07-09-2019 в 17:20:43
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 211: 07-09-2019 в 17:22:42
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 212: 07-09-2019 в 17:23:33
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 213: 07-09-2019 в 17:49:49
+Ошибка: Undefined index: cart
+Строка: 11
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 214: 07-09-2019 в 18:00:35
+Ошибка: Undefined variable: baseCurrency
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 215: 07-09-2019 в 18:00:42
+Ошибка: Undefined variable: baseCurrency
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 216: 07-09-2019 в 18:01:47
+Ошибка: Uninitialized string offset: 0
+Строка: 29
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 217: 07-09-2019 в 18:02:25
+Ошибка: Undefined index: price
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 218: 07-09-2019 в 18:02:49
+Ошибка: Undefined index: price
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 219: 07-09-2019 в 18:03:13
+Ошибка: Undefined index: price
+Строка: 31
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 220: 07-09-2019 в 18:03:15
+Ошибка: Undefined index: price
+Строка: 31
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 221: 07-09-2019 в 18:07:31
+Ошибка: Undefined index: price
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 222: 07-09-2019 в 18:07:55
+Ошибка: Undefined index: price
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 223: 07-09-2019 в 18:08:42
+Ошибка: Undefined index: price
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 224: 07-09-2019 в 18:09:05
+Ошибка: Undefined index: price
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 225: 07-09-2019 в 18:10:01
+Ошибка: Undefined index: price
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 226: 07-09-2019 в 18:10:21
+Ошибка: Undefined index: price
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 227: 07-09-2019 в 18:55:32
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 228: 07-09-2019 в 18:56:08
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 229: 07-09-2019 в 18:59:01
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 230: 07-09-2019 в 19:00:17
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 231: 08-09-2019 в 10:08:10
+Ошибка: Undefined variable: cart
+Строка: 141
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 232: 08-09-2019 в 10:10:16
+Ошибка: Undefined variable: cart
+Строка: 141
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 233: 08-09-2019 в 10:10:37
+Ошибка: Undefined variable: cart
+Строка: 141
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 234: 08-09-2019 в 12:06:37
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 235: 08-09-2019 в 12:06:54
+Ошибка: Uninitialized string offset: 0
+Строка: 21
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 236: 08-09-2019 в 12:07:27
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 237: 08-09-2019 в 17:07:17
+Ошибка: Undefined index: currency
+Строка: 103
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 238: 08-09-2019 в 17:07:39
+Ошибка: Undefined index: currency
+Строка: 103
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 239: 08-09-2019 в 17:48:39
+Ошибка: Undefined index: currency
+Строка: 105
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 240: 08-09-2019 в 18:19:46
+Ошибка: Undefined variable: finalCart
+Строка: 153
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 241: 08-09-2019 в 18:22:38
+Ошибка: Undefined variable: finalCart
+Строка: 153
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 242: 08-09-2019 в 18:24:24
+Ошибка: Undefined variable: finalCart
+Строка: 153
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 243: 08-09-2019 в 18:27:15
+Ошибка: Undefined variable: finalCart
+Строка: 152
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 244: 08-09-2019 в 18:27:46
+Ошибка: Undefined variable: finalCart
+Строка: 152
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 245: 08-09-2019 в 19:14:58
+Ошибка: Undefined variable: finalCart
+Строка: 140
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 246: 08-09-2019 в 19:15:51
+Ошибка: Undefined variable: finalCart
+Строка: 140
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 247: 08-09-2019 в 19:16:04
+Ошибка: Undefined variable: finalCart
+Строка: 140
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 248: 08-09-2019 в 19:16:56
+Ошибка: Undefined variable: finalCart
+Строка: 140
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 249: 08-09-2019 в 19:17:19
+Ошибка: Undefined variable: finalCart
+Строка: 140
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 250: 08-09-2019 в 19:19:13
+Ошибка: Undefined index: cart
+Строка: 12
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CurrencyController.php
+Код ошибки: 300
+
+Замечание № 251: 08-09-2019 в 19:27:02
+Ошибка: Undefined variable: countProductCart
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\app\controllers\MainController.php
+Код ошибки: 300
+
+Замечание № 252: 09-09-2019 в 07:40:08
+Ошибка: Undefined index: cart.count
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\MainController.php
+Код ошибки: 300
+
+Замечание № 253: 09-09-2019 в 07:40:12
+Ошибка: Undefined index: cart.count
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\MainController.php
+Код ошибки: 300
+
+Замечание № 254: 09-09-2019 в 16:28:40
+Ошибка: Undefined variable: finalCart
+Строка: 147
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 255: 09-09-2019 в 16:30:07
+Ошибка: Undefined variable: finalCart
+Строка: 146
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 256: 09-09-2019 в 16:32:52
+Ошибка: Undefined variable: finalCart
+Строка: 152
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 257: 09-09-2019 в 16:42:24
+Ошибка: Undefined index: id
+Строка: 116
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 258: 09-09-2019 в 16:43:02
+Ошибка: Undefined index: id
+Строка: 116
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 259: 09-09-2019 в 17:51:13
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 260: 09-09-2019 в 17:51:14
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 261: 09-09-2019 в 17:51:23
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 262: 09-09-2019 в 17:51:23
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 263: 09-09-2019 в 17:51:28
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 264: 09-09-2019 в 17:51:28
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 265: 09-09-2019 в 17:52:55
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 266: 09-09-2019 в 17:52:55
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 267: 09-09-2019 в 17:53:02
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 268: 09-09-2019 в 17:53:02
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 269: 09-09-2019 в 17:53:09
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 270: 09-09-2019 в 17:53:09
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 271: 09-09-2019 в 17:54:37
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 272: 09-09-2019 в 17:54:37
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 273: 09-09-2019 в 17:54:59
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 274: 09-09-2019 в 17:54:59
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 275: 09-09-2019 в 17:55:24
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 276: 09-09-2019 в 17:55:24
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 277: 09-09-2019 в 17:55:25
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 278: 09-09-2019 в 17:55:43
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 279: 09-09-2019 в 17:56:50
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 280: 09-09-2019 в 17:58:12
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 281: 09-09-2019 в 17:58:12
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 282: 09-09-2019 в 17:58:48
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 283: 09-09-2019 в 17:58:48
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 284: 09-09-2019 в 17:59:10
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 285: 09-09-2019 в 17:59:10
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 286: 09-09-2019 в 17:59:20
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 287: 09-09-2019 в 17:59:20
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 288: 09-09-2019 в 17:59:27
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 289: 09-09-2019 в 17:59:28
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 290: 09-09-2019 в 17:59:45
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 291: 09-09-2019 в 17:59:45
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 292: 09-09-2019 в 18:00:31
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 293: 09-09-2019 в 18:00:31
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 294: 09-09-2019 в 18:20:31
+Ошибка: Undefined index: cart.summ
+Строка: 361
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+

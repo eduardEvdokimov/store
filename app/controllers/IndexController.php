@@ -6,6 +6,7 @@ use \store\Db;
 use \store\Register;
 use \widgets\category\Category;
 
+
 class IndexController extends MainController
 {
     public function indexAction()
@@ -17,6 +18,7 @@ class IndexController extends MainController
        
         $productSlider = $model->getProductSlider($htmlButtonSlider);
         $data_id_carusel = Register::get('config')['data_id_carusel_index_page'];
+        
         $this->setParams(['htmlButtonSlider' => $htmlButtonSlider, 'productSlider' => $productSlider, 'data_id_carusel' => $data_id_carusel]);
 
         

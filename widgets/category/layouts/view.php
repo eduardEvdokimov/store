@@ -4,7 +4,7 @@
         <li class="go-back"><a style="cursor: pointer;">Назад</a></li>
         <?php foreach ($item['child'] as $key => $value): ?>
         <li class="has-children">
-            <a href="<?= HOST ?>/category/<?= $value['alias'] ?>"><?= $value['title'] ?></a>  
+            <a href="<?= HOST . "/category/{$value['alias']}" ?>"><?= $value['title'] ?></a>  
             <ul class="is-hidden">
                 <li class="go-back"><a style="cursor: pointer;">Назад</a></li>
                 <?php foreach ($value['child'] as $key => $value1): ?>

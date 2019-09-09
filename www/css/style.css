@@ -139,7 +139,7 @@ ul.cd-dropdown-content li {
 .header-cart {
     float: right;
 	margin: 1.3em 0;
-    width: 25%;
+    width: 20%;
 }  
 .header-logo h1,.footer-logo.header-logo h2{
     font-size: 3em; 
@@ -212,14 +212,21 @@ ul.cd-dropdown-content li {
     color: #fff;
     padding: 3px;
 } 
+
+.header-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 .header-cart h4 a {
     color: #000;
 }
 /*-- cart-box --*/ 
 .cart {
-    margin-right: 2em;
-    
-    float: right;
+    position: relative;
+    width: 80px;
 } 
 .w3view-cart {
     background: #0280e1;
@@ -234,6 +241,24 @@ ul.cd-dropdown-content li {
     text-align: center;
     outline: none;
 }
+
+.w3view-cart:hover{
+    background: #0862ff;
+}
+
+.cart > span{
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    background: #f44336;
+    font-size: 1.2em;
+    padding: 0 3px;
+    border-radius: 50%;
+    min-width: 25px;
+    text-align: center;
+    color: white;
+}
+
 .w3view-cart  i.fa {
     font-size: 2em;
     color: #ffffff;
@@ -2422,7 +2447,12 @@ p.sbmincart-empty-text {
 }
 .header-cart { 
     margin: 2em 0 1em;
-} 
+    width: 20%;
+}
+
+.cart > span { 
+    right: 0;
+}  
 .glry-w3agile-grids .view-caption h5 {
     font-size: 1.4em; 
     width: 80%;
@@ -2595,9 +2625,13 @@ ul.faq {
     height: 44px; 
 }
 .cart {
-    margin-right: 1.5em;
-    padding-right: 1.5em; 
+    right: 0;
 }
+
+.cart > span{
+    right: 0;
+}
+
 .menu {
     width: 30%;
 } 
@@ -2867,6 +2901,7 @@ nav.sitemap-tabs.affix div#myNavbar {
 }
 .header-cart {
     margin: 1.5em 0 0em;
+    width: 24%;
 }
 }
 @media(max-width:768px){
@@ -3037,9 +3072,13 @@ h3.w3sitemap-title {
     height: 39px;
 }
 .cart {
-    margin-right: 1em;
-    padding-right: 1em;
+    width: 30px;
 } 
+
+.cart > span {
+    right: -20px;
+} 
+
 .header-two {
     padding: 0.5em 0 0.9em;
 }
@@ -3059,6 +3098,8 @@ h3.w3sitemap-title {
 }
 .header-cart {
     margin: 1em 0 0em;
+    width: 23%;
+    float: left;
 }
 .welcome .bs-example-tabs ul.nav-tabs li {
     margin: 0 1.2em;
@@ -4188,7 +4229,158 @@ ul > li > p > .name_user{
     display: block;
 }
 
+.hidden{
+    display: none;
+}
+
 .disactive{
     display: none;
 }
+
+
+.sub_category{
+    margin: 0 0 30px 0;  
+    width: 100%; 
+    float: left;
+}
+
+.sub_category > h3{
+    font-size: 1.5em; 
+    clear: left;
+    margin: 30px 0;
+}
+
+.sub_category > ul > li{
+    float: left; 
+   
+    width: 150px; 
+    height: 160px; 
+    overflow: hidden; 
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+.sub_category > ul > li:hover{
+    border-bottom: 1px solid #0280e1; 
+}
+.sub_category > ul > li > a{
+    width: 100%;
+    height: 100%;
+
+    
+    
+}
+.sub_category > ul > li > a > img{
+    height: 120px; 
+    width: auto;
+}
+
+.sub_category > ul > li > a > p{
+    color: black;
+    margin-top: 10px;
+}
+
+.box_number{
+    text-align: center;
+    width: 40px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    border: 1px solid;
+    outline: none;
+}
+
+.box_number:focus{
+    border: 1px solid #0280e1;
+}
+
+.btn_box_number{
+    font-size: 1.3em;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.result_line_catr{
+    font-size: 1.3em;
+    
+    background: #b2ff96
+}
+
+.final_price{
+   /* background: #0280e1; */
+    color: white; 
+    text-align: center;
+    border-radius: 5px;
+}
+
+.danger-box{
+    border: 1px solid red;
+}
+
+.danger-box:focus{
+    border: 1px solid red;
+}
+
+/* Loader для корзины */
+.lds-ellipsis {
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: calc(50% - 36px);
+    left: calc(50% - 36px);
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 27px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #0280e1;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 6px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 6px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 26px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 45px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(19px, 0);
+  }
+}
+
+/* Loader для корзины */
+
 /* Мои стили */

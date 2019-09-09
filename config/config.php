@@ -10,7 +10,8 @@ return [
 
     'data_id_carusel_index_page' => [
         'home', 'carl', 'james', 'decor'
-    ]
+    ],
+    'countProductOnePage' => 9
 ];
 
 

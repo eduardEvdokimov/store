@@ -69,9 +69,8 @@ $('.currency').click(function(){
     var cookie = getCookie('currency');
     if(cookie == currency)
         return;
-        
-    setCookie('currency', currency, {'max-age': 60 * 60 * 24 * 2});
-    document.location.reload(true);
+    
+    document.location = 'http://' + host + '/currency/change?currency=' + currency;
 });
 
 
@@ -152,10 +151,187 @@ $('.close_form_add_comment').click(function(){
 });
 
 
+$('.addToCart').click(function(){
+    var idProduct = $(this).data('id');
+    var request = 'id=' + idProduct;
+
+    if(!idProduct) return;
+
+    $.ajax({
+        url: 'http://' + host + '/cart/add',
+        type: 'post',
+        data: request,
+        dataType: 'json',
+        success: function(data){
+            //console.log(data);
+            //return;
+            //Скрываем надпись 'Корзина пуста'
+            if($('.modal-body').find('h3').attr('class') != 'hidden'){
+                $('.modal-body').find('h3').addClass('hidden');
+                $('.modal-body').find('table').removeClass('hidden');
+                $('.modal-footer').find('#btn_addOrder').removeClass('hidden');
+                $('.modal-footer').find('.clearCart').removeClass('hidden');
+            }
+            
+            $('.modal-body tbody').html();
+            var htmlSummCart = "<tr class='result_line_catr' style='background: #b2ff96;'></tr>";
+            $('.modal-body').find('tbody').html(htmlSummCart);
+
+            $.each(data['products'], function(index, item){
+                var html = "<tr data-id='"+item['id']+"'><td><img src='http://"+host+"/images/" + item['img'] + "' alt='img' style='width: 60px; '>";
+                html += "</td><td style='width: 50%;'><a href='http://"+host+'/product/'+item['alias']+"'>"+ item['title'] +"</a></td>";
+                html += "<td class='price'>" + simbolCurrency + '&nbsp;' + item['price'] +"</td><td><div><button class='btn_box_number delCountProduct'>&#8212;</button>";
+                html += "<input type='text' class='box_number' maxlength='3' readonly value='"+item['count']+"'><button class='btn_box_number addCountProduct'>+</button></div></td>";
+                html += "<td class='summProduct'>" + simbolCurrency + '&nbsp;'+ item['summ'] +"</td>";
+                html += "<td><span style='cursor: pointer;' class='glyphicon glyphicon-remove text-danger del-item delProductCart' aria-hidden='true'></span></td></tr>";
+
+
+                $('.modal-body tbody').prepend(html);
+            });
+                        
+            var resultCart = "<th scope='row' colspan='2' >Итоговая сумма</th><td></td>";
+            resultCart += "<td></td><td class='final_price' style='background: #0280e1;' colspan='2'><span>"+simbolCurrency+'&nbsp;'+data['cart.summ']+"</span></td>";   
+                                
+            $('.result_line_catr').html(resultCart);
+
+            if($('#countProductCart').attr('class') == 'hidden'){
+                $('#countProductCart').removeClass('hidden');
+                $('#countProductCart').html('1');
+            }else{
+                var count = Number($('#countProductCart').html());
+                count++;
+                $('#countProductCart').html(count);
+            }
+
+            $('.modal').modal();            
+                        
+
+        },
+        error: function(){
+            alert('Произошла ошибка. Попробуйте позже');
+        }
+    });
+});
+
+$('.clearCart').click(function(){
+
+    $.ajax({
+        url: 'http://' + host + '/cart/clear',
+        success: function(){
+            $('.modal-body').find('tbody').html('');
+            var htmlSummCart = "<tr class='result_line_catr' style='background: #b2ff96;'></tr>";
+            $('.modal-body').find('tbody').html(htmlSummCart);
+            $('.modal-body').find('h3').removeClass('hidden');
+            $('.modal-body').find('table').addClass('hidden');
+            $('#btn_addOrder').addClass('hidden');
+            $('.clearCart').addClass('hidden');
+            $('#countProductCart').html('');
+            $('#countProductCart').addClass('hidden');
+        },
+        error:function(){
+            alert('Произошла ошибка. Попробуйте позже');
+        }
+    });
+
+});
+
+$('tbody').on('click', '.delProductCart', function(){
+    var item = $(this).closest('tr');
+    var id = $(this).closest('tr').data('id');
+
+    if(!id) return;
+
+    $.ajax({
+        url: 'http://' + host + '/cart/delItem',
+        type: 'post',
+        data: 'id='+id,
+        dataType: 'json',
+        success:function(data){
+
+            item.closest('tr').remove();
+
+            if(data['summCart'] <= 0){
+                $('.modal-body').find('tbody').html('');
+                var htmlSummCart = "<tr class='result_line_catr' style='background: #b2ff96;'></tr>";
+                $('.modal-body').find('tbody').html(htmlSummCart);
+                $('.modal-body').find('h3').removeClass('hidden');
+                $('.modal-body').find('table').addClass('hidden');
+                $('#btn_addOrder').addClass('hidden');
+                $('.clearCart').addClass('hidden');
+                $('#countProductCart').html('');
+                $('#countProductCart').addClass('hidden');
+            }
+
+            $('#countProductCart').html(data['countCart']);
+
+            var resultCart = "<th scope='row' colspan='2' >Итоговая сумма</th><td></td>";
+            resultCart += "<td></td><td class='final_price' style='background: #0280e1;' colspan='2'><span>"+simbolCurrency+'&nbsp;'+data['summCart']+"</span></td>";   
+                                
+            $('.result_line_catr').html(resultCart);
+            
+        },
+        error:function()
+        {
+            alert('Произошла ошибка. Попробуйте позже');
+        }
+    });
+});
+
+
+$('tbody').on('click', '.delCountProduct', function(){
+    var element = $(this).closest('tr');
+    var id = $(this).closest('tr').data('id');
+    var count = parseInt($(this).closest('tr').find('.box_number').val());
+    
+    if(!id || count < 2) return;
+    
+    $.ajax({
+        url: 'http://' + host + '/cart/delCountProduct',
+        type: 'post',
+        data: 'id=' + id,
+        dataType: 'json',
+        success: function(data){
+            element.find('.box_number').val(data['product']['count']);
+            element.find('.summProduct').html(simbolCurrency + '&nbsp;' + data['product']['summ']);
+            $('.final_price span').html(simbolCurrency+'&nbsp;'+data['cartSumm']);
+            $('#countProductCart').html(data['cartCount']);
+
+        },
+        error: function(){
+            alert('Произошла ошибка. Попробуйте позже');
+        }
+    });
+
+});
+
 /* custom script */
 
-	 
+$('tbody').on('click', '.addCountProduct', function(){
+    var element = $(this).closest('tr');
+    var id = $(this).closest('tr').data('id');
+
+    if(!id) return;
+
+    $.ajax({
+        url: 'http://' + host + '/cart/addCountProduct',
+        type: 'post',
+        data: 'id=' + id,
+        dataType: 'json',
+        success: function(data){
+            element.find('.box_number').val(data['product']['count']);
+            element.find('.summProduct').html(simbolCurrency + '&nbsp;' + data['product']['summ']);
+            $('.final_price span').html(simbolCurrency+'&nbsp;'+data['cartSumm']);
+            $('#countProductCart').html(data['cartCount']);
+        },
+        error: function(){
+            alert('Произошла ошибка. Попробуйте позже');
+        }
+    });
+
 });
+
+});
+
 
 function getCookie(name) {
   let matches = document.cookie.match(new RegExp(
@@ -187,3 +363,5 @@ function setCookie(name, value, options = {}) {
 
   document.cookie = updatedCookie;
 }
+
+

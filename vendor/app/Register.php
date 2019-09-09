@@ -33,6 +33,10 @@ class Register
     public static function setCurrency()
     {
         self::add('currencies', Currency::getCurrencies());
+        if(empty($_COOKIE['currency'])){
+            setcookie('currency', Currency::getCurrentCurrency(self::get('currencies')), time() + 60 * 60 * 24 * 2, '/');
+        }
+        
         self::add('currentCurrency', Currency::getCurrentCurrency(self::get('currencies')));
         self::add('simbolCurrency', Currency::getSimbol());
     }

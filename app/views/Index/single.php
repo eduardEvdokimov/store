@@ -23,7 +23,10 @@
 									 <div class="thumb-image"> <img src="<?= HOST ?>/images/s2.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
 								</li>
 								<li data-thumb="<?= HOST ?>/images/s3.jpg">
-								   <div class="thumb-image"> <img src="<?= HOST ?>/images/s3.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+								   <div class="thumb-image"> <img src="<?= HOST ?>/images/s3.jpg" data-imagezoom="true" class="img-responsive" alt=""> 
+
+								   </div>
+								   
 								</li> 
 							</ul>
 						</div>

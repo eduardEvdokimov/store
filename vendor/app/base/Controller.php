@@ -40,6 +40,11 @@ abstract class Controller
 
     public function setParams(array $arr)
     {
-        $this->params = $arr;
+        if(!empty($this->params)){
+            $this->params = array_merge($this->params, $arr);
+        }else{
+            $this->params = $arr;
+        }
+        
     }
 }

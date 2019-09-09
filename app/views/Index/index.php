@@ -88,7 +88,6 @@
 
 
 						<?php 
-							$simbolCurrency = \store\Register::get('simbolCurrency');
 							
 
 							$count = 0;
@@ -126,9 +125,9 @@
 												<h4><a href="<?= HOST . '/product/' . $product['alias'] ?>" title='<?= $product['title'] ?>'><?= $product['small_title'] ?></a></h4>
 												<p></p>
 												<h5><?= $simbolCurrency.'&nbsp;'.$product['price']?></h5> 
-												<form action="#" method="post">
-													<button type="submit" class="w3ls-cart" ><i class="fa fa-cart-plus" aria-hidden="true"></i>В корзину</button>
-												</form>  
+												
+												<button class="w3ls-cart addToCart" data-id='<?= $product['id'] ?>'><i class="fa fa-cart-plus" aria-hidden="true"></i>Купить</button>
+												 
 											</div>   
 										</div>   
 									</div>

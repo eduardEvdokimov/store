@@ -12,7 +12,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="<?= HOST ?>/images/favicon1.png" type='image/png'/>
 </head>
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+<script type="application/x-javascript"> 
+    var host = "<?= $_SERVER['HTTP_HOST']; ?>";
+    var simbolCurrency = "<?= $simbolCurrency; ?>";
+
+ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 <script src="<?= HOST ?>/js/jquery-2.2.3.min.js"></script> 
@@ -130,6 +134,7 @@ $(document).ready(function() {
 <script type="text/javascript" src="<?= HOST ?>/js/jquery.mousewheel.js"></script>
 </head>
 <body>
+
     <!-- header -->
     <div class="header">
         <div class="w3ls-header"><!--header-one--> 
@@ -159,6 +164,8 @@ $(document).ready(function() {
                         </ul> 
                     </li> 
                     <?php new \widgets\currency\Currency; ?>
+
+
                     <li class="dropdown head-dpdn">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-globe"></i> Язык<span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -190,13 +197,14 @@ $(document).ready(function() {
                 </div>
                 <div class="header-cart">
                     <div class="cart"> 
-                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="fas fa-balance-scale" style="font-size: 25px; color: white;"></i></button><span>2</span>
                     </div>
                     <div class="cart"> 
-                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="far fa-heart" style="font-size: 25px; color: white;"></i></button>
+                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="far fa-heart" style="font-size: 25px; color: white;"></i></button><span>200</span>
                     </div>
                     <div class="cart"> 
-                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="fas fa-balance-scale" style="font-size: 25px; color: white;"></i></button>
+                        <button class="w3view-cart"  data-toggle="modal" data-target=".bs-example-modal-lg" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                <span id='countProductCart' class="<?= $hiddenCounterCart ?>"><?= $countProductCart ?></span>
                     </div>
                     <div class="clearfix"> </div> 
                 </div> 
@@ -275,31 +283,112 @@ $(document).ready(function() {
             </div>
         </div>
     </div>
+
+    <!-- Окно корзины -->
+
+
+
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Корзина</h4>
+                </div>
+                <div class="modal-body" style="position: relative;">
+                    <!-- Loader -->
+                    <!--<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div> -->
+                    <!-- Loader -->
+                    <?php 
+
+                        $hiddenCart = '';
+                        $hiddenH3 = 'hidden'; 
+                        if(empty($cart['cart'])){
+                            $hiddenCart = 'hidden';
+                            $hiddenH3 = '';
+                        }?>
+
+                    <h3 class='<?= $hiddenH3 ?>'>Корзина пуста</h3>
+                    
+
+                    <table class="table table-striped table-sm <?= $hiddenCart ?>">
+                        <thead>
+                            <tr>
+                                <th>Фото</th>
+                                <th>Название</th>
+                                <th>Цена</th>
+                                <th>Количество</th>
+                                <th>Сумма</th>
+                                <th><i class="fas fa-trash"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <?php foreach ($cart['cart'] as $item):  ?>
+                        
+
+                        <tr data-id='<?= $item['id'] ?>'>
+                            <td>
+                                <img src='<?= HOST . '/images/' . $item['img'] ?>' alt='img' style='width: 60px;'>
+                            </td>
+                            <td style="width: 50%;" ><a href='<?= HOST . '/product/' . $item['alias'] ?>'><?= $item['title'] ?></a></td>
+                            <td><?= $simbolCurrency . '&nbsp;' . $item['price'] ?>
+                            </td>
+                            <td>
+                                <div>
+                                    <button class='btn_box_number delCountProduct'>&#8212;</button>
+                                    <input type='text' class='box_number' readonly maxlength='3' value='<?= $item['count'] ?>'>
+                                    <button class='btn_box_number addCountProduct'>+</button>
+                                </div>
+                            </td>
+                            <td class='summProduct'><?= $simbolCurrency . '&nbsp;' . $item['summ'] ?></td>
+                            <td>
+                                <span style='cursor: pointer;' class='glyphicon glyphicon-remove text-danger del-item delProductCart' aria-hidden='true'></span>
+                            </td>
+                        </tr>
+
+
+                        <?php endforeach; ?>
+
+
+                        <tr class='result_line_catr' style="background: #b2ff96;">
+                            <th scope="row" colspan="2" >Итоговая сумма</th>
+                            <td></td>
+                            <td></td>
+                            <td class='final_price' colspan="2" style='background: #0280e1;'>
+                                <span><?= $simbolCurrency . '&nbsp;' . $cart['cart.summ'] ?></span>
+                            </td>
+                          
+                        </tr>
+                        </tbody>
+                        </table>
+                        
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                    <button type="button" class="btn btn-danger clearCart <?= $hiddenCart ?>">Очистить корзину</button>
+                    <button type="button" class="btn btn-primary <?= $hiddenCart ?>" id='btn_addOrder'>Оформить заказ</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Окно корзины -->
+
     <!-- //footer -->       
     <div class="copy-right"> 
         <div class="container">
             <p>© 2019 Smart bazaar . All rights reserved | Design by <a href="http://w3layouts.com"> W3layouts.</a></p>
         </div>
     </div> 
-    <!-- cart-js -->
-    <script src="<?= HOST ?>/js/minicart.js"></script>
-    <script>
-        w3ls.render();
-
-        w3ls.cart.on('w3sb_checkout', function (evt) {
-            var items, len, i;
-
-            if (this.subtotal() > 0) {
-                items = this.items();
-
-                for (i = 0, len = items.length; i < len; i++) {
-                    items[i].set('shipping', 0);
-                    items[i].set('shipping2', 0);
-                }
-            }
-        });
-    </script>  
-    <!-- //cart-js -->  
+    
     <!-- countdown.js -->   
     <script src="<?= HOST ?>/js/jquery.knob.js"></script>
     <script src="<?= HOST ?>/js/jquery.throttle.js"></script>
@@ -365,5 +454,6 @@ $(document).ready(function() {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster --> 
+
 </body>
 </html>

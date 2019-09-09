@@ -10,7 +10,7 @@ class Breadcrumbs
     private $product_category;
     private $lastItem;
 
-    public function __construct($currentCategory, $lastItem)
+    public function __construct($currentCategory, $lastItem = '')
     {
         $category = \widgets\category\Category::get();
         
@@ -38,11 +38,17 @@ class Breadcrumbs
     public function getHtml()
     {
         $html = '';
+        $last = '';
         $first = '<li><a href='.HOST.'>Главная</a></li>';
-        $last = '<li class=\'active\'>'.$this->lastItem.'</li>';
+
+        if(!empty($this->lastItem))
+            $last = '<li class=\'active\'>'.$this->lastItem.'</li>';
+
+        
         $html .= $first;
         foreach ($this->path as $item) {
-
+            if($this->lastItem == $item['title']) continue;
+            
             $html .= '<li><a href='.HOST.'/category/'.$item['alias'].'>'.$item['title'].'</a></li>'; 
         }
         $html .= $last;
