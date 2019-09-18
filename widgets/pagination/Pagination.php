@@ -12,9 +12,6 @@ class Pagination
         $this->countProduct = $countProduct;
         $this->layout = $layout;
         $this->countProductOnePage = $countProductOnePage;
-         
-        
-
     }
 
     public function run()

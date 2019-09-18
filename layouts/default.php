@@ -125,6 +125,7 @@ $(document).ready(function() {
     <!-- //smooth-scrolling-of-move-up -->
 
 <script type="text/javascript" src="<?= HOST ?>/js/jquery.jscrollpane.min.js"></script>
+
 <script type="text/javascript" id="sourcecode">
     $(function()
     {
@@ -132,6 +133,7 @@ $(document).ready(function() {
     });
 </script>
 <script type="text/javascript" src="<?= HOST ?>/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="<?= HOST ?>/js/jquery.autocomplete.js"></script>
 </head>
 <body>
 
@@ -147,20 +149,20 @@ $(document).ready(function() {
                         <!-- У не авторизованного пользователя "Мой аккаунт", авторизованного - Имя Фамилия -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i>Мой аккаунт<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <!--Если не авторизованный пользователь -->
-                            <li><a href="login.html">Вход</a></li> 
-                            <li><a href="signup.html">Регистрация</a></li>
-                            <!--Список у авторизованного пользователя
-
-                                <li><a href="login.html">Личные данные</a></li>  
-                                <li><a href="login.html">Списки желаний</a></li>  
-                                <li><a href="login.html">Корзина</a></li>
-                                <li><a href="login.html">Мои заказы</a></li>
-                                <li><a href="login.html">Мои отзывы</a></li>
-                                <li><a href="login.html">Просмотренные товары</a></li>
-                                <li><a href="login.html">Выход</a></li>   
-                            --> 
-                            
+                            <?php if($userAuth): ?>
+                            <!--Список у авторизованного пользователя -->
+                            <li><a href="login.html">Личные данные</a></li>  
+                            <li><a href="login.html">Списки желаний</a></li>  
+                            <li><a href="login.html">Корзина</a></li>
+                            <li><a href="login.html">Мои заказы</a></li>
+                            <li><a href="login.html">Мои отзывы</a></li>
+                            <li><a href="login.html">Просмотренные товары</a></li>
+                            <li><a href="<?= HOST ?>/login/logout">Выход</a></li>   
+                            <?php else: ?>
+                             <!--Если не авторизованный пользователь -->
+                            <li><a href="<?= HOST ?>/login">Вход</a></li> 
+                            <li><a href="<?= HOST ?>/signup">Регистрация</a></li>
+                            <?php endif; ?>
                         </ul> 
                     </li> 
                     <?php new \widgets\currency\Currency; ?>
@@ -188,9 +190,9 @@ $(document).ready(function() {
                     <h6>Your stores. Your place.</h6> 
                 </div>  
                 <div class="header-search">
-                    <form action="#" method="post">
-                        <input type="search" name="Search" placeholder="Поиск по товарам..." required="">
-                        <button type="submit" class="btn btn-default" aria-label="Left Align">
+                    <form onsubmit="return false;">
+                        <input type="search" id='autocomplete' style="font-size: 1.1em; color: black" name="Search" placeholder="Поиск по товарам..." autocomplete="off">
+                        <button type="button" id='sub_search' style="height: 100%" class="btn btn-default" aria-label="Left Align">
                             <i class="fa fa-search" aria-hidden="true"> </i>
                         </button>
                     </form>

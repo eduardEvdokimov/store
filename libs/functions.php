@@ -25,3 +25,27 @@ function redirect($http = '')
     header("Location: $redirect");
     exit();
 }
+
+
+function isAjax()
+{
+    if(
+        isset($_SERVER['HTTP_X_REQUESTED_WITH']) && 
+        !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && 
+        strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function filterData($data)
+{
+    foreach ($data as $key => $value) {
+        $result[$key] = htmlspecialchars(trim($value));
+    }
+    return $result;
+}
+
+
+

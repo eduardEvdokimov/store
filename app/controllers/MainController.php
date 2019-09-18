@@ -22,7 +22,13 @@ class MainController extends Controller
             $countProductCart = $cart['cart.count'];
         }
 
-        $this->setParams(['cart' => $cart, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart]);
+        $userAuth = false;
+
+        if(isset($_SESSION['user']['auth']) && $_SESSION['user']['auth'] == true){
+            $userAuth = true;
+        }
+
+        $this->setParams(['cart' => $cart, 'userAuth' => $userAuth, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart]);
     }
 
     

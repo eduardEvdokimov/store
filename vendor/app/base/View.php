@@ -25,7 +25,7 @@ class View
         extract($this->params);
         
         $file_view = VIEWS . "/{$this->route['controller']}/{$this->view}.php";
-
+       
         if(file_exists($file_view)){
             
             ob_start();
@@ -34,7 +34,7 @@ class View
             $content = ob_get_clean();
 
             $file_layout = LAYOUTS . "/{$this->layout}.php";
-
+           
             if(file_exists($file_layout)){
                 include $file_layout;
             }

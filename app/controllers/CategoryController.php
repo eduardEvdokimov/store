@@ -88,7 +88,7 @@ class CategoryController extends MainController
                 $products = [];
             }
 
-            $this->setParams(['breadcrumbs' => $breadcrumbs, 'products' => $products, 'pagination' => $pagination]);
+            $this->setParams(['breadcrumbs' => $breadcrumbs, 'products' => $products, 'pagination' => $pagination, 'titleCategory' => $currentCategory['title']]);
         }
        
 

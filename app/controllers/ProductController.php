@@ -9,8 +9,6 @@ class ProductController extends MainController
 {
     public function indexAction()
     {   
-        
-        
         $alias = isset($this->route['alias']) ? $this->route['alias'] : '';
 
         if(empty($alias)) throw new \Exception('Страница не найдена', 404);
@@ -38,7 +36,8 @@ class ProductController extends MainController
             $count = 0;
             
             foreach ($viewedProductsData as $key => $value) {
-                $sortViewedProducts[] = $viewedProductsData[$arrViewedProducts[$count]];
+                if(isset($arrViewedProducts[$count]))
+                    $sortViewedProducts[] = $viewedProductsData[$arrViewedProducts[$count]];
                 $count++;
                 if($count == 8) break;
             }

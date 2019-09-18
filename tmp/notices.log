@@ -1762,3 +1762,357 @@
 Файл: C:\OSPanel\domains\store.loc\layouts\default.php
 Код ошибки: 300
 
+Замечание № 295: 14-09-2019 в 10:01:44
+Ошибка: Undefined index: s
+Строка: 13
+Файл: C:\OSPanel\domains\store.loc\app\controllers\SearchController.php
+Код ошибки: 300
+
+Замечание № 296: 14-09-2019 в 11:12:58
+Ошибка: Undefined variable: breadcrumbs
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 297: 14-09-2019 в 11:15:27
+Ошибка: Undefined variable: breadcrumbs
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 298: 14-09-2019 в 11:19:18
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 299: 14-09-2019 в 11:21:06
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 300: 14-09-2019 в 11:34:58
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 301: 14-09-2019 в 11:35:24
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 302: 14-09-2019 в 11:37:28
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 303: 14-09-2019 в 11:37:52
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 304: 14-09-2019 в 11:38:21
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 305: 14-09-2019 в 11:38:52
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 306: 14-09-2019 в 11:39:06
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 307: 14-09-2019 в 11:40:34
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 308: 14-09-2019 в 11:57:49
+Ошибка: Undefined variable: pagination
+Строка: 171
+Файл: C:\OSPanel\domains\store.loc\app\views\Search\index.php
+Код ошибки: 300
+
+Замечание № 309: 14-09-2019 в 12:05:25
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 310: 14-09-2019 в 12:08:41
+Ошибка: Undefined index: COUNT(*)
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\controllers\SearchController.php
+Код ошибки: 300
+
+Замечание № 311: 14-09-2019 в 16:19:47
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 312: 14-09-2019 в 18:06:09
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 313: 14-09-2019 в 18:06:10
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 314: 14-09-2019 в 18:06:18
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 315: 14-09-2019 в 18:06:18
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 316: 14-09-2019 в 18:06:31
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 317: 14-09-2019 в 18:06:31
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 318: 14-09-2019 в 18:06:50
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 319: 14-09-2019 в 18:06:50
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 320: 14-09-2019 в 18:06:58
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 321: 14-09-2019 в 18:06:58
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 322: 14-09-2019 в 18:07:09
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 323: 14-09-2019 в 18:07:09
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 324: 14-09-2019 в 18:08:49
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 325: 14-09-2019 в 18:08:49
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 326: 14-09-2019 в 18:10:40
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 327: 14-09-2019 в 18:10:41
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 328: 14-09-2019 в 18:10:46
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 329: 14-09-2019 в 18:10:46
+Ошибка: Undefined index: id
+Строка: 405
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 330: 14-09-2019 в 18:11:32
+Ошибка: Undefined offset: 1
+Строка: 42
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 331: 14-09-2019 в 18:14:55
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 332: 17-09-2019 в 11:14:21
+Ошибка: Undefined variable: userAuth
+Строка: 152
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 333: 17-09-2019 в 17:35:11
+Ошибка: Undefined variable: result
+Строка: 47
+Файл: C:\OSPanel\domains\store.loc\libs\functions.php
+Код ошибки: 300
+
+Замечание № 334: 17-09-2019 в 18:06:47
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 335: 17-09-2019 в 18:07:22
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 336: 17-09-2019 в 18:07:29
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 337: 17-09-2019 в 18:08:06
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 338: 17-09-2019 в 18:08:32
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 339: 17-09-2019 в 18:41:05
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 340: 17-09-2019 в 18:41:11
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 341: 17-09-2019 в 18:41:24
+Ошибка: Undefined index: password
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 342: 17-09-2019 в 18:42:14
+Ошибка: Undefined index: password
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 343: 17-09-2019 в 18:43:14
+Ошибка: Uninitialized string offset: 0
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 344: 17-09-2019 в 18:43:24
+Ошибка: Uninitialized string offset: 0
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 345: 17-09-2019 в 18:43:49
+Ошибка: Uninitialized string offset: 0
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 346: 17-09-2019 в 18:51:05
+Ошибка: Undefined index: name
+Строка: 16
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 347: 17-09-2019 в 18:52:48
+Ошибка: Undefined index: name
+Строка: 16
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 348: 17-09-2019 в 18:53:10
+Ошибка: Undefined index: name
+Строка: 16
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 349: 17-09-2019 в 18:56:46
+Ошибка: Array to string conversion
+Строка: 47
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 350: 17-09-2019 в 19:23:32
+Ошибка: Undefined variable: remember
+Строка: 15
+Файл: C:\OSPanel\domains\store.loc\app\views\Login\index.php
+Код ошибки: 300
+
+Замечание № 351: 18-09-2019 в 15:29:09
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 352: 18-09-2019 в 15:32:35
+Ошибка: Undefined variable: countProduct
+Строка: 49
+Файл: C:\OSPanel\domains\store.loc\app\controllers\SearchController.php
+Код ошибки: 300
+
+Замечание № 353: 18-09-2019 в 18:09:35
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+

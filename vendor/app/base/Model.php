@@ -34,10 +34,10 @@ abstract class Model
         return !empty($result) ? $result : '';
     }
 
-    public function getOne($table, $where)
+    public function getOne($table, $where, $params)
     {
         $sql = sprintf("SELECT * FROM %s WHERE %s LIMIT 1", $table, $where);
-        return $this->db->query($sql);
+        return $this->db->execute($sql, $params); 
     }
 
     public function add($table, $columns, $values)
@@ -54,6 +54,7 @@ abstract class Model
         $keysStr = rtrim(str_repeat('?,', count($values)), ',');
         $columnsStr = implode(',', $columns);
         $sql = "INSERT INTO $table ($columnsStr) VALUES ($keysStr)";
+
         return $this->db->execute($sql, $values);
     }
 }

@@ -76,18 +76,38 @@ $('.currency').click(function(){
 
 $('.stars_block ul li').mouseover(function(){
     $(this).prevAll().each(function(index, value){
-        $(value).find('i').css('color', '#0280e1');
+        $(value).find('i').addClass('stars_checked');
+        $(value).find('i').removeClass('stars_unchecked');
     });
-
-    $(this).find('i').css('color', '#0280e1');
+    $(this).find('i').removeClass('stars_unchecked');
+    $(this).find('i').addClass('stars_checked');
 });
 
 $('.stars_block ul li').mouseleave(function(){
     $(this).prevAll().each(function(index, value){
-        $(value).find('i').css('color', '#d2d2d2');
+        $(value).find('i').removeClass('stars_checked');
+        $(value).find('i').addClass('stars_unchecked');
+
     });
 
-    $(this).find('i').css('color', '#d2d2d2');
+    $(this).find('i').removeClass('stars_checked');
+    $(this).find('i').addClass('stars_unchecked');
+});
+
+$('.stars_block ul li').click(function(){
+    
+    $(this).prevAll().each(function(index, value){
+        $(value).find('i').css('color', '#0280e1');
+        $(value).attr('data-status', 'checked');
+    });
+
+    $(this).nextAll().each(function(index, value){
+        $(value).find('i').removeAttr('style');
+        $(value).removeAttr('data-status');
+    });
+
+    $(this).find('i').css('color', '#0280e1');
+    $(this).attr('data-status', 'checked');
 });
 
 
@@ -118,12 +138,12 @@ $('#tabs li').click(function(){
 
 
 $('.btn_response_comment').click(function(){
-    $(this).closest('li').find('.form_add_comment').removeClass('disactive');
+    $(this).closest('li').find('.form_add_response').removeClass('disactive');
     $(this).closest('li').find('#footer_response').addClass('disactive');
 });
 
 $('#close_form_add_response').click(function(){
-    $(this).closest('li').find('.form_add_comment').addClass('disactive');
+    $(this).closest('li').find('.form_add_response').addClass('disactive');
     $(this).closest('li').find('#footer_response').removeClass('disactive');
 });
 
@@ -330,7 +350,235 @@ $('tbody').on('click', '.addCountProduct', function(){
 
 });
 
+$('#autocomplete').click(function(){
+    $.each($('.autocomplete-suggestions').attr('class').split(' '), function(index, item){
+        if(item == 'hidden'){
+            $('.autocomplete-suggestions').removeClass('hidden');
+        }
+    });
+    
 });
+
+$('#autocomplete').autocomplete({
+    serviceUrl: 'http://' + host + '/search/get',
+    minChars: 3,
+    paramName: 's',
+    showNoSuggestionNotice: true,
+    noSuggestionNotice: 'Товары не найдены',
+    noCache: true,
+    onSelect: function (suggestion) {
+        document.location = 'http://' + host + '/product/' + suggestion.data;
+    } 
+});
+
+$(document).on('scroll', function(){
+    $('.autocomplete-suggestions').addClass('hidden');
+    $('#autocomplete').blur();
+});
+
+$('#sub_search').click(function(){
+    sendSearch();
+});
+
+$('#autocomplete').on('keyup', function(e){
+    if(e.keyCode == 13)
+        sendSearch();
+});
+
+
+$('#subReg').click(function(e){
+    e.preventDefault();
+    var formData = map('#form_signup input');
+    var regexps = [/[A-ZА-Я]/, /\d+/];
+    var emptyField = filterEmptyField(formData);
+
+   
+
+    if(Object.keys(emptyField).length > 0){
+        
+        for(var key in formData) {
+            if(key in emptyField){
+                //поле не заполнено
+                $('#form_signup input[name=' + key + ']').css('border', '1px solid red');
+            }else{
+                //поле заполнено
+                $('#form_signup input[name=' + key + ']').css('border', '1px solid silver');
+            }
+        }
+        return;
+    }
+    
+    
+
+    var checkValidPassword = false;
+
+    $.each(regexps, function(index, item){
+        if(!item.test(formData['password']) || $.trim(formData['password']).length < 6){
+            $('#form_signup input[name=password]').css('border', '1px solid red');
+            checkValidPassword = true;
+        }
+    });
+
+    if(checkValidPassword) return;
+
+
+    
+
+    formData['remember'] = $('.checkbox input[type=checkbox]').is(':checked');
+
+    var request = '';
+    for(var key in formData){
+        request += key + '=' + formData[key] + '&';
+    }
+
+    $.ajax({
+        url: 'http://' + host + '/signup/new',
+        data: request,
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+            if(data.type == 'valid'){
+                $('#form_signup input[name=email]').css('border', '1px solid red');
+                $('#form_signup .notice-form-error').removeClass('hidden').html(data.msg);
+                return;
+            }
+
+            if(data.type == 'exist'){
+                $('#form_signup .block-notice-form').removeClass('hidden');
+                $('#form_signup .block-notice-form p').html(data.msg);
+                return;
+            }
+
+            if(data == 'success')
+                document.location = 'http://' + host;
+        },
+        error: function(){
+            alert('Произошла ошибка. Попробуйте позже');
+        },
+
+    });
+});
+
+$('#form_login input[type=submit]').click(function(e){
+    e.preventDefault();
+    var formData = map('#form_login input');
+    var emptyField = filterEmptyField(formData);
+
+    if(Object.keys(emptyField).length > 0){
+        for(var key in formData) {
+            if(key in emptyField){
+                //поле не заполнено
+                $('#form_login input[name=' + key + ']').css('border', '1px solid red');
+            }else{
+                //поле заполнено
+                $('#form_login input[name=' + key + ']').css('border', '1px solid silver');
+            }
+        }
+        return;
+    }
+    
+
+    formData['remember'] = $('.checkbox input[type=checkbox]').is(':checked');
+
+    var request = '';
+    for(var key in formData){
+        request += key + '=' + formData[key] + '&';
+    }
+
+    $.ajax({
+        url: 'http://' + host + '/login/auth',
+        data: request,
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'error'){
+                $('.block-notice-form').removeClass('hidden');
+                $('.block-notice-form p').html(data.msg);
+                return;
+            }
+
+            if(data.type){
+                document.location = 'http://' + host;
+            }
+
+
+        },
+        error: function(){
+            alert('Произошла ошибка. Попробуйте позже');
+        }
+    });
+
+
+});
+
+$('#otzuv_o_tovare button[type=submit]').click(function(e){
+    e.preventDefault();
+    var formData = map('#otzuv_o_tovare form input, textarea');
+    
+
+    var emptyField = filterEmptyField(formData);
+    
+    if(Object.keys(emptyField).length > 0){
+        alert('Заполните все поля формы.');
+        return;
+    }
+
+    formData['notice_response'] = $('#otzuv_o_tovare form input[type=checkbox]').is(':checked');
+    formData['rating'] = $('#otzuv_o_tovare li[data-status]').length;
+
+    
+
+
+    console.log(formData);
+
+
+});
+
+
+});
+
+
+function map(item_src)
+{
+    var formData = new Array();
+    
+    $(item_src).each(function(index, item){
+        if($(item).attr('type') != 'submit' && $(item).attr('type') != 'checkbox'){
+            if($(item).attr('name') != undefined)
+                formData[$(item).attr('name')] = $(item).val();
+        }
+    });
+
+    return formData; 
+}
+
+function filterEmptyField(items)
+{
+    var emptyField = new Array();
+    
+    for(var key in items) {
+        if(items[key].match(/^\s*$/)){
+            //поле не заполнено
+            emptyField[key] = items[key];
+        }
+    }
+
+    return emptyField;
+}
+
+
+
+function sendSearch()
+{
+    var input = $('#autocomplete').val();
+
+    if(!input || input == ' ') return;
+
+    document.location = 'http://' + host + '/search?text=' + input;
+}
 
 
 function getCookie(name) {
@@ -363,5 +611,6 @@ function setCookie(name, value, options = {}) {
 
   document.cookie = updatedCookie;
 }
+
 
 

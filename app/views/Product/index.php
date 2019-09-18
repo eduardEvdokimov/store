@@ -292,16 +292,16 @@
 
 						
 
-
+						<!-- Отзыв о товаре -->
 						<div id='otzuv_o_tovare'>
 							<div style="text-align: center; margin: 20px 0;">
 								<div class='stars_block' style="float: none; font-size: 3em;">
 									<ul>
-										<li><i class="fas fa-star" data-count='1' aria-hidden="true"></i><br><span class='title_star'>Плохой</span></li>
-										<li><i class="fas fa-star" data-count='2' aria-hidden="true"></i><span class='title_star'>Так себе</span></li>
-										<li><i class="fas fa-star" data-count='3' aria-hidden="true"></i><span class='title_star'>Нормальный</span></li>
-										<li><i class="fas fa-star" data-count='4' aria-hidden="true"></i><span class='title_star'>Хороший</span></li>
-										<li><i class="fas fa-star" data-count='5' aria-hidden="true"></i><span class='title_star'>Отличный</span></li>
+										<li><i class="fas fa-star stars_unchecked" data-count='1' aria-hidden="true"></i><span class='title_star'>Плохой</span></li>
+										<li><i class="fas fa-star stars_unchecked" data-count='2' aria-hidden="true"></i><span class='title_star'>Так себе</span></li>
+										<li><i class="fas fa-star stars_unchecked" data-count='3' aria-hidden="true"></i><span class='title_star'>Нормальный</span></li>
+										<li><i class="fas fa-star stars_unchecked" data-count='4' aria-hidden="true"></i><span class='title_star'>Хороший</span></li>
+										<li><i class="fas fa-star stars_unchecked" data-count='5' aria-hidden="true"></i><span class='title_star'>Отличный</span></li>
 									</ul> 
 								</div>
 							</div>
@@ -311,38 +311,51 @@
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Достоинства</label>
-								    <input type="text" class="form-control" id="inputName" required>
+								    <input type="text" name='good_comment' class="form-control" id="inputName" required>
 								</div>
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Недостатки</label>
-								    <input type="text" class="form-control" id="inputName" required>
+								    <input type="text" name='bad_comment' class="form-control" id="inputName" required>
 								</div>
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Комментарий</label>
-								    <textarea class="form-control" rows="3" required></textarea>
+								    <textarea class="form-control" name='comment' rows="3" required></textarea>
 								</div>
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Ваше имя и фамилия</label>
-								    <input type="text" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+								    <?php if($_SESSION['user']['auth']): ?>
+								    <input type="text" name='name' value="<?= $_SESSION['user']['name'] ?>" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+								    <?php else: ?>
+									<input type="text" name='name' class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+								    <?php endif; ?>
 								</div>
 
 								<div class="form-group" >
 								    <label for="inputName" class="control-label">Электронная почта</label>
-								    <input type="email" class="form-control" id="inputName" required>
+								    <?php if($_SESSION['user']['auth']): ?>
+								    <input type="email" name='email' value="<?= $_SESSION['user']['email'] ?>" class="form-control" readonly id="inputName" required>
+								    <?php else: ?>
+									<input type="email" name='email' class="form-control" id="inputName" required>
+								    <?php endif; ?>
 								</div>
-								
-								  
+
+								<div class="form-group">
+									<input id="ham" type="checkbox" name="toppings" value="ham">
+									<label for="ham">Уведомлять об ответах по эл. почте</label>
+								</div>
 									
 								<div class="form-group" style="float: right;">
-									<button type="submit" class="btn btn-primary">Добавить</button>
+									<button type="submit" class="btn btn-primary">Оставить отзыв</button>
 								</div>
 							</form>
 							<button type="button" class="btn btn-danger close_form_add_comment" style="float: right; margin-right: 10px;">Отмена</button>
 						</div>
+						<!-- Отзыв о товаре -->
 
+						<!-- Комментарий -->
 						<div id='kommentariy' class='disactive' style="margin-top: 20px">
 							<form data-toggle="validator" role="form" style="margin-top: 10px;">
 							  	<div class="form-group">
@@ -352,20 +365,30 @@
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Ваше имя и фамилия</label>
-								    <input type="text" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+								    <?php if($_SESSION['user']['auth']): ?>
+								    <input type="text" value="<?= $_SESSION['user']['name'] ?>" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+								    <?php else: ?>
+									<input type="text" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+								    <?php endif; ?>
 								</div>
 
 								<div class="form-group" >
 								    <label for="inputName" class="control-label">Электронная почта</label>
-								    <input type="email" class="form-control" id="inputName" required>
+								    <?php if($_SESSION['user']['auth']): ?>
+								    <input type="email" value="<?= $_SESSION['user']['email'] ?>" class="form-control" readonly id="inputName" required>
+								    <?php else: ?>
+									<input type="email" class="form-control" id="inputName" required>
+								    <?php endif; ?>
 								</div>
 						
 							 	<div class="form-group" style="float: right;">
-							    	<button type="submit" class="btn btn-primary">Добавить</button>
+							    	<button type="submit" class="btn btn-primary">Оставить комментарий</button>
 							  	</div>
 							</form>
 							<button type="button" class="btn btn-danger close_form_add_comment" style="float: right; margin-right: 10px;">Отмена</button>
 						</div>
+						<!-- Комментарий -->
+
 					</div>
 				</div>
 				<!-- Отзыв о товаре -->

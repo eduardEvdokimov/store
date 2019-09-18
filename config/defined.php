@@ -1,6 +1,6 @@
 <?php
 
-define('HOST', 'http://store.loc');
+define('HOST', 'http://beststore.ddns.net');
 define('DIR', dirname(__DIR__));
 define('APP', DIR . '/app');
 define('DEBUG', 1);
@@ -12,5 +12,6 @@ define('LAYOUTS', DIR . '/layouts');
 define('TMP', DIR . '/tmp');
 define('CURRENT_LAYOUT', 'default');
 define('VIEWS', DIR . '/app/views');
+define('SOL_CONFIRM_EMAIL', 'xer0x');
 
 

@@ -11,7 +11,8 @@
                 <div class="clearfix"> </div>
                 <!-- //breadcrumbs -->
                 <div class="product-top">
-                    <h4>Electronics</h4>
+                    <h4><?= $titleCategory ?></h4>
+                    <?php if(!empty($products)): ?>
                     <ul> 
                         <li class="dropdown head-dpdn">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Сортировка<span class="caret"></span></a>
@@ -24,6 +25,7 @@
                             </ul> 
                         </li>
                     </ul> 
+                    <?php endif; ?>
                     <div class="clearfix"> </div>
                 </div>
 

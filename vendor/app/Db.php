@@ -35,7 +35,6 @@ class Db
 
     public function execute($sql, $values)
     {
-        
         if(empty($sql) && empty($values)) return false;
         $this->dbRequests[] = ['sql' => $sql, 'params' => $values];
         $this->lastRequest = $sql;
