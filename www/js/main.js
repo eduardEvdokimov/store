@@ -159,12 +159,18 @@ $('#close_form_responses_response').click(function(){
 });
 
 $('.bth_comment').click(function(){
+
+    dumpForm('.form_add_comment');
+
     $('.form_add_comment').removeClass('disactive');
     $('.header_block_comments').addClass('disactive');
     $('.list_comments').addClass('disactive');
 });
 
 $('.close_form_add_comment').click(function(){
+
+    dumpForm('.form_add_comment');
+
     $('.form_add_comment').addClass('disactive');
     $('.header_block_comments').removeClass('disactive');
     $('.list_comments').removeClass('disactive');
@@ -228,7 +234,7 @@ $('.addToCart').click(function(){
 
         },
         error: function(){
-            alert('Произошла ошибка. Попробуйте позже');
+            alertDanger();
         }
     });
 });
@@ -249,7 +255,7 @@ $('.clearCart').click(function(){
             $('#countProductCart').addClass('hidden');
         },
         error:function(){
-            alert('Произошла ошибка. Попробуйте позже');
+            alertDanger();
         }
     });
 
@@ -292,7 +298,7 @@ $('tbody').on('click', '.delProductCart', function(){
         },
         error:function()
         {
-            alert('Произошла ошибка. Попробуйте позже');
+            alertDanger();
         }
     });
 });
@@ -318,7 +324,7 @@ $('tbody').on('click', '.delCountProduct', function(){
 
         },
         error: function(){
-            alert('Произошла ошибка. Попробуйте позже');
+            alertDanger();
         }
     });
 
@@ -344,7 +350,7 @@ $('tbody').on('click', '.addCountProduct', function(){
             $('#countProductCart').html(data['cartCount']);
         },
         error: function(){
-            alert('Произошла ошибка. Попробуйте позже');
+            alertDanger();
         }
     });
 
@@ -435,7 +441,7 @@ $('#subReg').click(function(e){
         url: 'http://' + host + '/signup/new',
         data: request,
         type: 'post',
-        dataType: 'json',
+        
         success: function(data){
             console.log(data);
             if(data.type == 'valid'){
@@ -454,7 +460,7 @@ $('#subReg').click(function(e){
                 document.location = 'http://' + host;
         },
         error: function(){
-            alert('Произошла ошибка. Попробуйте позже');
+            alertDanger();
         },
 
     });
@@ -500,24 +506,28 @@ $('#form_login input[type=submit]').click(function(e){
                 return;
             }
 
-            if(data.type){
+            if(data.type == 'success'){
                 document.location = 'http://' + host;
             }
 
 
         },
         error: function(){
-            alert('Произошла ошибка. Попробуйте позже');
+            alertDanger();
         }
     });
 
 
 });
 
-$('#otzuv_o_tovare button[type=submit]').click(function(e){
+$('.form_add_comment button[type=submit]').click(function(e){
     e.preventDefault();
-    var formData = map('#otzuv_o_tovare form input, textarea');
+   
     
+    var form = $(this).closest('.base_form_comment');
+
+    var formData = map(form.find('form input, textarea'));
+    formData['type'] = form.data('type');
 
     var emptyField = filterEmptyField(formData);
     
@@ -526,14 +536,93 @@ $('#otzuv_o_tovare button[type=submit]').click(function(e){
         return;
     }
 
-    formData['notice_response'] = $('#otzuv_o_tovare form input[type=checkbox]').is(':checked');
-    formData['rating'] = $('#otzuv_o_tovare li[data-status]').length;
+    if(form.find('form input[type=checkbox]').is(':checked')){
+        formData['notice_response'] = 1;
+    }else{
+        formData['notice_response'] = 0;
+    }
 
-    
+    formData['rating'] = form.find('li[data-status]').length;
+    if(formData['rating'] < 1 && formData['type'] == 'otzuv'){
+        alertNotice('Вы не указали во сколько звезд оцениваете товар!');
+        return;
+    }
+    formData['product_id'] = $('.form_add_comment').data('id');
 
+    var request = '';
+    for(var key in formData){
+        request += key + '=' + formData[key] + '&';
+    }
 
     console.log(formData);
 
+
+    $.ajax({
+        url: 'http://' + host + '/comments/add',
+        type: 'post',
+        data: request,
+        
+        success: function(data){
+            console.log(data);
+            return;
+            if(data.type == 'mail_exist'){
+                if(form.find('.form-group .message-error-tooltip').length < 1){
+                    var html = "<span class='message-error-tooltip'>Пользователь с таким адресом эл. почты уже зарегистрирован, авторизируйтесь&nbsp;";
+                    html += "<a href='http://"+host+"/login'>Войти</a></span>";
+                    form.find('input[type=email]').closest('.form-group').append(html);
+                }
+            }
+
+            if(data.type == 'success'){
+
+
+                var html = '';
+                if(formData['type'] == 'otzuv'){
+                    html += "<li><p><b class='name_user'>"+data.data['name']+"</b>";
+                   
+                    html += "<div class='widget_stars'><ul>";
+
+                    for(var x = 0; x < 5; x++){
+                        if(x < formData['rating']){
+                            html += " <li><i class='fa fa-star' style='color: #0280e1;' aria-hidden='true'></i></li>";
+                        }else{
+                            html += " <li><i class='fa fa-star-o' style='color: #0280e1;' aria-hidden='true'></i></li>";
+                        }
+                    }
+
+                    html += "</ul></div>";
+                    html += "<span class='date_comment'>"+data.data['date']+"</span></p><p style='clear: left;'>"+data.data['comment']+"</p>";
+                    html += "<p><b style='color: black;'>Достоинства: </b>"+data.data['good_comment']+"</p>";
+                    html += "<p><b style='color: black;'>Недостатки: </b>"+data.data['bad_comment']+"</p>";
+                   
+                }else{
+                    html += "<li><p><b class='name_user'>"+data.data['name']+"</b>";
+                    html += "<span class='date_comment'>"+data.data['date']+"</span></p><p style='clear: left;'>"+data.data['comment']+"</p>";
+                }
+
+                
+                html += "<div style='margin-top: 10px;'><button class='btn_response_comment'>&#8617;&nbsp;Ответить</button><div class='block_like_dislike'>";
+                html += "<i class='fas fa-thumbs-up like'></i>|<i class='fas fa-thumbs-down dislike'></i></div></div></li>";
+                                    
+                                
+                $('.header_block_comments h3').find('p').html(Number($('.header_block_comments h3').find('p').html()) + 1);
+                
+                $('.form_add_comment').addClass('disactive');
+                $('.header_block_comments').removeClass('disactive');
+                $('.list_comments').removeClass('disactive');
+                $('.list_comments > ul').prepend(html);
+
+                if(formData['type'] == 'otzuv')
+                    alertSuccess('Отзыв успешно добавлен!');
+                else
+                    alertSuccess('Комментарий успешно добавлен!');
+                          
+            }
+        },
+        error: function(){
+            alertDanger();
+        },
+    });
 
 });
 
@@ -553,6 +642,44 @@ function map(item_src)
     });
 
     return formData; 
+}
+
+function alertDanger(msg = 'Произошла ошибка. Попробуйте позже.'){
+    $('.alert').remove(); 
+    var alert = "<div class='alert alert-danger'><i class='fas fa-exclamation-circle'></i>&nbsp;"+msg;
+    alert += "<button type='button' class='close' data-dismiss='alert'>×</button></div>";
+        
+    $('body').append(alert);                                                      
+    
+    setTimeout(function(){
+        $('.alert').remove(); 
+    }, 5000);
+}
+
+
+function alertNotice(msg){
+    $('.alert').remove(); 
+    var alert = "<div class='alert alert-warning'><i class='fas fa-exclamation-circle'></i>&nbsp;"+msg;
+    alert += "<button type='button' class='close' data-dismiss='alert'>×</button></div>";
+        
+    $('body').append(alert);                                                      
+    
+    setTimeout(function(){
+        $('.alert').remove(); 
+    }, 5000);
+}
+
+
+function alertSuccess(msg){
+    $('.alert').remove(); 
+    var alert = "<div class='alert alert-success'><i class='fa fa-check-circle'></i>&nbsp;"+msg;
+    alert += "<button type='button' class='close' data-dismiss='alert'>×</button></div>";
+        
+    $('body').append(alert);                                                      
+    
+    setTimeout(function(){
+        $('.alert').remove(); 
+    }, 5000);
 }
 
 function filterEmptyField(items)
@@ -613,4 +740,26 @@ function setCookie(name, value, options = {}) {
 }
 
 
+function dumpForm(form)
+{
+    var form = $(form);
 
+
+    form.find('.stars_block ul li').removeAttr('data-status').find('i').removeAttr('style');
+    
+    form.find('input, textarea').each(function(index, item){
+        $(item).val('');
+        $(item).closest('.form-group').removeClass('has-error').removeClass('has-danger');
+    });
+
+    if(form.find('.form-group input[type=email][readonly]').val() != undefined){
+        form.find('.form-group input[type=email][readonly]').val(userEmail);
+        form.find('.form-group input[type=email][readonly]').closest('.form-group')
+        .prev('.form-group')
+        .find('input[name=name]')
+        .val(userName);
+    }
+
+    form.find('button[type=submit]').addClass('disabled');
+    form.find('input[type=checkbox]').prop('checked', 'checked');
+}

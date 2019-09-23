@@ -79,39 +79,45 @@
 				</div>
 				<div class='col-md-5'>
 					<!-- Блок просмотра комментариев -->
-					<div class='header_block_comments'>
-						<h3 class="w3ls-title" style="display: inline-block; float: left;">Отзывы покупателей</h3>
+					<?php 
+						if(!empty($comments)){
+							$block_comments = '';
+							$block_form_add_comment = 'disactive';
+						}else{
+							$block_comments = 'disactive';
+							$block_form_add_comment = '';
+						}
+					?>
+					<div class='header_block_comments <?= $block_comments ?>'>
+						<h3 class="w3ls-title" style="display: inline-block; float: left;">Отзывы покупателей&nbsp;<p style="display: inline;"><?= $countComments ?></p></h3>
 						<div class='bth_comment' title='Добавить отзыв'>
 							<i class="far fa-edit"></i>
 						</div>
 					</div>
-					<div class='list_comments' class='active'>	
+					<div class='list_comments <?= $block_comments ?>' class='active'>	
+						
 						<ul>
-							
+							<?php foreach ($comments as $comment): ?>
+							<?php if($comment['type'] == 'otzuv'): ?>
 							<li>
 								<p>
-									<b class="name_user">Эдуард Евдокимов</b>
+									<b class="name_user"><?= $comment['name'] ?></b>
 									<div class='widget_stars'>
 										<ul>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											
+											<?php foreach ($comment['stars'] as $value): ?>
+											<li><i class="fa fa-star<?= $value ?>" style='color: #0280e1;' aria-hidden="true"></i></li>
+											<?php endforeach; ?>		
 										</ul> 
 									</div>
-									<span class='date_comment'>28 августа 2019</span>
+									<span class='date_comment'><?= $comment['date'] ?></span>
 								</p>
 
-								<p style="clear: left;">
-									Текст отзыва Текст отзыва Текст отзыва  Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва  
+								<p style="clear: left;"><?= $comment['comment'] ?></p>
+								<p>
+									<b style="color: black;">Достоинства: </b><?= $comment['good_comment'] ?>
 								</p>
 								<p>
-									<b style="color: black;">Достоинства: </b>Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст 
-								</p>
-								<p>
-									<b style="color: black;" >Недостатки: </b>Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст 
+									<b style="color: black;" >Недостатки: </b><?= $comment['bad_comment'] ?>			
 								</p>
 								<div style="margin-top: 10px;">
 									<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
@@ -120,6 +126,23 @@
 									</div>
 								</div>
 							</li>
+							<?php else: ?>
+								<li>
+								<p>
+									<b class="name_user"><?= $comment['name'] ?></b>
+									<span class='date_comment'><?= $comment['date'] ?></span>
+								</p>
+								<p style="clear: left;"><?= $comment['comment'] ?></p>
+								<div style="margin-top: 10px;">
+									<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
+									<div class='block_like_dislike'>
+										<i class="fas fa-thumbs-up like"></i>|<i class="fas fa-thumbs-down dislike"></i>
+									</div>
+								</div>
+							</li>
+							<?php endif; ?>
+							<?php endforeach; ?>
+
 							<li>
 								<p>
 									<b class="name_user">Эдуард Евдокимов</b>
@@ -279,12 +302,11 @@
 							</li>
 						</ul>
 					</div>
-
 					
+							
 					<!-- Блок просмотра комментариев -->
 					<!-- Отзыв о товаре -->
-				
-					<div class='form_add_comment disactive'>
+					<div class='form_add_comment <?= $block_form_add_comment ?>' data-id='<?= $product['id'] ?>'>
 						<ul class="nav nav-tabs nav-justified" id='tabs'>
 							 <li role="presentation" style="cursor: pointer;" data-type='kommentariy' class="active"><a data-active='active'>Отзыв о товаре</a></li>
 							 <li role="presentation" style="cursor: pointer;" data-type='otzuv_o_tovare' class=""><a data-active=''>Краткий комментарий</a></li>
@@ -293,7 +315,7 @@
 						
 
 						<!-- Отзыв о товаре -->
-						<div id='otzuv_o_tovare'>
+						<div id='otzuv_o_tovare' data-type='otzuv' class="base_form_comment">
 							<div style="text-align: center; margin: 20px 0;">
 								<div class='stars_block' style="float: none; font-size: 3em;">
 									<ul>
@@ -333,18 +355,21 @@
 								    <?php endif; ?>
 								</div>
 
-								<div class="form-group" >
+								<div class="form-group">
 								    <label for="inputName" class="control-label">Электронная почта</label>
 								    <?php if($_SESSION['user']['auth']): ?>
 								    <input type="email" name='email' value="<?= $_SESSION['user']['email'] ?>" class="form-control" readonly id="inputName" required>
+								   
 								    <?php else: ?>
 									<input type="email" name='email' class="form-control" id="inputName" required>
 								    <?php endif; ?>
 								</div>
 
 								<div class="form-group">
-									<input id="ham" type="checkbox" name="toppings" value="ham">
-									<label for="ham">Уведомлять об ответах по эл. почте</label>
+									<label id="container">Уведомлять об ответах по эл. почте
+									  <input type="checkbox" checked="checked">
+									  <span class="checkmark"></span>
+									</label>
 								</div>
 									
 								<div class="form-group" style="float: right;">
@@ -356,29 +381,36 @@
 						<!-- Отзыв о товаре -->
 
 						<!-- Комментарий -->
-						<div id='kommentariy' class='disactive' style="margin-top: 20px">
+						<div id='kommentariy' data-type='comment' class='base_form_comment disactive' style="margin-top: 20px">
 							<form data-toggle="validator" role="form" style="margin-top: 10px;">
 							  	<div class="form-group">
 							    	<label for="inputName" class="control-label">Комментарий</label>
-							    	<textarea class="form-control" rows="3" required></textarea>
+							    	<textarea class="form-control" name='comment' rows="3" required></textarea>
 							  	</div>
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Ваше имя и фамилия</label>
 								    <?php if($_SESSION['user']['auth']): ?>
-								    <input type="text" value="<?= $_SESSION['user']['name'] ?>" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+								    <input type="text" name='name' value="<?= $_SESSION['user']['name'] ?>" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
 								    <?php else: ?>
-									<input type="text" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
+									<input type="text" name='name' class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
 								    <?php endif; ?>
 								</div>
 
 								<div class="form-group" >
 								    <label for="inputName" class="control-label">Электронная почта</label>
 								    <?php if($_SESSION['user']['auth']): ?>
-								    <input type="email" value="<?= $_SESSION['user']['email'] ?>" class="form-control" readonly id="inputName" required>
+								    <input type="email" name='email' value="<?= $_SESSION['user']['email'] ?>" class="form-control" readonly id="inputName" required>
 								    <?php else: ?>
-									<input type="email" class="form-control" id="inputName" required>
+									<input type="email" name='email' class="form-control" id="inputName" required>
 								    <?php endif; ?>
+								</div>
+
+								<div class="form-group">
+									<label id="container">Уведомлять об ответах по эл. почте
+									  <input type="checkbox" checked="checked">
+									  <span class="checkmark"></span>
+									</label>
 								</div>
 						
 							 	<div class="form-group" style="float: right;">
@@ -388,8 +420,8 @@
 							<button type="button" class="btn btn-danger close_form_add_comment" style="float: right; margin-right: 10px;">Отмена</button>
 						</div>
 						<!-- Комментарий -->
-
 					</div>
+					
 				</div>
 				<!-- Отзыв о товаре -->
 			</div>

@@ -15,6 +15,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="application/x-javascript"> 
     var host = "<?= $_SERVER['HTTP_HOST']; ?>";
     var simbolCurrency = "<?= $simbolCurrency; ?>";
+    var userAuth = "<?= $userAuth ?>";
+    var userName = '';
+    var userEmail = '';
+    if(userAuth){
+        userName = "<?= $_SESSION['user']['name'] ?>";
+        userEmail = "<?= $_SESSION['user']['email'] ?>";
+    }
 
  addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -137,26 +144,29 @@ $(document).ready(function() {
 </head>
 <body>
 
+    
+
+
     <!-- header -->
     <div class="header">
         <div class="w3ls-header"><!--header-one--> 
             <div class="w3ls-header-left">
-                <p><a href="#">UPTO $50 OFF ON LAPTOPS | USE COUPON CODE LAPPY </a></p>
+                <p><a>Мы заботимся о вас и ваших покупках</a></p>
             </div>
             <div class="w3ls-header-right">
                 <ul>
                     <li class="dropdown head-dpdn">
                         <!-- У не авторизованного пользователя "Мой аккаунт", авторизованного - Имя Фамилия -->
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i>Мой аккаунт<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i><?= $nameDrpMenuUser ?><span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <?php if($userAuth): ?>
                             <!--Список у авторизованного пользователя -->
-                            <li><a href="login.html">Личные данные</a></li>  
-                            <li><a href="login.html">Списки желаний</a></li>  
-                            <li><a href="login.html">Корзина</a></li>
-                            <li><a href="login.html">Мои заказы</a></li>
-                            <li><a href="login.html">Мои отзывы</a></li>
-                            <li><a href="login.html">Просмотренные товары</a></li>
+                            <li><a href="<?= HOST ?>/profile">Личные данные</a></li>  
+                            <li><a href="<?= HOST ?>/profile/desires">Список желаний</a></li>  
+                            <li><a href="<?= HOST ?>/profile/cart">Корзина</a></li>
+                            <li><a href="<?= HOST ?>/profile/orders">Мои заказы</a></li>
+                            <li><a href="<?= HOST ?>/profile/comments">Мои отзывы</a></li>
+                            <li><a href="<?= HOST ?>/profile/viewed">Просмотренные товары</a></li>
                             <li><a href="<?= HOST ?>/login/logout">Выход</a></li>   
                             <?php else: ?>
                              <!--Если не авторизованный пользователь -->
@@ -380,6 +390,8 @@ $(document).ready(function() {
             
         </div>
     </div>
+
+
 
 
     <!-- Окно корзины -->

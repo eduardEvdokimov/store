@@ -24,7 +24,7 @@ class LoginController extends MainController
 
     public function authAction()
     {
-        $response = ['msg' => '', 'type' => ''];
+        $response = ['msg' => ' ', 'type' => ''];
 
         $db = Db::getInstance();
 
@@ -40,6 +40,7 @@ class LoginController extends MainController
 
         $user = $user[0];
         $data['name'] = $user['name'];
+        $data['id'] = $user['id'];
 
         if(!password_verify($data['password'], $user['password'])){
             $response['msg'] = "Введен неверный пароль!<br>Проверьте раскладку клавиатуры и Caps Lock";
@@ -59,6 +60,11 @@ class LoginController extends MainController
         if(isset($_SESSION['user'])){
             $_SESSION['user']['auth'] = false;
         }
-        redirect();
+        $http = '';
+        
+        if(strpos($_SERVER['HTTP_REFERER'], 'profile'))
+            $http = HOST;
+
+        redirect($http);
     }
 }

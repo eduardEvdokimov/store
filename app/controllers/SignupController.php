@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-use \app\models\{SignupModel, Authorization};
+use \app\models\{SignupModel, Authorization, Mail};
 
 
 class SignupController extends MainController
@@ -36,8 +36,12 @@ class SignupController extends MainController
             die;
         }
 
-        if($this->create($data)){
+        if(($confirmData = $this->create($data))){
+            $data['id'] = $confirmData['user_id'];
             Authorization::setSession($data);
+
+            $mail = new Mail($data['email']);
+            $mail->sendConfirmEmail($confirmData['confirm']);
 
             $response['type'] = 'success';
             echo json_encode($response['type']);
@@ -64,6 +68,14 @@ class SignupController extends MainController
         $data['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
         $data['confirm'] = md5(SOL_CONFIRM_EMAIL . $data['name'] . mt_rand(1000, 9999) . SOL_CONFIRM_EMAIL);
 
+        return ['confirm' => $data['confirm'], 'user_id' => $model->newUser($data)];
+    }
+
+    public function add($data)
+    {
+        $model = new SignupModel;
+        $data['password'] = password_hash(md5(SOL_CONFIRM_EMAIL . $data['name'] . mt_rand(1000, 9999) . SOL_CONFIRM_EMAIL), PASSWORD_DEFAULT);
+        $data['confirm'] = md5(SOL_CONFIRM_EMAIL . $data['name'] . mt_rand(1000, 9999) . SOL_CONFIRM_EMAIL);
         return $model->newUser($data);
     }
 }

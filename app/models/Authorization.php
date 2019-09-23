@@ -6,7 +6,7 @@ class Authorization extends MainModel
 {
     public static function setSession($data)
     {
-        $user = ['user' => ['email' => $data['email'], 'remember' => $data['remember'], 'name' => $data['name'], 'password' => $data['password'], 'auth' => true]];
+        $user = ['user' => ['id' => $data['id'], 'email' => $data['email'], 'remember' => $data['remember'], 'name' => $data['name'], 'password' => $data['password'], 'auth' => true]];
         $_SESSION = $user;
     }
 }

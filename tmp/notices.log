@@ -2116,3 +2116,681 @@
 Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
 Код ошибки: 300
 
+Замечание № 354: 19-09-2019 в 08:28:18
+Ошибка: Undefined index: user
+Строка: 378
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 355: 19-09-2019 в 08:29:16
+Ошибка: Undefined index: user
+Строка: 378
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 356: 20-09-2019 в 10:44:45
+Ошибка: Array to string conversion
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 357: 20-09-2019 в 10:44:49
+Ошибка: Array to string conversion
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 358: 20-09-2019 в 11:10:19
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 359: 20-09-2019 в 11:11:20
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 360: 20-09-2019 в 11:11:33
+Ошибка: Undefined variable: result
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\models\Breadcrumbs.php
+Код ошибки: 300
+
+Замечание № 361: 20-09-2019 в 11:11:57
+Ошибка: Array to string conversion
+Строка: 95
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 362: 20-09-2019 в 11:12:35
+Ошибка: Array to string conversion
+Строка: 95
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 363: 20-09-2019 в 11:56:13
+Ошибка: Undefined index: id
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 364: 20-09-2019 в 12:05:24
+Ошибка: Undefined index: notice_responce
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 365: 20-09-2019 в 12:06:10
+Ошибка: Undefined index: notice_responce
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 366: 20-09-2019 в 12:07:04
+Ошибка: Undefined index: notice_responce
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 367: 20-09-2019 в 12:08:11
+Ошибка: Undefined index: notice_responce
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 368: 20-09-2019 в 12:10:09
+Ошибка: Undefined index: notice_responce
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 369: 20-09-2019 в 12:10:30
+Ошибка: Undefined index: notice_responce
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 370: 20-09-2019 в 12:10:37
+Ошибка: Undefined index: notice_responce
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 371: 20-09-2019 в 12:14:13
+Ошибка: Undefined variable: user
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 372: 20-09-2019 в 16:01:32
+Ошибка: Undefined index: user
+Строка: 380
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 373: 20-09-2019 в 16:01:52
+Ошибка: Undefined index: id
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 374: 20-09-2019 в 16:03:23
+Ошибка: Undefined index: id
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 375: 20-09-2019 в 16:03:43
+Ошибка: Undefined index: id
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 376: 20-09-2019 в 16:10:28
+Ошибка: Undefined index: remember
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\models\Authorization.php
+Код ошибки: 300
+
+Замечание № 377: 20-09-2019 в 16:35:49
+Ошибка: Undefined index: rating
+Строка: 53
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 378: 20-09-2019 в 16:38:19
+Ошибка: Undefined index: rating
+Строка: 53
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 379: 20-09-2019 в 16:42:56
+Ошибка: Undefined index: rating
+Строка: 53
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 380: 20-09-2019 в 18:23:18
+Ошибка: Undefined variable: comment
+Строка: 136
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 381: 20-09-2019 в 18:23:42
+Ошибка: Undefined variable: comment
+Строка: 136
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 382: 21-09-2019 в 12:25:25
+Ошибка: Undefined index: COUNT(*)
+Строка: 95
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 383: 21-09-2019 в 12:25:34
+Ошибка: Array to string conversion
+Строка: 92
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 384: 21-09-2019 в 17:16:41
+Ошибка: Undefined variable: message
+Строка: 43
+Файл: C:\OSPanel\domains\store.loc\app\models\Mail.php
+Код ошибки: 300
+
+Замечание № 385: 21-09-2019 в 17:20:37
+Ошибка: Undefined variable: to
+Строка: 42
+Файл: C:\OSPanel\domains\store.loc\app\models\Mail.php
+Код ошибки: 300
+
+Замечание № 386: 21-09-2019 в 17:22:52
+Ошибка: Undefined variable: to
+Строка: 43
+Файл: C:\OSPanel\domains\store.loc\app\models\Mail.php
+Код ошибки: 300
+
+Замечание № 387: 21-09-2019 в 20:48:17
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 388: 21-09-2019 в 20:48:48
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 389: 21-09-2019 в 20:49:32
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 390: 21-09-2019 в 20:49:51
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 391: 21-09-2019 в 20:50:26
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 392: 21-09-2019 в 20:50:42
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 393: 21-09-2019 в 20:50:42
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 394: 21-09-2019 в 20:50:47
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 395: 21-09-2019 в 20:50:48
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 396: 21-09-2019 в 20:51:04
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 397: 21-09-2019 в 20:51:18
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 398: 21-09-2019 в 20:51:25
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 399: 23-09-2019 в 19:43:49
+Ошибка: Undefined variable: hiddenCart
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 400: 23-09-2019 в 19:44:13
+Ошибка: Undefined variable: hiddenCart
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 401: 23-09-2019 в 19:47:19
+Ошибка: Undefined variable: hiddenCart
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 402: 23-09-2019 в 19:47:40
+Ошибка: Undefined variable: hiddenCart
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 403: 23-09-2019 в 19:48:31
+Ошибка: Undefined variable: hiddenCart
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 404: 23-09-2019 в 19:48:59
+Ошибка: Undefined variable: hiddenCart
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 405: 23-09-2019 в 19:51:57
+Ошибка: Undefined variable: hiddenCart
+Строка: 57
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 406: 23-09-2019 в 19:52:06
+Ошибка: Undefined variable: hiddenCart
+Строка: 57
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 407: 23-09-2019 в 19:53:24
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 408: 23-09-2019 в 19:54:00
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 409: 23-09-2019 в 19:54:13
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 410: 23-09-2019 в 19:54:22
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 411: 23-09-2019 в 20:31:22
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 412: 23-09-2019 в 20:31:27
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 413: 23-09-2019 в 20:32:25
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 414: 23-09-2019 в 20:36:43
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 415: 23-09-2019 в 20:45:17
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 416: 23-09-2019 в 20:45:47
+Ошибка: Undefined variable: pagination
+Строка: 65
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 417: 23-09-2019 в 20:46:24
+Ошибка: Undefined variable: pagination
+Строка: 65
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 418: 23-09-2019 в 20:46:50
+Ошибка: Undefined variable: pagination
+Строка: 65
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 419: 23-09-2019 в 20:46:57
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 420: 23-09-2019 в 20:47:15
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 421: 23-09-2019 в 20:47:39
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 422: 23-09-2019 в 20:47:53
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 423: 23-09-2019 в 20:48:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 424: 23-09-2019 в 20:49:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 425: 23-09-2019 в 20:50:03
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 426: 23-09-2019 в 20:50:37
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 427: 23-09-2019 в 20:50:42
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 428: 23-09-2019 в 20:50:55
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 429: 23-09-2019 в 20:51:49
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 430: 23-09-2019 в 20:51:53
+Ошибка: Undefined variable: hiddenCart
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\cart.php
+Код ошибки: 300
+
+Замечание № 431: 23-09-2019 в 20:52:01
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 432: 23-09-2019 в 20:53:16
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 433: 23-09-2019 в 20:58:29
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 434: 23-09-2019 в 20:58:41
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 435: 23-09-2019 в 20:59:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 436: 23-09-2019 в 21:01:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 437: 23-09-2019 в 21:01:22
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 438: 23-09-2019 в 21:02:33
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 439: 23-09-2019 в 21:12:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 440: 23-09-2019 в 21:12:25
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 441: 23-09-2019 в 21:13:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 442: 23-09-2019 в 21:13:25
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 443: 23-09-2019 в 21:19:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 444: 23-09-2019 в 21:33:02
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 445: 23-09-2019 в 21:33:31
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 446: 23-09-2019 в 21:33:38
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 447: 23-09-2019 в 21:34:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 448: 23-09-2019 в 21:34:24
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 449: 23-09-2019 в 21:39:25
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 450: 23-09-2019 в 21:39:32
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 451: 23-09-2019 в 21:39:46
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 452: 23-09-2019 в 21:39:55
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 453: 23-09-2019 в 21:40:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 454: 23-09-2019 в 21:40:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 455: 23-09-2019 в 21:40:27
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 456: 23-09-2019 в 21:40:48
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 457: 23-09-2019 в 21:41:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 458: 23-09-2019 в 21:42:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 459: 23-09-2019 в 21:42:19
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 460: 23-09-2019 в 21:42:35
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 461: 23-09-2019 в 21:42:41
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 462: 23-09-2019 в 21:42:55
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 463: 23-09-2019 в 21:43:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 464: 23-09-2019 в 21:44:27
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 465: 23-09-2019 в 21:44:35
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 466: 23-09-2019 в 21:44:39
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+

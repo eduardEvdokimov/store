@@ -84,8 +84,11 @@ class ProductModel extends MainModel
 
     public function getData($alias)
     {
-        $data = $this->db->execute('SELECT * FROM product JOIN product_info ON id=id_product WHERE alias=?', [$alias])[0];
+        $data = $this->db->execute('SELECT * FROM product JOIN product_info ON id=id_product WHERE alias=?', [$alias]);
         
+        if(empty($data)) return false;
+
+        $data = $data[0];
         $data['price'] = $this->recalcPrice($data['price']);
         $data['old_price'] = $this->recalcPrice($data['old_price']);
         if($data['old_price'] > 0){

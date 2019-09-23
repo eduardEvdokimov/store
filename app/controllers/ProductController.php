@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use \app\models\ProductModel;
 use \store\Register;
+use \store\Db;
 
 class ProductController extends MainController
 {
@@ -16,7 +17,9 @@ class ProductController extends MainController
         $model = new ProductModel;
 
         $product = $model->getData($alias);
-        
+
+        if(!$product) redirect(HOST);
+
         $breadcrumbs = new \app\models\Breadcrumbs($product['category_id'], $product['title']);
         
         $viewedProducts = isset($_COOKIE['viewedProducts']) ? $_COOKIE['viewedProducts'] : '';
@@ -46,8 +49,12 @@ class ProductController extends MainController
         }
 
 
+        $commentsData = $this->getComments($alias);
+        $countComments = $commentsData['countComments'];
+        $comments = $commentsData['comments'];
+
         $this->addViewed($product['id']);
-        $this->setParams(['product' => $product, 'breadcrumbs' => $breadcrumbs, 'viewedProducts' => $viewedProducts]);
+        $this->setParams(['product' => $product, 'breadcrumbs' => $breadcrumbs, 'viewedProducts' => $viewedProducts, 'comments' => $comments, 'countComments' => $countComments]);
         $this->setMeta($product['title'], $product['meta_description'], $product['meta_keywords']);
     }
 
@@ -79,9 +86,36 @@ class ProductController extends MainController
         setcookie('viewedProducts', $newCookie, time() + 60 * 60 * 24 * 7, '/');
     }
 
-    public function addToCartAction()
+    public function getComments($alias)
     {
-        echo '+';
-        exit;
+        $db = Db::getInstance();
+
+        $comments = $db->execute('SELECT comments.id, type, comment, good_comment, bad_comment, plus_likes, minus_likes, rating, date, name FROM comments JOIN users ON comments.user_id=users.id WHERE comments.product_id=(SELECT id FROM product WHERE alias=?) ORDER BY comments.date DESC LIMIT 3', [$alias]);
+
+        $countComments = $db->execute('SELECT COUNT(*) FROM comments JOIN users ON comments.user_id=users.id WHERE comments.product_id=(SELECT id FROM product WHERE alias=?)', [$alias])[0]['COUNT(*)'];
+
+        $countComments = ($countComments > 0) ? $countComments : '';
+
+        if(!empty($comments)){
+            foreach ($comments as $key => $value) {
+                $value['date'] = newFormatDate($value['date']);
+                $stars = [];
+                for($x = 0; $x < 5; $x++) {
+                    if($x < $value['rating'])
+                        $stars[] = '';
+                    else
+                        $stars[] = '-o';
+                }
+                $value['stars'] = $stars;
+
+                $comments[$key] = $value;
+            }
+            
+            return ['comments' => $comments, 'countComments' => $countComments];
+        }
+
+
+
+        return false;
     }
 }

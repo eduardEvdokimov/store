@@ -23,12 +23,13 @@ class MainController extends Controller
         }
 
         $userAuth = false;
-
+        $nameDrpMenuUser = 'Мой аккаунт';
         if(isset($_SESSION['user']['auth']) && $_SESSION['user']['auth'] == true){
             $userAuth = true;
+            $nameDrpMenuUser = $_SESSION['user']['name'];
         }
 
-        $this->setParams(['cart' => $cart, 'userAuth' => $userAuth, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart]);
+        $this->setParams(['cart' => $cart, 'userAuth' => $userAuth, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart, 'nameDrpMenuUser' => $nameDrpMenuUser]);
     }
 
     
