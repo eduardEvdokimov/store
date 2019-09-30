@@ -1332,7 +1332,7 @@ readers do not read off random characters that represent icons */
   content: "\f5ee"; }
 
 .fa-dribbble:before {
-  content: "\f17d"; }
+ /* content: "\f17d"; */}
 
 .fa-dribbble-square:before {
   content: "\f397"; }
@@ -3168,7 +3168,7 @@ readers do not read off random characters that represent icons */
   content: "\f4d7"; }
 
 .fa-rss:before {
-  content: "\f09e"; }
+  /*content: "\f09e"; */}
 
 .fa-rss-square:before {
   content: "\f143"; }

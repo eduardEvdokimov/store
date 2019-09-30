@@ -36,14 +36,15 @@
 						<h3 class="item_name"><?= $product['title'] ?></h3>
 						<p>Processing Time: Item will be shipped out within 2-3 working days. </p>
 						<div class="single-rating">
-							<ul >
-								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-								<li class="rating">20 reviews</li>
-								<li><a href="#">Add your review</a></li>
+							<ul>
+								<?php for($x = 0; $x < 5; $x++): ?>
+                        		<?php if($x < $product['rating']): ?>
+                        		<li><i class='fa fa-star' style='color: #0280e1;' aria-hidden='true'></i></li>
+                        		<?php else: ?>
+                        		<li><i class='fa fa-star-o' style='color: #0280e1;' aria-hidden='true'></i></li>
+                        		<?php endif;?>
+                        		<?php endfor; ?>   
+								<li class="rating"><?= $product['count_otzuv'] ?> оценок</li>
 							</ul> 
 						</div>
 						<div class="single-price">
@@ -99,7 +100,7 @@
 						<ul>
 							<?php foreach ($comments as $comment): ?>
 							<?php if($comment['type'] == 'otzuv'): ?>
-							<li>
+							<li data-id='<?= $comment['id'] ?>'>
 								<p>
 									<b class="name_user"><?= $comment['name'] ?></b>
 									<div class='widget_stars'>
@@ -119,24 +120,33 @@
 								<p>
 									<b style="color: black;" >Недостатки: </b><?= $comment['bad_comment'] ?>			
 								</p>
-								<div style="margin-top: 10px;">
-									<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
+								<div style="margin-top: 10px;" class='footer_comment'>
+									<div style="margin-top: 10px;" class='footer_response'>
+									<button class='btn_response_comment' >&#8617;&nbsp;Ответить</button>
 									<div class='block_like_dislike'>
-										<i class="fas fa-thumbs-up like"></i>|<i class="fas fa-thumbs-down dislike"></i>
+										<small class='c_like <?= ($comment['check_press_like'] == 'press') ? 'press' : 'counter-like' ?>  counter-like-dislike'><?= ($comment['plus_likes'] > 0) ? $comment['plus_likes'] : ''; ?>
+										</small>&nbsp;<i class="fas fa-thumbs-up <?= $comment['check_press_like'] ?>" data-type='<?= ($comment['check_press_like'] == 'press') ? 'disable' : 'enable' ?>'></i>&nbsp;|&nbsp;
+										<i class="fas fa-thumbs-down <?= $comment['check_press_dislike'] ?>" data-type='<?= ($comment['check_press_dislike'] == 'press') ? 'disable' : 'enable' ?>'></i>&nbsp;<small class='c_dis counter-like-dislike <?= ($comment['check_press_dislike'] == 'press') ? 'press' : 'counter-dislike' ?>'><?= ($comment['minus_likes'] > 0) ? $comment['minus_likes'] : ''; ?></small>
+										</div>
 									</div>
 								</div>
 							</li>
 							<?php else: ?>
-								<li>
+								<li data-id='<?= $comment['id'] ?>'>
 								<p>
 									<b class="name_user"><?= $comment['name'] ?></b>
 									<span class='date_comment'><?= $comment['date'] ?></span>
 								</p>
 								<p style="clear: left;"><?= $comment['comment'] ?></p>
-								<div style="margin-top: 10px;">
+								<div style="margin-top: 10px;" class='footer_comment'>
+									<div style="margin-top: 10px;" class='footer_response'>
 									<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
 									<div class='block_like_dislike'>
-										<i class="fas fa-thumbs-up like"></i>|<i class="fas fa-thumbs-down dislike"></i>
+										
+										<small class='c_like <?= ($comment['check_press_like'] == 'press') ? 'press' : 'counter-like' ?> counter-like-dislike'><?= ($comment['plus_likes'] > 0) ? $comment['plus_likes'] : ''; ?>
+										</small>&nbsp;<i class="fas fa-thumbs-up <?= $comment['check_press_like'] ?>" data-type='<?= ($comment['check_press_like'] == 'press') ? 'disable' : 'enable' ?>'></i>&nbsp;|&nbsp;
+										<i class="fas fa-thumbs-down <?= $comment['check_press_dislike'] ?>" data-type='<?= ($comment['check_press_dislike'] == 'press') ? 'disable' : 'enable' ?>'></i>&nbsp;<small class='counter-like-dislike c_dis <?= ($comment['check_press_dislike'] == 'press') ? 'press' : 'counter-dislike' ?>'><?= ($comment['minus_likes'] > 0) ? $comment['minus_likes'] : ''; ?></small>
+										</div>
 									</div>
 								</div>
 							</li>
@@ -168,13 +178,13 @@
 								<p>
 									<b style="color: black;" >Недостатки: </b>Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст 
 								</p>
-								<div style="margin-top: 10px;">
+								<div style="margin-top: 10px;" class='footer_comment'>
 									<div style="margin-top: 10px;" id='footer_response'>
 										<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
 
 										<p class='btn_view_responses'>
 											<i class="far fa-comment"></i>
-											2 ответа
+											<span>2</span> ответа
 										</p>
 
 										<div class='block_like_dislike'>
@@ -348,7 +358,7 @@
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Ваше имя и фамилия</label>
-								    <?php if($_SESSION['user']['auth']): ?>
+								    <?php if(isset($_SESSION['user']['auth']) && $_SESSION['user']['auth']): ?>
 								    <input type="text" name='name' value="<?= $_SESSION['user']['name'] ?>" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
 								    <?php else: ?>
 									<input type="text" name='name' class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
@@ -357,7 +367,7 @@
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Электронная почта</label>
-								    <?php if($_SESSION['user']['auth']): ?>
+								    <?php if(isset($_SESSION['user']['auth']) && $_SESSION['user']['auth']): ?>
 								    <input type="email" name='email' value="<?= $_SESSION['user']['email'] ?>" class="form-control" readonly id="inputName" required>
 								   
 								    <?php else: ?>
@@ -390,7 +400,7 @@
 
 								<div class="form-group">
 								    <label for="inputName" class="control-label">Ваше имя и фамилия</label>
-								    <?php if($_SESSION['user']['auth']): ?>
+								    <?php if(isset($_SESSION['user']['auth']) && $_SESSION['user']['auth']): ?>
 								    <input type="text" name='name' value="<?= $_SESSION['user']['name'] ?>" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
 								    <?php else: ?>
 									<input type="text" name='name' class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
@@ -399,7 +409,7 @@
 
 								<div class="form-group" >
 								    <label for="inputName" class="control-label">Электронная почта</label>
-								    <?php if($_SESSION['user']['auth']): ?>
+								    <?php if(isset($_SESSION['user']['auth']) && $_SESSION['user']['auth']): ?>
 								    <input type="email" name='email' value="<?= $_SESSION['user']['email'] ?>" class="form-control" readonly id="inputName" required>
 								    <?php else: ?>
 									<input type="email" name='email' class="form-control" id="inputName" required>

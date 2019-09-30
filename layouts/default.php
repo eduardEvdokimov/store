@@ -384,7 +384,7 @@ $(document).ready(function() {
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
                     <button type="button" class="btn btn-danger clearCart <?= $hiddenCart ?>">Очистить корзину</button>
-                    <button type="button" class="btn btn-primary <?= $hiddenCart ?>" id='btn_addOrder'>Оформить заказ</button>
+                    <button type="button" class="btn btn-primary <?= $hiddenCart ?> btn_addOrder" >Оформить заказ</button>
                 </div>
             </div>
             
@@ -463,7 +463,9 @@ $(document).ready(function() {
     <!-- //countdown.js -->
     <!-- menu js aim -->
     <script src="<?= HOST ?>/js/jquery.menu-aim.js"> </script>
+    <script type="text/javascript" src='<?= HOST ?>/js/html.js'></script>
     <script src="<?= HOST ?>/js/main.js"></script> <!-- Resource jQuery -->
+    <script src="<?= HOST ?>/js/myjs.js"></script>
     <!-- //menu js aim --> 
     <!-- Bootstrap core JavaScript
     ================================================== -->

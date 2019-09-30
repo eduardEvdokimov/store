@@ -642,7 +642,7 @@
 }
 .fa-feed:before,
 .fa-rss:before {
-  content: "\f09e";
+  /*content: "\f09e"; */
 }
 .fa-hdd-o:before {
   content: "\f0a0";
@@ -1261,7 +1261,7 @@
   content: "\f17c";
 }
 .fa-dribbble:before {
-  content: "\f17d";
+  /*content: "\f17d"; */
 }
 .fa-skype:before {
   content: "\f17e";

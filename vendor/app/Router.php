@@ -13,7 +13,7 @@ class Router{
     {
         $this->dispatch();
     }
-#<i class="fa fa-gift" aria-hidden="true"></i>
+
     private function matchRoute($uri)
     {
         foreach(self::$routes as $regexp => $path){
@@ -23,9 +23,11 @@ class Router{
                         $this->route[$key] = urldecode($value);
                     }
                 }
-
+               
                 $controller = isset($m['controller']) ? $m['controller'] : $path['controller'];
-                $action = isset($m['action']) ? $m['action'] : 'index';
+                $action = isset($m['action']) ? $m['action'] : $path['action'];
+
+
                 $this->route['controller'] = $this->strToUpper($controller) ?: 'Index';
                 $this->route['action'] = $this->strToLower($action) ?: 'index';
                 $this->route['prefix'] = isset($path['prefix']) ? '/' . $path['prefix'] : '';

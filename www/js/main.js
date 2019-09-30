@@ -64,6 +64,11 @@ jQuery(document).ready(function($){
 
 /* custom script */
 
+
+
+
+
+
 $('.currency').click(function(){
     var currency = $(this).find('a').data('curr');
     var cookie = getCookie('currency');
@@ -136,15 +141,15 @@ $('#tabs li').click(function(){
 });
 
 
+$('.list_comments').on('click', '.btn_response_comment', function(){
+    $(this).closest('li').find('.footer_comment').prepend(form_response).validator('destroy').validator();
+    $(this).closest('li').find('.footer_response').addClass('disactive');
 
-$('.btn_response_comment').click(function(){
-    $(this).closest('li').find('.form_add_response').removeClass('disactive');
-    $(this).closest('li').find('#footer_response').addClass('disactive');
 });
 
-$('#close_form_add_response').click(function(){
-    $(this).closest('li').find('.form_add_response').addClass('disactive');
-    $(this).closest('li').find('#footer_response').removeClass('disactive');
+$('.list_comments').on('click', '#close_form_add_response', function(){
+    $(this).closest('li').find('.footer_response').removeClass('disactive');
+    $(this).closest('.form_add_response').remove();
 });
 
 $('.btn_view_responses').click(function(){
@@ -195,7 +200,7 @@ $('.addToCart').click(function(){
             if($('.modal-body').find('h3').attr('class') != 'hidden'){
                 $('.modal-body').find('h3').addClass('hidden');
                 $('.modal-body').find('table').removeClass('hidden');
-                $('.modal-footer').find('#btn_addOrder').removeClass('hidden');
+                $('.modal-footer').find('.btn_addOrder').removeClass('hidden');
                 $('.modal-footer').find('.clearCart').removeClass('hidden');
             }
             
@@ -249,7 +254,9 @@ $('.clearCart').click(function(){
             $('.modal-body').find('tbody').html(htmlSummCart);
             $('.modal-body').find('h3').removeClass('hidden');
             $('.modal-body').find('table').addClass('hidden');
-            $('#btn_addOrder').addClass('hidden');
+            $('.container').find('table').addClass('hidden');
+            $('.container').find('h3').removeClass('hidden');
+            $('.btn_addOrder').addClass('hidden');
             $('.clearCart').addClass('hidden');
             $('#countProductCart').html('');
             $('#countProductCart').addClass('hidden');
@@ -282,7 +289,9 @@ $('tbody').on('click', '.delProductCart', function(){
                 $('.modal-body').find('tbody').html(htmlSummCart);
                 $('.modal-body').find('h3').removeClass('hidden');
                 $('.modal-body').find('table').addClass('hidden');
-                $('#btn_addOrder').addClass('hidden');
+                $('.container').find('table').addClass('hidden');
+                $('.container').find('h3').removeClass('hidden');
+                $('.btn_addOrder').addClass('hidden');
                 $('.clearCart').addClass('hidden');
                 $('#countProductCart').html('');
                 $('#countProductCart').addClass('hidden');
@@ -414,8 +423,6 @@ $('#subReg').click(function(e){
         return;
     }
     
-    
-
     var checkValidPassword = false;
 
     $.each(regexps, function(index, item){
@@ -426,9 +433,6 @@ $('#subReg').click(function(e){
     });
 
     if(checkValidPassword) return;
-
-
-    
 
     formData['remember'] = $('.checkbox input[type=checkbox]').is(':checked');
 
@@ -441,7 +445,7 @@ $('#subReg').click(function(e){
         url: 'http://' + host + '/signup/new',
         data: request,
         type: 'post',
-        
+        dataType: 'json',
         success: function(data){
             console.log(data);
             if(data.type == 'valid'){
@@ -456,8 +460,9 @@ $('#subReg').click(function(e){
                 return;
             }
 
-            if(data == 'success')
-                document.location = 'http://' + host;
+            if(data == 'success'){
+                document.location = 'http://' + host + '/profile';
+            }
         },
         error: function(){
             alertDanger();
@@ -466,19 +471,19 @@ $('#subReg').click(function(e){
     });
 });
 
-$('#form_login input[type=submit]').click(function(e){
+$('#form-login-user input[type=submit]').click(function(e){
     e.preventDefault();
-    var formData = map('#form_login input');
+    var formData = map('#form-login-user input');
     var emptyField = filterEmptyField(formData);
 
     if(Object.keys(emptyField).length > 0){
         for(var key in formData) {
             if(key in emptyField){
                 //поле не заполнено
-                $('#form_login input[name=' + key + ']').css('border', '1px solid red');
+                $('#form-login-user input[name=' + key + ']').css('border', '1px solid red');
             }else{
                 //поле заполнено
-                $('#form_login input[name=' + key + ']').css('border', '1px solid silver');
+                $('#form-login-user input[name=' + key + ']').css('border', '1px solid silver');
             }
         }
         return;
@@ -554,17 +559,15 @@ $('.form_add_comment button[type=submit]').click(function(e){
         request += key + '=' + formData[key] + '&';
     }
 
-    console.log(formData);
-
+    console.log(request);
 
     $.ajax({
         url: 'http://' + host + '/comments/add',
         type: 'post',
         data: request,
-        
+        dataType: 'json',
         success: function(data){
             console.log(data);
-            return;
             if(data.type == 'mail_exist'){
                 if(form.find('.form-group .message-error-tooltip').length < 1){
                     var html = "<span class='message-error-tooltip'>Пользователь с таким адресом эл. почты уже зарегистрирован, авторизируйтесь&nbsp;";
@@ -575,10 +578,9 @@ $('.form_add_comment button[type=submit]').click(function(e){
 
             if(data.type == 'success'){
 
-
                 var html = '';
                 if(formData['type'] == 'otzuv'){
-                    html += "<li><p><b class='name_user'>"+data.data['name']+"</b>";
+                    html += "<li data-id='"+data.id+"'><p><b class='name_user'>"+data.data['name']+"</b>";
                    
                     html += "<div class='widget_stars'><ul>";
 
@@ -596,13 +598,17 @@ $('.form_add_comment button[type=submit]').click(function(e){
                     html += "<p><b style='color: black;'>Недостатки: </b>"+data.data['bad_comment']+"</p>";
                    
                 }else{
-                    html += "<li><p><b class='name_user'>"+data.data['name']+"</b>";
+                    html += "<li data-id='"+data.id+"'><p><b class='name_user'>"+data.data['name']+"</b>";
                     html += "<span class='date_comment'>"+data.data['date']+"</span></p><p style='clear: left;'>"+data.data['comment']+"</p>";
                 }
 
-                
-                html += "<div style='margin-top: 10px;'><button class='btn_response_comment'>&#8617;&nbsp;Ответить</button><div class='block_like_dislike'>";
-                html += "<i class='fas fa-thumbs-up like'></i>|<i class='fas fa-thumbs-down dislike'></i></div></div></li>";
+                html += "<div style='margin-top: 10px;' class='footer_comment'>";
+                html += "<div style='margin-top: 10px;' class='footer_response'><button class='btn_response_comment'>&#8617;&nbsp;Ответить</button><div class='block_like_dislike'>";
+                html += "<small class='c_like counter-like counter-like-dislike'></small>&nbsp;<i class='fas fa-thumbs-up like' data-type='enable'></i>&nbsp;|&nbsp;";
+                html += "<i class='fas fa-thumbs-down dislike' data-type='enable'></i>&nbsp;<small class='counter-like-dislike c_dis counter-dislike'></small>";
+                html += "</div></div></div></li>";
+
+            
                                     
                                 
                 $('.header_block_comments h3').find('p').html(Number($('.header_block_comments h3').find('p').html()) + 1);
@@ -623,9 +629,264 @@ $('.form_add_comment button[type=submit]').click(function(e){
             alertDanger();
         },
     });
+});
+
+
+$('#form-change-password button[type=submit]').click(function(e){
+    e.preventDefault();
+    var regexps = [/[A-ZА-Я]/, /\d+/];
+    var form = $('#form-change-password');
+    
+    var password = form.find('input[type=password]').val();
+    var checkValidPassword = false;
+
+    $.each(regexps, function(index, item){
+        if(!item.test(password) || $.trim(password).length < 6){
+            checkValidPassword = true;
+        }
+    });
+
+    if(checkValidPassword){
+        $('.notice-form').css('color', 'red');
+        return; 
+    }else{
+        $('.notice-form').css('color', '#999');
+    } 
+
+    $.ajax({
+        url: 'http://' + host + '/profile/set-password',
+        data: 'password=' + password,
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                alertSuccess('Пароль успешно изменен!');
+            }
+
+            setTimeout(function(){
+                document.location = 'http://' + host + '/profile';
+            }, 4000);
+
+        }, 
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+
+
+
+//Скрытие модальных окон после прогрузки страницы
+setTimeout(function(){
+        $('.alert').remove(); 
+    }, 5000);
+
+
+
+$('.login-body').on('click', '#form-restore-password input[type=submit]', function(e){
+    e.preventDefault();
+
+    var form = $('#form-restore-password');
+
+    var email = form.find('input[name=email]').val();
+    
+    if(email.match(/^\s*$/)){
+        //поле пустое
+        form.find('input[name=email]').css('border', '1px solid red');
+        return;
+    }else{
+        //поле заполнено
+        form.find('input[name=email]').css('border', '1px solid silver');
+    }
+    
+    $.ajax({
+        url: 'http://' + host + '/login/restore',
+        data: 'email=' + email,
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'error'){
+                $('.block-notice-form').removeClass('hidden').find('p').html(data.msg);
+            }
+
+            if(data.type == 'success'){
+                $('.block-notice-form').addClass('hidden').find('p').html('');
+                form.find('input[name=email]').addClass('hidden');
+                form.find('span').html('На Вашу почту отправлено письмо с кодом восстановления.');
+                form.find('input[type=submit]').val('Подтвердить');
+                form.find('input[name=code]').removeClass('hidden');
+                form.prop('action', 'http://' + host + '/login/checkCodeRestore').prop('id', 'form-check-code-restore');
+
+            }
+
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+
+$('.login-body').on('click', '#form-check-code-restore input[type=submit]', function(e){
+    e.preventDefault();
+
+    var form = $('#form-check-code-restore');
+
+    var code = form.find('input[name=code]').val();
+    
+    if(code.match(/^\s*$/)){
+        //поле пустое
+        form.find('input[name=code]').css('border', '1px solid red');
+        return;
+    }else{
+        //поле заполнено
+        form.find('input[name=code]').css('border', '1px solid silver');
+    }
+
+    $.ajax({
+        url: 'http://' + host + '/login/checkCodeRestore',
+        data: 'code=' + code,
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'error'){
+                $('.block-notice-form').removeClass('hidden').find('p').html(data.msg);
+            }
+
+            if(data.type == 'success')
+                document.location = 'http://' + host + '/profile/restorePassword';
+
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
 
 });
 
+$('#send_code_confirm_email').click(function(e){
+    e.preventDefault();
+    $.ajax({
+        url: 'http://' + host + '/profile/sendCodeConfirmEmail',
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            if(data.type == 'success')
+                alertNotice('На Вашу почту отправленно письмо.');
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+
+
+
+});
+
+$('#form-change-name-user button[type=submit]').click(function(e){
+    e.preventDefault();
+    var form = $('#form-change-name-user');
+    var field = map(form.find('input'));
+    var emptyField = filterEmptyField(field);
+    
+    if(!emptyField){
+        alertDanger('Заполните поля!');
+        return;
+    } 
+
+    var request = '';
+    for(var key in field){
+        request += key + '=' + field[key] + '&';
+    }
+    console.log(request);
+
+    $.ajax({
+        url: 'http://' + host + '/profile/change-name',
+        data: request,
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                alertSuccess('Изменения успешно применены!');
+
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+
+
+    });
+});
+
+
+$('#block-change-pass button[type=submit]').click(function(e){
+    e.preventDefault();
+    var regexps = [/[A-ZА-Я]/, /\d+/];
+    var form = $('#block-change-pass');
+    var field = map(form.find('input'));
+    var emptyField = filterEmptyField(field);
+    
+    if(!emptyField){
+        alertDanger('Заполните поля!');
+        return;
+    } 
+
+    var password = form.find('input[name=newPass]').val();
+    
+    var checkValidPassword = false;
+
+    $.each(regexps, function(index, item){
+        if(!item.test(password) || $.trim(password).length < 6){
+            checkValidPassword = true;
+        }
+    });
+
+    if(checkValidPassword){
+        $('.notice-form').css('color', 'red');
+        return; 
+    }else{
+        $('.notice-form').css('color', '#999');
+    } 
+
+    var request = '';
+    for(var key in field){
+        request += key + '=' + field[key] + '&';
+    }
+    console.log(request);
+
+    $.ajax({
+        url: 'http://' + host + '/profile/setNewPassword',
+        data: request,
+        type: 'post',
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'error'){
+                form.find('#notice').removeClass('hidden');
+                return;
+            }
+            $('#notice').addClass('hidden');
+
+            if(data.type == 'success'){
+                alertSuccess('Пароль успешно изменен!');
+            }
+        }, 
+        error: function(){
+            alertDanger();
+        }
+    });
+});
 
 });
 
@@ -661,11 +922,11 @@ function alertNotice(msg){
     $('.alert').remove(); 
     var alert = "<div class='alert alert-warning'><i class='fas fa-exclamation-circle'></i>&nbsp;"+msg;
     alert += "<button type='button' class='close' data-dismiss='alert'>×</button></div>";
-        
+
     $('body').append(alert);                                                      
     
     setTimeout(function(){
-        $('.alert').remove(); 
+        $('.alert').remove();
     }, 5000);
 }
 

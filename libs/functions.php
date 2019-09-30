@@ -41,6 +41,7 @@ function isAjax()
 
 function filterData($data)
 {
+    $result = false;
     foreach ($data as $key => $value) {
         $result[$key] = htmlspecialchars(trim($value));
     }

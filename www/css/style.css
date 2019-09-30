@@ -961,11 +961,11 @@ p {
 	background: transparent;
 }
 .social-icons ul li a.fa.fa-dribbble{
-    background: #ec4a89;
-	border-color:#ec4a89;
+    background: #4a76a8;
+	border-color:#4a76a8;
 }
 .social-icons ul li a.fa.fa-dribbble:hover {
-    color: #ec4a89;
+    color: #4a76a8;
 	background: transparent;
 }
 .social-icons ul li a.fa.fa-rss{
@@ -4069,6 +4069,19 @@ ul > li > p > .name_user{
     float: left;
 }
 
+.counter-like{
+    color: #80d8a4;
+}
+
+.counter-dislike{
+    color: #ffa6aa;
+}
+
+.counter-like-dislike{
+    font-size: 0.7em;
+    cursor: text;
+}
+
 .widget_stars ul{
     list-style: none;
 }
@@ -4148,21 +4161,24 @@ ul > li > p > .name_user{
 .like{
     cursor: pointer;
     color: #80d8a4; 
-    margin-right: 6px;
 }
 
 .dislike{
     cursor: pointer;
     color: #ffa6aa; 
-    margin-left: 6px;
-}
-
-.dislike:hover{
-    color: #ff7d82; 
 }
 
 .like:hover{
     color: #00af46;
+}
+
+.press{
+    color: silver;
+    cursor: default;
+}
+
+.dislike:hover{
+    color: #ff7d82; 
 }
 
 .block_like_dislike{
@@ -4482,6 +4498,7 @@ ul > li > p > .name_user{
     border-radius: 5px;
     margin-bottom: 20px;
     float: left;
+    width: 100%;
 }
 
 .block-notice-form img{
@@ -4666,6 +4683,16 @@ ul > li > p > .name_user{
     font-size: 1.3em;
 }
 
+#notice-msg-success-confirm{
+    background-color: #daffd1;
+    border: solid 1px rgb(16, 255, 0);
+    padding: 20px 15px;
+}
+
+#notice-msg-success-confirm p{
+    color: black;
+}
+
 #notice-msg-user-profice button{
     width: 150px;
     background: #0280e1;
@@ -4711,8 +4738,6 @@ ul > li > p > .name_user{
     width: 20%; 
     float: left;
 }
-
-
 
 .list-comments-user-profile ul li #img-left a img{
     width: 120px;

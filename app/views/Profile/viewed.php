@@ -1,7 +1,7 @@
 <div class='container'>
     <h3 class='w3ls-title <?= $hiddenH3 ?>'>Просмотренные товары</h3>
 
-    <div class="products-row">
+    <div class="products-row " style="margin-bottom: 30px;">
         <?php if(empty($products)): ?>
         <br>
         <h3>Список пуст</h3>
@@ -28,5 +28,6 @@
         <?php endif; ?>
 
         <div class="clearfix"> </div>
+        <?= $pagination->run(); ?>
     </div> 
 </div>

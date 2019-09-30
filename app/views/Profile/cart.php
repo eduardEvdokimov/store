@@ -1,8 +1,9 @@
-<div class='container'>
-    <h3 class='w3ls-title <?= $hiddenH3 ?>'>Корзина пуста</h3>
-                    
-
-    <table class="table table-striped table-sm <?= $hiddenCart ?>">
+<div class='container'>  
+    <h3 class='w3ls-title '>Корзина</h3> 
+    <?php $hiddenH3 = empty($cart['cart']) ? '' : 'hidden'; ?>
+    <h3 class='<?= $hiddenH3 ?>'>Корзина пуста</h3>
+    <?php if(!empty($cart['cart'])):  ?>
+    <table class="table table-striped table-sm">
         <thead>
             <tr>
                 <th>Фото</th>
@@ -38,6 +39,7 @@
 
         <?php endforeach; ?>
 
+        
         <tr class='result_line_catr' style="background: #b2ff96;">
             <th scope="row" colspan="2" >Итоговая сумма</th>
             <td></td>
@@ -50,8 +52,8 @@
     </table>
 
     <div style="float: right; margin-bottom: 30px;">
-        <button type="button" class="btn btn-danger clearCart <?= $hiddenCart ?>">Очистить корзину</button>
-        <button type="button" class="btn btn-primary <?= $hiddenCart ?>" id='btn_addOrder'>Оформить заказ</button>
+        <button type="button" class="btn btn-danger clearCart">Очистить корзину</button>
+        <button type="button" class="btn btn-primary btn_addOrder">Оформить заказ</button>
     </div>
-    
+    <?php endif; ?>
 </div>

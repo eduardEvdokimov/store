@@ -72,7 +72,7 @@ class CategoryController extends MainController
             $countProductOnePage = Register::get('config')['countProductOnePage'];
             $startProduct = ($currentPage - 1) * $countProductOnePage;
             
-            $sql = "SELECT * FROM product WHERE category_id=? ORDER BY id LIMIT {$startProduct},9";
+            $sql = "SELECT * FROM product WHERE category_id=? ORDER BY id LIMIT {$startProduct},{$countProductOnePage}";
             $sqlCountProduct = "SELECT COUNT(*) FROM product WHERE category_id=?";    
             $products = $db->execute($sql, [$currentCategory['id']]);
 

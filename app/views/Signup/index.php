@@ -24,11 +24,8 @@
             <div class="login-page-bottom social-icons">
                 <h5>Авторизация с помощью социальных сетей</h5>
                 <ul>
-                    <li><a href="#" class="fa fa-facebook icon facebook"> </a></li>
-                    <li><a href="#" class="fa fa-twitter icon twitter"> </a></li>
-                    <li><a href="#" class="fa fa-google-plus icon googleplus"> </a></li>
-                    <li><a href="#" class="fa fa-dribbble icon dribbble"> </a></li>
-                    <li><a href="#" class="fa fa-rss icon rss"> </a></li> 
+                    <li><a href="<?= $urlGoogle ?>" class="fa fa-google-plus icon googleplus"> </a></li>
+                    <li><a href="<?= $urlVk ?>" class="fa fa-dribbble icon dribbble"><i class="fab fa-vk"></i></a></li> 
                 </ul> 
             </div>  
         </div>

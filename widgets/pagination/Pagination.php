@@ -41,16 +41,13 @@ class Pagination
             $href = '?' . implode('&', $reqs);
         }
         
-        
         $this->href = HOST . $queryString[0] . $href;
-       
-        
     }
 
     private function calcCountPage()
     {
         if(!$this->countProduct && !$this->countProductOnePage) return false;
-        return round($this->countProduct / $this->countProductOnePage, 0, PHP_ROUND_HALF_UP);
+        return ceil($this->countProduct / $this->countProductOnePage);
     }
 
     public function getHtml()

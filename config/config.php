@@ -12,7 +12,17 @@ return [
         'home', 'carl', 'james', 'decor'
     ],
     'countProductOnePage' => 9,
-    'countProductSearchPage' => 12
+    'countProductSearchPage' => 12,
+
+    'vk' => [
+        'id' => 7149793,
+        'secret' => 'DvBWUAydgQTzE4Bkn1bu'
+    ],
+
+    'google' => [
+        'client_id' => '132807077636-a5lmcntf96ps8ok77lh8lh2as2n1gujr.apps.googleusercontent.com',
+        'client_secret' => 'lLboEmzHRAcpZgtHWfx0DGms'
+    ]
 ];
 
 
