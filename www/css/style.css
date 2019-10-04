@@ -4740,7 +4740,7 @@ ul > li > p > .name_user{
 }
 
 .list-comments-user-profile ul li #img-left a img{
-    width: 120px;
+    width: 90px;
     float: left;
     margin: 20% 0;
 }
@@ -4762,6 +4762,50 @@ ul > li > p > .name_user{
 .list-comments-user-profile ul li #article-right a{
     font-size: 1.5em;
 }
+
+.responses{
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+    clear: left;
+}
+
+.head-response{
+    font-size: 1.5em;
+    color: black;
+} 
+
+.body-response{
+    border-bottom: 1px solid silver;
+    margin-top: 10px;
+}
+
+.body-response:last-child{
+    border-bottom: none;
+}
+
+.body-response p{
+    color: black;
+}
+
+.body-response p span{
+    margin-left: 20px;
+}
+
+#add-comment{
+    width: 300px;
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    line-height: 0.9em;
+    background: #0280e1;
+    color: white;
+}
+
+#add-comment:hover{
+    background: #0862ff;
+}
+
 
 /* Страница пользователя */
 

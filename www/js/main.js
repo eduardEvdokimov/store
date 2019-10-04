@@ -152,15 +152,61 @@ $('.list_comments').on('click', '#close_form_add_response', function(){
     $(this).closest('.form_add_response').remove();
 });
 
-$('.btn_view_responses').click(function(){
-    $(this).closest('li').find('.block_responses').removeClass('disactive');
-    $(this).closest('li').find('#footer_response').addClass('disactive');
 
+$('.list_comments').on('click', '.btn_view_responses', function(){
+    var li = $(this).closest('li');
+    var comment_id = li.data('id');
+    var regexp = /product\/comments\/(\S+)$/;
+    var getAll = false;
+
+    if(regexp.exec(document.location.pathname)){
+        getAll = true;
+    }
+
+    var alias = document.location.pathname.match(/product\/(\w+)/);
+    if(alias){
+        alias = alias[1];
+    }
+    console.log(alias);
+
+
+    $.ajax({
+        url: 'http://' + host + '/comments/getResponse',
+        type: 'post',
+        data: 'comment_id=' + comment_id + '&getAll=' + getAll + '&alias=' + alias,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+            var list_responses = '';
+            if(data.type == 'success'){
+                list_responses += "<ul class='block_responses'><i class='fas fa-times close' id='close_form_responses_response'></i>";
+                $.each(data.responses, function(index, item){
+                    list_responses += "<li class='response'><p><b class='name_user'>"+item['name']+"</b>";
+                    list_responses += "<span class='date_comment'>"+item['date']+"</span></p>";
+                    list_responses += "<p style='clear: left;'>"+item['response']+"</p></li>";
+                });
+
+                if(data.checkAll){
+                    list_responses += "<li style='border-bottom: none; margin-top: 10px;'>";
+                    list_responses += "<a href='"+data.hrefGetAll+"' class='view_all_comments'>Смотреть все ответы&nbsp;&#8594;</a></li>";        
+                }
+
+                list_responses += "</ul>";
+
+                li.find('.footer_comment').after(list_responses);
+                li.find('.footer_response').addClass('disactive');
+                
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
 });
 
-$('#close_form_responses_response').click(function(){
-    $(this).closest('li').find('.block_responses').addClass('disactive');
-    $(this).closest('li').find('#footer_response').removeClass('disactive');
+$('.list_comments').on('click', '#close_form_responses_response', function(){
+    $(this).closest('li').find('.footer_response').removeClass('disactive');
+    $(this).closest('li').find('.block_responses').remove();
 });
 
 $('.bth_comment').click(function(){

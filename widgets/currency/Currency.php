@@ -62,7 +62,7 @@ class Currency
 
     public function getHtml()
     {
-        $li = file('C:\OSPanel\domains\store.loc\widgets\currency\layouts\view.html');
+        $li = file(WIDGET . '\currency\layouts\view.html');
         $html = '';
         
         foreach ($this->currencies as $curr) {

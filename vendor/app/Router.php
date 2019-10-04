@@ -62,6 +62,7 @@ class Router{
                     
                     if(method_exists($class_controller, $action)){
                         $class_controller->$action();
+
                         $class_controller->getView();
                     }else{
                         throw new \Exception('Метод ' . $action . ' класса - ' . $class_name . ' не найден', 500);

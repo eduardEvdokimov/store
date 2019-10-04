@@ -1,3 +1,4 @@
+// Форма добавления ответа на комментарий
 var form_response = "<div class='form_add_response'>";
 form_response += "<form data-toggle='validator' role='form'>";
 form_response += "<div class='form-group'><label for='comm' class='control-label'>Комментарий</label>";
@@ -17,3 +18,10 @@ if(!userAuth){
 form_response += "<div class='form-group' style='float: right;'><button type='submit' class='btn btn-primary'>Добавить</button>";
 form_response += "</div><button type='button' id='close_form_add_response' class='btn btn-danger' style='float: right; margin-right: 10px;'>Отмена</button>";
 form_response += "</form></div>";
+// Форма добавления ответа на комментарий
+
+// Список ответов на комментарий
+
+
+
+// Список ответов на комментарий

@@ -72,5 +72,34 @@ class Mail{
         $this->mailer->send($message);
     }
 
-    public function sendConfirmRegister($to){}
+    public function sendResponse($comment, $response)
+    {
+
+
+        $message = (new \Swift_Message())
+        ->setSubject('Ответ на Ваш отзыв')
+        ->setFrom($this->from, 'BestStore Smart')
+        ->setTo($this->to);
+
+        $inline_attachment = \Swift_Image::fromPath(HOST . '/images/' . $comment['img']);
+        $cid = $message->embed($inline_attachment);
+
+        ob_start();
+
+        
+
+        require VIEWS .  '/Mail/response_comment.php';
+
+        $mailBody = ob_get_clean();
+        
+
+        
+        $message->setBody($mailBody, 'text/html');
+
+        
+        
+        $this->mailer->send($message);
+    }
+
+
 }

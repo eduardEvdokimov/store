@@ -16,41 +16,25 @@
                     
                     <p><?= $comment['comment'] ?></p>
                 </div>
+
+                <?php if(isset($comment['responses'])): ?>
+                <div class='responses'>
+                <div class='head-response'>Ответы</div>
+                <?php foreach ($comment['responses'] as $response): ?>
+                <div class='body-response'>
+                    <p>
+                        <b><?= $response['name'] ?></b>&nbsp;<span><?= $response['date'] ?></span>
+                    </p>
+                    <p><?= $response['response'] ?></p>
+                </div>
+
+                <?php endforeach; ?>
+                    
+                </div>
+                <?php endif; ?>
+
             </li>
             <?php endforeach; ?>
-            <li>
-                <div id='img-left'>
-                    <a href=''><img src='<?= HOST ?>/images/asus/adf7f0ef166d1d475776bd68930e8c64.jpg' alt=''></a>
-                </div>
-                <div id='article-right'>
-                    <a href=''>Универсальный набор инструмента Alloid 3/8" 82 предмета (НИ-3082П)</a>
-                    <p><b>Эдуард Евдокимов</b>&nbsp;<span>20 сентября 2019</span></p>
-                    
-                    <p>Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий</p>
-                </div>
-            </li>
-            <li>
-                <div id='img-left'>
-                    <a href=''><img src='<?= HOST ?>/images/asus/adf7f0ef166d1d475776bd68930e8c64.jpg' alt=''></a>
-                </div>
-                <div id='article-right'>
-                    <a href=''>Универсальный набор инструмента Alloid 3/8" 82 предмета (НИ-3082П)</a>
-                    <p><b>Эдуард Евдокимов</b>&nbsp;<span>20 сентября 2019</span></p>
-                    
-                    <p>Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий</p>
-                </div>
-            </li>
-            <li>
-                <div id='img-left'>
-                    <a href=''><img src='<?= HOST ?>/images/asus/adf7f0ef166d1d475776bd68930e8c64.jpg' alt=''></a>
-                </div>
-                <div id='article-right'>
-                    <a href=''>Универсальный набор инструмента Alloid 3/8" 82 предмета (НИ-3082П)</a>
-                    <p><b>Эдуард Евдокимов</b>&nbsp;<span>20 сентября 2019</span></p>
-                    
-                    <p>Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий Комментарий</p>
-                </div>
-            </li>
 
         </ul>
     </div>

@@ -1,6 +1,3 @@
-
-
-	
 	<!-- breadcrumbs --> 
 	<div class="container"> 
 		<ol class="breadcrumb breadcrumb1">
@@ -123,6 +120,12 @@
 								<div style="margin-top: 10px;" class='footer_comment'>
 									<div style="margin-top: 10px;" class='footer_response'>
 									<button class='btn_response_comment' >&#8617;&nbsp;Ответить</button>
+									<?php if($comment['count_response'] > 0): ?>
+									<p class='btn_view_responses'>
+										<i class="far fa-comment"></i>
+										<span><?= $comment['count_response'] ?></span>&nbsp;ответ
+									</p>
+									<?php endif; ?>
 									<div class='block_like_dislike'>
 										<small class='c_like <?= ($comment['check_press_like'] == 'press') ? 'press' : 'counter-like' ?>  counter-like-dislike'><?= ($comment['plus_likes'] > 0) ? $comment['plus_likes'] : ''; ?>
 										</small>&nbsp;<i class="fas fa-thumbs-up <?= $comment['check_press_like'] ?>" data-type='<?= ($comment['check_press_like'] == 'press') ? 'disable' : 'enable' ?>'></i>&nbsp;|&nbsp;
@@ -141,6 +144,14 @@
 								<div style="margin-top: 10px;" class='footer_comment'>
 									<div style="margin-top: 10px;" class='footer_response'>
 									<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
+
+									<?php if($comment['count_response'] > 0): ?>
+									<p class='btn_view_responses'>
+										<i class="far fa-comment"></i>
+										<span><?= $comment['count_response'] ?></span>&nbsp;ответ
+									</p>
+									<?php endif; ?>
+
 									<div class='block_like_dislike'>
 										
 										<small class='c_like <?= ($comment['check_press_like'] == 'press') ? 'press' : 'counter-like' ?> counter-like-dislike'><?= ($comment['plus_likes'] > 0) ? $comment['plus_likes'] : ''; ?>
@@ -150,166 +161,14 @@
 									</div>
 								</div>
 							</li>
+
 							<?php endif; ?>
 							<?php endforeach; ?>
-
-							<li>
-								<p>
-									<b class="name_user">Эдуард Евдокимов</b>
-									<div class='widget_stars'>
-										<ul>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											
-										</ul> 
-									</div>
-									<span class='date_comment'>28 августа 2019</span>
-								</p>
-
-								<p style="clear: left;">
-									Текст отзыва Текст отзыва Текст отзыва  Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва  
-								</p>
-								<p>
-									<b style="color: black;">Достоинства: </b>Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст 
-								</p>
-								<p>
-									<b style="color: black;" >Недостатки: </b>Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст 
-								</p>
-								<div style="margin-top: 10px;" class='footer_comment'>
-									<div style="margin-top: 10px;" id='footer_response'>
-										<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
-
-										<p class='btn_view_responses'>
-											<i class="far fa-comment"></i>
-											<span>2</span> ответа
-										</p>
-
-										<div class='block_like_dislike'>
-											<i class="fas fa-thumbs-up like"></i>|<i class="fas fa-thumbs-down dislike"></i>
-										</div>
-									</div>
-
-
-									<div class='form_add_response disactive'>
-
-										<form data-toggle="validator" role="form">
-										  	<div class="form-group">
-											    <label for="inputName" class="control-label">Комментарий</label>
-											    <textarea class="form-control" rows="3" required></textarea>
-										  	</div>
-
-											<div class="form-group">
-											    <label for="inputName" class="control-label">Ваше имя и фамилия</label>
-											    <input type="text" class="form-control" id="inputName" pattern="^\S+\s\S+$" required>
-											</div>
-
-											<div class="form-group" >
-												<label for="inputName" class="control-label">Электронная почта</label>
-											    <input type="email" class="form-control" id="inputName" required>
-											</div>
-										
-											<!-- Если пользователь авторизован -->
-											<!--
-											<div class="form-group">
-											    <label for="inputName" class="control-label">Электронная почта</label>
-											    <input class="form-control" type="text" placeholder="index@mail.com" readonly>
-											</div>
-											-->
-											<!-- Если пользователь авторизован -->
-											
-											<div class="form-group" style="float: right;">
-												<button type="submit" class="btn btn-primary">Добавить</button>
-											</div>
-											<button type="button" id='close_form_add_response' class="btn btn-danger" style="float: right; margin-right: 10px;">Отмена</button>
-										</form>
-									
-									</div>
- 									
-
-									
-									<!-- Блок ответов на комментарий -->
-									
-									<ul class='block_responses disactive'>
-										<i class="fas fa-times close" id='close_form_responses_response'></i>
-										<li class="response">
-											<p>
-												<b class="name_user">Эдуард Евдокимов</b>
-												<span class='date_comment'>28 августа 2019</span>
-											</p>
-											<p style="clear: left;">
-												Текст отзыва Текст отзыва Текст отзыва  Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва  
-											</p>
-										</li>
-										<li class="response">
-											<p>
-												<b class="name_user">Эдуард Евдокимов</b>
-												<span class='date_comment'>28 августа 2019</span>
-											</p>
-											<p style="clear: left;">
-												Текст отзыва Текст отзыва Текст отзыва  Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва  
-											</p>
-										</li>
-										<li class="response">
-											<p>
-												<b class="name_user">Эдуард Евдокимов</b>
-												<span class='date_comment'>28 августа 2019</span>
-											</p>
-											<p style="clear: left;">
-												Текст отзыва Текст отзыва Текст отзыва  Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва  
-											</p>
-										</li>
-										<li style="border-bottom: none; margin-top: 10px;">
-											<a href='#' class='view_all_comments' style="">Смотреть все ответы&nbsp;&#8594;</a>
-										</li>
-									</ul>
-									
-
-									<!-- Блок ответов на комментарий -->
-
-									
-								</div>
-							</li>
-							<li>
-								<p>
-									<b class="name_user">Эдуард Евдокимов</b>
-									<div class='widget_stars'>
-										<ul>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-											
-										</ul> 
-									</div>
-									<span class='date_comment'>28 августа 2019</span>
-								</p>
-
-								<p style="clear: left;">
-									Текст отзыва Текст отзыва Текст отзыва  Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва Текст отзыва  
-								</p>
-								
-								<div style="margin-top: 10px;">
-									<button class='btn_response_comment'>&#8617;&nbsp;Ответить</button>
-
-									<p class='btn_view_responses'>
-										<i class="far fa-comment"></i>
-										2 ответа
-									</p>
-
-
-									<div class='block_like_dislike'>
-										<i class="fas fa-thumbs-up like"></i>|<i class="fas fa-thumbs-down dislike"></i>
-									</div>
-								</div>
-							</li>
-
+							
 							<li style="border-bottom: none;">
-								<a href='#' class='view_all_comments'>Смотреть все отзывы&nbsp;&#8594;</a>
+								<a href='<?= HOST ?>/product/comments/<?= $product['alias'] ?>' class='view_all_comments'>Смотреть все отзывы&nbsp;&#8594;</a>
 							</li>
+							
 						</ul>
 					</div>
 					

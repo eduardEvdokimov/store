@@ -143,10 +143,6 @@ $(document).ready(function() {
 <script type="text/javascript" src="<?= HOST ?>/js/jquery.autocomplete.js"></script>
 </head>
 <body>
-
-    
-
-
     <!-- header -->
     <div class="header">
         <div class="w3ls-header"><!--header-one--> 

@@ -4588,3 +4588,1419 @@
 Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
 Код ошибки: 300
 
+Замечание № 766: 01-10-2019 в 17:08:38
+Ошибка: Undefined index: count_response
+Строка: 145
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 767: 01-10-2019 в 19:23:05
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 768: 01-10-2019 в 19:23:12
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 769: 03-10-2019 в 10:11:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 770: 03-10-2019 в 10:23:44
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 771: 03-10-2019 в 10:57:29
+Ошибка: Array to string conversion
+Строка: 163
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 772: 03-10-2019 в 11:21:11
+Ошибка: Undefined variable: message
+Строка: 179
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 773: 03-10-2019 в 11:22:44
+Ошибка: Undefined variable: cid
+Строка: 148
+Файл: C:\OSPanel\domains\store.loc\app\views\Mail\response_comment.php
+Код ошибки: 300
+
+Замечание № 774: 03-10-2019 в 11:55:19
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 775: 03-10-2019 в 11:58:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 776: 03-10-2019 в 12:11:43
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 777: 03-10-2019 в 12:17:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 778: 03-10-2019 в 12:17:56
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 779: 03-10-2019 в 12:19:56
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 780: 03-10-2019 в 12:20:42
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 781: 03-10-2019 в 12:22:20
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 782: 03-10-2019 в 12:25:43
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 783: 03-10-2019 в 12:26:44
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 784: 03-10-2019 в 12:29:53
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 785: 03-10-2019 в 12:30:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 786: 03-10-2019 в 12:30:33
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 787: 03-10-2019 в 12:37:26
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 788: 03-10-2019 в 12:38:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 789: 03-10-2019 в 12:38:56
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 790: 03-10-2019 в 12:39:42
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 791: 03-10-2019 в 12:40:29
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 792: 03-10-2019 в 12:45:58
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 793: 03-10-2019 в 12:47:47
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 794: 03-10-2019 в 12:48:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 795: 03-10-2019 в 12:49:55
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 796: 03-10-2019 в 12:50:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 797: 03-10-2019 в 12:50:57
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 798: 03-10-2019 в 12:51:07
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 799: 03-10-2019 в 12:51:14
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 800: 03-10-2019 в 13:02:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 801: 03-10-2019 в 13:03:53
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 802: 03-10-2019 в 13:06:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 803: 03-10-2019 в 18:15:04
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 804: 03-10-2019 в 18:15:16
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 805: 03-10-2019 в 18:15:24
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 806: 03-10-2019 в 18:16:01
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 807: 03-10-2019 в 18:18:42
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 808: 03-10-2019 в 18:18:46
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 809: 03-10-2019 в 18:20:36
+Ошибка: Undefined variable: product
+Строка: 235
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 810: 03-10-2019 в 19:36:50
+Ошибка: Undefined variable: product
+Строка: 235
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 811: 03-10-2019 в 19:37:38
+Ошибка: Undefined variable: product
+Строка: 235
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 812: 03-10-2019 в 19:39:00
+Ошибка: Undefined variable: product
+Строка: 235
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 813: 03-10-2019 в 19:39:16
+Ошибка: Undefined variable: product
+Строка: 235
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 814: 03-10-2019 в 19:40:13
+Ошибка: Undefined variable: db
+Строка: 136
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 815: 03-10-2019 в 19:40:28
+Ошибка: Undefined variable: product
+Строка: 235
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 816: 03-10-2019 в 19:41:29
+Ошибка: Undefined variable: product
+Строка: 239
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 817: 03-10-2019 в 19:41:54
+Ошибка: Undefined variable: product
+Строка: 239
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 818: 03-10-2019 в 19:45:55
+Ошибка: Undefined variable: product
+Строка: 86
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 819: 03-10-2019 в 19:46:51
+Ошибка: Undefined variable: block_comments
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 820: 03-10-2019 в 19:47:14
+Ошибка: Undefined variable: block_comments
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 821: 03-10-2019 в 19:47:46
+Ошибка: Undefined variable: block_comments
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 822: 03-10-2019 в 19:48:07
+Ошибка: Undefined variable: block_comments
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 823: 03-10-2019 в 19:49:11
+Ошибка: Undefined variable: block_comments
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 824: 03-10-2019 в 19:50:12
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 825: 03-10-2019 в 19:50:50
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 826: 03-10-2019 в 19:50:57
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 827: 03-10-2019 в 19:53:56
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 828: 03-10-2019 в 19:54:40
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 829: 03-10-2019 в 19:55:09
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 830: 03-10-2019 в 19:56:31
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 831: 03-10-2019 в 19:56:53
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 832: 03-10-2019 в 19:57:02
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 833: 03-10-2019 в 19:57:45
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 834: 03-10-2019 в 19:58:00
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 835: 03-10-2019 в 19:58:28
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 836: 03-10-2019 в 19:59:02
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 837: 03-10-2019 в 19:59:13
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 838: 03-10-2019 в 19:59:20
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 839: 03-10-2019 в 19:59:57
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 840: 03-10-2019 в 20:00:33
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 841: 03-10-2019 в 20:03:25
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 842: 03-10-2019 в 20:09:02
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 843: 03-10-2019 в 20:09:24
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 844: 03-10-2019 в 20:10:35
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 845: 03-10-2019 в 20:11:26
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 846: 03-10-2019 в 20:12:50
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 847: 03-10-2019 в 20:13:10
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 848: 03-10-2019 в 20:18:02
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 849: 03-10-2019 в 20:18:35
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 850: 03-10-2019 в 20:19:03
+Ошибка: Undefined index: id
+Строка: 136
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 851: 03-10-2019 в 20:19:31
+Ошибка: Undefined index: id
+Строка: 136
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProductController.php
+Код ошибки: 300
+
+Замечание № 852: 03-10-2019 в 20:19:41
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 853: 03-10-2019 в 20:19:47
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 854: 03-10-2019 в 20:25:06
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 855: 03-10-2019 в 20:27:55
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 856: 03-10-2019 в 20:28:18
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 857: 03-10-2019 в 20:32:00
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 858: 03-10-2019 в 20:32:30
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 859: 03-10-2019 в 20:34:20
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 860: 03-10-2019 в 20:34:27
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 861: 03-10-2019 в 20:34:46
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 862: 03-10-2019 в 20:35:41
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 863: 03-10-2019 в 20:35:52
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 864: 03-10-2019 в 20:37:12
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 865: 03-10-2019 в 20:39:43
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 866: 03-10-2019 в 20:45:01
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 867: 03-10-2019 в 20:47:16
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 868: 03-10-2019 в 20:47:42
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 869: 03-10-2019 в 20:47:55
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 870: 03-10-2019 в 20:48:24
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 871: 03-10-2019 в 20:48:42
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 872: 03-10-2019 в 20:49:02
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 873: 03-10-2019 в 20:49:25
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 874: 03-10-2019 в 20:49:43
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 875: 03-10-2019 в 20:50:10
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 876: 03-10-2019 в 20:50:39
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 877: 03-10-2019 в 20:50:52
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 878: 03-10-2019 в 20:52:28
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 879: 03-10-2019 в 20:54:04
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 880: 03-10-2019 в 20:56:25
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 881: 03-10-2019 в 20:56:54
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 882: 03-10-2019 в 20:57:02
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 883: 03-10-2019 в 20:59:22
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 884: 03-10-2019 в 21:08:22
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 885: 03-10-2019 в 21:09:35
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 886: 03-10-2019 в 21:10:05
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 887: 03-10-2019 в 21:11:25
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 888: 03-10-2019 в 21:13:44
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 889: 03-10-2019 в 21:15:12
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 890: 03-10-2019 в 21:15:27
+Ошибка: Array to string conversion
+Строка: 237
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 891: 04-10-2019 в 11:10:41
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 892: 04-10-2019 в 11:11:07
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 893: 04-10-2019 в 11:11:23
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 894: 04-10-2019 в 11:11:34
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 895: 04-10-2019 в 11:11:44
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 896: 04-10-2019 в 11:36:58
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 897: 04-10-2019 в 11:37:18
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 898: 04-10-2019 в 11:37:48
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 899: 04-10-2019 в 11:38:26
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 900: 04-10-2019 в 11:38:56
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 901: 04-10-2019 в 11:39:57
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 902: 04-10-2019 в 11:40:07
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 903: 04-10-2019 в 11:42:46
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 904: 04-10-2019 в 11:42:54
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 905: 04-10-2019 в 11:46:25
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 906: 04-10-2019 в 11:46:45
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 907: 04-10-2019 в 11:48:17
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 908: 04-10-2019 в 11:48:41
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 909: 04-10-2019 в 11:50:33
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 910: 04-10-2019 в 11:53:14
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 911: 04-10-2019 в 11:55:59
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 912: 04-10-2019 в 11:56:44
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 913: 04-10-2019 в 12:01:06
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 914: 04-10-2019 в 12:01:11
+Ошибка: Undefined variable: alias
+Строка: 239
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CommentsController.php
+Код ошибки: 300
+
+Замечание № 915: 04-10-2019 в 12:02:47
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 916: 04-10-2019 в 12:13:11
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 917: 04-10-2019 в 12:13:32
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 918: 04-10-2019 в 12:14:47
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 919: 04-10-2019 в 12:18:23
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 920: 04-10-2019 в 12:20:01
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 921: 04-10-2019 в 12:20:26
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 922: 04-10-2019 в 12:21:11
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 923: 04-10-2019 в 12:22:37
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 924: 04-10-2019 в 12:23:22
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 925: 04-10-2019 в 12:26:38
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 926: 04-10-2019 в 12:28:06
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 927: 04-10-2019 в 12:29:00
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 928: 04-10-2019 в 12:29:27
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 929: 04-10-2019 в 12:29:45
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 930: 04-10-2019 в 12:30:11
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 931: 04-10-2019 в 12:30:16
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 932: 04-10-2019 в 12:30:51
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 933: 04-10-2019 в 12:33:31
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 934: 04-10-2019 в 12:36:49
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 935: 04-10-2019 в 12:36:56
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 936: 04-10-2019 в 12:38:48
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 937: 04-10-2019 в 12:39:14
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 938: 04-10-2019 в 12:40:40
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 939: 04-10-2019 в 12:41:31
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 940: 04-10-2019 в 12:42:05
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 941: 04-10-2019 в 12:43:30
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 942: 04-10-2019 в 12:43:51
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 943: 04-10-2019 в 12:44:46
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 944: 04-10-2019 в 15:28:34
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 945: 04-10-2019 в 15:28:38
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 946: 04-10-2019 в 15:30:11
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 947: 04-10-2019 в 15:30:36
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 948: 04-10-2019 в 15:31:18
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 949: 04-10-2019 в 15:31:24
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 950: 04-10-2019 в 15:32:17
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 951: 04-10-2019 в 15:33:58
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 952: 04-10-2019 в 15:34:45
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 953: 04-10-2019 в 15:35:18
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 954: 04-10-2019 в 15:35:47
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 955: 04-10-2019 в 15:36:16
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 956: 04-10-2019 в 15:36:26
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 957: 04-10-2019 в 15:38:29
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 958: 04-10-2019 в 15:39:07
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 959: 04-10-2019 в 15:40:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 960: 04-10-2019 в 15:40:17
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 961: 04-10-2019 в 15:40:30
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 962: 04-10-2019 в 15:42:15
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 963: 04-10-2019 в 15:45:52
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 964: 04-10-2019 в 15:46:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 965: 04-10-2019 в 15:46:02
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 966: 04-10-2019 в 15:48:29
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 967: 04-10-2019 в 15:49:01
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 968: 04-10-2019 в 15:52:50
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 969: 04-10-2019 в 15:53:07
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 970: 04-10-2019 в 15:55:20
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 971: 04-10-2019 в 15:55:37
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 972: 04-10-2019 в 15:55:48
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 973: 04-10-2019 в 15:57:14
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 974: 04-10-2019 в 15:58:59
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 975: 04-10-2019 в 16:00:37
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 976: 04-10-2019 в 16:02:29
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 977: 04-10-2019 в 16:02:34
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 978: 04-10-2019 в 16:03:22
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 979: 04-10-2019 в 16:05:24
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 980: 04-10-2019 в 16:05:41
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 981: 04-10-2019 в 16:05:44
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 982: 04-10-2019 в 16:06:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 983: 04-10-2019 в 16:06:30
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 984: 04-10-2019 в 16:06:59
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 985: 04-10-2019 в 16:07:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 986: 04-10-2019 в 16:08:08
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 987: 04-10-2019 в 16:08:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 988: 04-10-2019 в 16:08:41
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 989: 04-10-2019 в 16:09:36
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 990: 04-10-2019 в 16:10:14
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 991: 04-10-2019 в 16:11:58
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 992: 04-10-2019 в 16:13:47
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 993: 04-10-2019 в 16:14:35
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 994: 04-10-2019 в 16:15:21
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 995: 04-10-2019 в 16:18:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 996: 04-10-2019 в 16:19:51
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 997: 04-10-2019 в 16:20:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 998: 04-10-2019 в 16:20:19
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 999: 04-10-2019 в 16:20:22
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1000: 04-10-2019 в 16:20:52
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1001: 04-10-2019 в 17:01:04
+Ошибка: Undefined variable: product
+Строка: 99
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
+Код ошибки: 300
+

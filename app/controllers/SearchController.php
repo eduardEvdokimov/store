@@ -37,7 +37,6 @@ class SearchController extends MainController
         if(empty($search)) redirect(HOST);
 
         $db = Db::getInstance();
-        
 
         $products = $db->execute("SELECT * FROM product WHERE title LIKE (?) ORDER BY id LIMIT {$startProduct}, 12", ['%'.$search.'%']);
 

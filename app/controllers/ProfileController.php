@@ -70,40 +70,35 @@ class ProfileController extends MainController
             
             $startProduct = ($currentPage - 1) * $countProductOnePage;
 
-            $viewedProductsData = $model->db->query("SELECT * FROM product WHERE id IN ($viewedProducts) ORDER BY id LIMIT {$startProduct}, {$countProductOnePage}");
-            
-
-            if(strpos($viewedProducts, ',') !== false)
+            if(strpos($viewedProducts, ',') !== false){
                 $arrViewedProducts = explode(',', $viewedProducts);
-            else
+                $sql = implode(',', array_slice(explode(',', $viewedProducts), $startProduct, $countProductOnePage));
+            }
+            else{
                 $arrViewedProducts = [$viewedProducts];
-        
-            $countProduct = count($arrViewedProducts);
-
-
-            foreach ($viewedProductsData as $key => $value) {
-                $viewedProductsData[$value['id']] = $value;
+                $sql = $viewedProducts;
             }
 
-            
-            $count = 0;
+            $viewedProductsData = $model->db->query("SELECT * FROM product WHERE id IN ($sql)");
+
+            $countProduct = $db->query("SELECT COUNT(*) FROM product WHERE id IN ($viewedProducts)")[0]['COUNT(*)'];
+
             foreach ($viewedProductsData as $key => $value) {
-                if(isset($arrViewedProducts[$count]) && isset($viewedProductsData[$arrViewedProducts[$count]])){
-                    $sortViewedProducts[] = $viewedProductsData[$arrViewedProducts[$count]];
+                $arrNew[$value['id']] = $value;  
+            }
+
+            foreach ($arrViewedProducts as $key => $value) {
+                if(isset($arrNew[$value])){
+                    $sortViewedProducts[] = $arrNew[$value];
                 }
-                $count++;
             } 
 
             $products = $model->createDataProduct($sortViewedProducts);
         }
 
-       
-
         $pagination = new Pagination($countProduct, $countProductOnePage);
 
         $this->setParams(['products' => $products, 'pagination' => $pagination]);
-
-
     }
 
     public function desiresAction(){}
@@ -114,15 +109,32 @@ class ProfileController extends MainController
     {
         $db = Db::getInstance();
 
-        $comments = $db->query("SELECT comments.comment, comments.name, comments.date, product.title, product.alias, product.img FROM comments JOIN product ON comments.product_id=product.id WHERE comments.user_id={$_SESSION['user']['id']} ORDER BY date DESC");
+        $addTerm = '';
+        if(isset($this->route['id'])){
+            $addTerm = "AND comments.id={$this->route['id']}";
+        }
+
+        $comments = $db->query("SELECT comments.id, comments.comment, comments.name, comments.date, product.title, product.alias, product.img FROM comments JOIN product ON comments.product_id=product.id WHERE comments.user_id={$_SESSION['user']['id']} $addTerm ORDER BY date DESC");
 
         if(!empty($comments)){
             foreach ($comments as $key => $value) {
+                $responses = $db->query("SELECT name, response, date FROM response_comments WHERE comment_id={$value['id']} ORDER BY date DESC");
+                
+                if(!empty($responses)){
+                    foreach ($responses as $keyR => $response) {
+                        $response['date'] = newFormatDate($response['date']);
+                        $responses[$keyR] = $response;
+                    }
+
+                    $value['responses'] = $responses;
+                }
+
                 $value['date'] = newFormatDate($value['date']);
                 $comments[$key] = $value;
+                unset($responses);
             }
         }
-
+        
         $this->setParams(['comments' => $comments]);
     }
 

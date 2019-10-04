@@ -13,18 +13,7 @@
                 <div class="product-top">
                     <h4><?= $titleCategory ?></h4>
                     <?php if(!empty($products)): ?>
-                    <ul> 
-                        <li class="dropdown head-dpdn">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Сортировка<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">От дешевых к дорогим</a></li> 
-                                <li><a href="#">От дорогих к дешевым</a></li>
-                                <li><a href="#">Популярные</a></li> 
-                                <li><a href="#">Новинки</a></li>
-                                <li><a href="#">По рейтингу</a></li>  
-                            </ul> 
-                        </li>
-                    </ul> 
+                    <?= \widgets\sort\Sort::run($keySort); ?>
                     <?php endif; ?>
                     <div class="clearfix"> </div>
                 </div>

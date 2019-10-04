@@ -7,6 +7,7 @@ use \app\models\Breadcrumbs;
 use \store\Db;
 use \app\models\ProductModel;
 use \widgets\pagination\Pagination;
+use \widgets\sort\Sort;
 use \store\Register;
 
 class CategoryController extends MainController
@@ -16,8 +17,6 @@ class CategoryController extends MainController
         $alias = $this->route['alias'];
         
         $categories = Category::get();
-
-
 
         $currentCategory = 'all';
 
@@ -62,6 +61,9 @@ class CategoryController extends MainController
         }else{
             //Котегория показывающая список товаров
             $this->view = 'products';
+            $keySort = isset($_GET['sort']) ? $_GET['sort'] : '';
+            $sort = Sort::getTerm($keySort);
+
             $breadcrumbs = new Breadcrumbs($currentCategory['id'], $currentCategory['title']);
 
             $db = Db::getInstance();
@@ -72,7 +74,7 @@ class CategoryController extends MainController
             $countProductOnePage = Register::get('config')['countProductOnePage'];
             $startProduct = ($currentPage - 1) * $countProductOnePage;
             
-            $sql = "SELECT * FROM product WHERE category_id=? ORDER BY id LIMIT {$startProduct},{$countProductOnePage}";
+            $sql = "SELECT * FROM product JOIN product_info ON product.id=product_info.id_product WHERE category_id=? ORDER BY $sort LIMIT {$startProduct},{$countProductOnePage}";
             $sqlCountProduct = "SELECT COUNT(*) FROM product WHERE category_id=?";    
             $products = $db->execute($sql, [$currentCategory['id']]);
 
@@ -88,7 +90,7 @@ class CategoryController extends MainController
                 $products = [];
             }
 
-            $this->setParams(['breadcrumbs' => $breadcrumbs, 'products' => $products, 'pagination' => $pagination, 'titleCategory' => $currentCategory['title']]);
+            $this->setParams(['breadcrumbs' => $breadcrumbs, 'products' => $products, 'pagination' => $pagination, 'titleCategory' => $currentCategory['title'], 'keySort' => $keySort]);
         }
        
 
