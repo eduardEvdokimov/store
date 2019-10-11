@@ -13,13 +13,21 @@ class Authorization extends MainModel
                 'confirm' => false,
                 'auth' => false,
                 'remember' => false,
-                'fast' => false
+                'fast' => false 
             ]
         ];
 
         foreach ($session['user'] as $key => $value) {
             if(array_key_exists($key, $data)){
                 $session['user'][$key] = $data[$key];
+            }
+        }
+
+        foreach ($session as $key => $value) {
+            if(!is_array($value)){
+                if(array_key_exists($key, $data)){
+                    $session[$key] = $data[$key];
+                }
             }
         }
 
@@ -30,8 +38,7 @@ class Authorization extends MainModel
             'password' => $data['password'], 
         ];
 
-        $session['user'] = array_merge($session['user'], $user);
-
-        $_SESSION = $session;
+        $session = array_merge($session['user'], $user);
+        $_SESSION['user'] = $session;
     }
 }

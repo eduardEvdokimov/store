@@ -8,7 +8,7 @@
 	<!-- //breadcrumbs -->
 	<!-- products -->
 	<div class="products">	 
-		<div class="container">  
+		<div class="container" data-id='<?= $product['id'] ?>'>  
 			<div class="single-page">
 				<div class="single-page-row" id="detail-21">
 					<div class="col-md-6 single-top-left">	
@@ -60,8 +60,13 @@
 						<p class="single-price-text"><?= $product['little_specifications'] ?></p>
 						
 							<button data-id='<?= $product['id'] ?>' class="addToCart w3ls-cart" ><i class="fa fa-cart-plus" aria-hidden="true"></i>Купить</button>
-						
-						<button class="w3ls-cart w3ls-cart-like"><i class="fa fa-heart-o" aria-hidden="true"></i>В список желаний</button>
+						<?php if($product['wishlist']): ?>
+						<button class="w3ls-cart w3ls-cart-like" id='add-wish-list'>
+							<i class="fas fa-heart"></i>&nbsp;В списке желаний
+						</button>
+						<?php else: ?>
+						<button class="w3ls-cart w3ls-cart-like" id='add-wish-list'><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;В список желаний</button>
+						<?php endif; ?>
 						<button class="w3ls-cart w3ls-cart-like"><i class="fas fa-balance-scale"></i>&nbsp;К сравнению</button>
 					</div>
 				   <div class="clearfix"> </div>  

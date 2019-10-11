@@ -48,6 +48,13 @@ class ProductController extends MainController
 
         $product['rating'] = round($product['rating']);
 
+
+        if(isset($_SESSION['user']) && $_SESSION['user']['auth']){
+            $product['wishlist'] = WishlistController::check($product['id']);
+        }else{
+             $product['wishlist'] = false;
+        }
+
         $commentsData = $this->getComments($alias);
         $countComments = $commentsData['countComments'];
         $comments = $commentsData['comments'];

@@ -101,7 +101,34 @@ class ProfileController extends MainController
         $this->setParams(['products' => $products, 'pagination' => $pagination]);
     }
 
-    public function desiresAction(){}
+    public function desiresAction()
+    {
+        $lists = $this->db->query("SELECT wishlists.id, wishlists.name, wishlists.type_def FROM wishlists WHERE wishlists.user_id = {$_SESSION['user']['id']} ORDER BY wishlists.type_def DESC");
+
+        if(!empty($lists)){
+            $lists = $this->sortLists($lists);
+        }
+        
+        $this->setParams(['lists' => $lists]);
+    }
+
+    private function sortLists($lists)
+    {
+        $model = new ProductModel;
+        
+        foreach ($lists as $key => $value) {
+            $products = $this->db->query("SELECT * FROM product WHERE id IN (SELECT product_id FROM wishlist_product WHERE list_id={$value['id']})");
+            $summ = $this->db->query("SELECT SUM(price), COUNT(price) FROM product WHERE id IN (SELECT product_id FROM wishlist_product WHERE list_id={$value['id']})");
+            
+            if(!empty($products)){
+                $lists[$key]['products'] = $model->createDataProduct($products);
+                $lists[$key]['summ'] = $model->recalcPrice($summ[0]['SUM(price)']);
+                $lists[$key]['count'] = $summ[0]['COUNT(price)'];
+            }
+        }
+        
+        return $lists;
+    }
 
     public function ordersAction(){}
 

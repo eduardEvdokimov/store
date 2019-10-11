@@ -7,6 +7,75 @@ use \store\Register;
 
 class CartController extends MainController
 {
+
+    public function addListItemsAction()
+    {
+        $db = Db::getInstance();
+        $cart = !empty($_SESSION['cart']) ? json_decode($_SESSION['cart'], 1) : [];
+        $cartSumm = !empty($_SESSION['cart.summ']) ? $_SESSION['cart.summ'] : 0;
+        $cartCount = !empty($_SESSION['cart.count']) ? $_SESSION['cart.count'] : 0;
+        $currencies = Register::get('currencies');
+        $currentCurrency = Register::get('currentCurrency');
+        $ids = explode(',', $_POST['ids']);
+        
+        foreach ($ids as $key => $value) {
+            $product = '';
+            $id = $value;
+
+            foreach ($cart as $key => $item)
+                if($item['id'] == $id){
+                    $product = $item;
+                    $keyIssetProduct = $key;
+                    break;
+                }
+
+            
+            
+
+            
+            if(!$product){
+
+                $product = $db->execute('SELECT * FROM product WHERE id=?', [$id])[0];
+                $product['count'] = 1;
+
+                foreach ($currencies as $key => $currency) {
+                    if($currency['name'] == $currentCurrency){
+                        $currentCurrency = $currency;
+                    }
+                }
+                
+                $product['price'] = round($product['price'], 2);
+
+                if(!$currentCurrency['base']){
+                    $product['price'] = round($currentCurrency['value'] * $product['price'], 2);
+                }
+                $product['summ'] = $product['price'];
+                $cart[] = $product;
+
+            }else{
+                $product['count']++;
+                $product['summ'] = round($product['summ'] + $product['price'], 2);
+                $cart[$keyIssetProduct] = $product;
+            }
+            
+            $cartSumm = round($product['price'] + $cartSumm, 2);
+            $cartCount++;
+            
+            $result['cart.count'] = $cartCount;
+            $result['cart.summ'] = $cartSumm;
+            $result['products'] = $cart;
+
+        }
+        
+
+        $_SESSION['cart.count'] = $cartCount;
+        $_SESSION['cart.summ'] = $cartSumm;
+        $_SESSION['cart'] = json_encode($cart);
+
+        die(json_encode($result));
+    }
+
+
     public function addAction()
     {
         $db = Db::getInstance();
@@ -18,8 +87,6 @@ class CartController extends MainController
         $product = '';
         $id = $_POST['id'];
 
-        
-
         foreach ($cart as $key => $item)
             if($item['id'] == $id){
                 $product = $item;
@@ -30,7 +97,6 @@ class CartController extends MainController
         if(!$product){
             $product = $db->execute('SELECT * FROM product WHERE id=?', [$id])[0];
             $product['count'] = 1;
-
 
             foreach ($currencies as $key => $currency) {
                 if($currency['name'] == $currentCurrency){
@@ -169,8 +235,6 @@ class CartController extends MainController
 
         echo '';
         die;
-
-
     }
 
     public static function recalc($cart, $newCurrency)

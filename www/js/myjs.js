@@ -244,13 +244,454 @@ $('#sort-product li a').click(function(e){
     if(item.is('.active'))
         return;
 
+    //Доделать сортировку
+
+});
+
+
+
+$('#add-wish-list').click(function(){
     
+    if(!userAuth){
+        alertDanger('Вы не авторизованы!');
+        return;
+    }
+
+    if($(this).attr('data-type') == 'added'){
+        document.location = 'http://' + host + '/profile/desires';
+        return;
+    }
+
+    var id = $(this).closest('.container').data('id');
+    
+    $.ajax({
+        url: 'http://' + host + '/wishlist/addProduct',
+        type: 'post',
+        data: 'id=' + id,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                alertSuccess('Товар добавлен в список желаний!');
+
+                if($('#wishlist').find('span').length){     
+                    $('#wishlist').find('span').html(Number($('#wishlist').find('span').html()) + 1);
+                }
+                else{
+                    $('#wishlist button').after('<span>1</span>');
+                }
+
+                $('#add-wish-list').html('<i class="fas fa-heart"></i>&nbsp;' + 'В списке желаний');
+                $('#add-wish-list').attr('data-type', 'added');
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$('#wishlist').click(function(){
+     if(!userAuth){
+        alertNotice('Чтобы использовать список желаний необходимо авторизоваться!');
+        return;
+     }
+     document.location = 'http://' + host + '/profile/desires';
+});
+
+$('#btn-add-wishlist').click(function(){
+    if($('#block-add-wishlist').is('.hidden')){
+        $('#block-add-wishlist').removeClass('hidden');
+    }
+    $('.container-add-wishlist').find('input[name=name]').focus();
+});
+
+$('#block-add-wishlist #exit').click(function(){
+    $('#block-add-wishlist').addClass('hidden');
+    $('.container-add-wishlist').find('input[type=text]').val('');
+    $('.container-add-wishlist').find('.form-group').removeClass('has-error')
+
+});
+
+$('#block-add-wishlist #save').click(function(e){
+    e.preventDefault();
+    var name = $(this).prev('.form-group').find('input').val();
+    var regexp = /\S+/;
+
+    if(!regexp.test(name)){
+        $(this).prev('.form-group').addClass('has-error');
+        return;
+    }
+
+    $(this).prev('.form-group').removeClass('has-error');
+
+    $.ajax({
+        url: 'http://' + host + '/wishlist/addList',
+        type: 'post',
+        data: 'name=' + name, 
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                $('.container-add-wishlist').find('input[type=text]').val('');
+                var html = "<div class='products-row wishlist' data-id='"+data.id+"'><div class='container-head-list'>";
+                html += "<div class='head-list'><h3>" + data.name + "</h3>";
+                html += "<i class='far fa-edit' title='Переименовать список желаний'></i><p class='btn-wishlist' id='btn-del-wishlist'>Удалить список</p>";
+                if(data.default)
+                    html += "<p><i class='fas fa-check'></i>&nbsp;Список по умолчанию</p>";
+                else
+                    html += "<p class='btn-wishlist' id='select-def-wishlist'>Сделать по умолчанию</p>";
+
+                html += "</div></div><div class='container-change-name-wishlist hidden'></div><p id='msg-empty-wishlist'>Ваш список желаний пока пуст</p></div>";
+
+                $('#cont-body #block-add-wishlist').after(html);
+                $('#block-add-wishlist').addClass('hidden');
+                $('.msg-empty').addClass('hidden');
+                alertSuccess('Список желаний успешно создан!');
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$('#cont-body').on('click', '#btn-del-wishlist', function(){
+    var list = $(this).closest('.wishlist');
+    var c_items = list.find('.product-grids');
+    var list_id = list.data('id');
+
+    $.ajax({
+        url: 'http://' + host + '/wishlist/remove',
+        type: 'post',
+        data: 'id=' + list_id,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                list.remove();
+                alertSuccess('Список успешно удален!');
+
+                if(!$('.product-grids').length)
+                    $('#wishlist span').remove();
+                else
+                    $('#wishlist span').html(Number($('#wishlist span').html()) - c_items);
+
+                if(!$('.wishlist').not('#block-add-wishlist').length){
+                    $('#block-add-wishlist').after("<h3 class='msg-empty'>У вас пока нет списка желаний</h3>");
+                }
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$('#cont-body').on('click', '#select-def-wishlist', function(){
+    var list = $(this).closest('.wishlist');
+    var list_id = list.data('id');
+
+    $.ajax({
+        url: 'http://' + host + '/wishlist/newDefault',
+        type: 'post',
+        data: 'id=' + list_id,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                alertSuccess('Список по умолчанию успешно изменен!');
+
+                $('.head-list p .fa-check').closest('p').html('Сделать по умолчанию').attr('id', 'select-def-wishlist').addClass('btn-wishlist');
+                list.find('#select-def-wishlist').html('<i class="fas fa-check"></i>&nbsp;Список по умолчанию');
+                list.find('.head-list p .fa-check').closest('p').removeAttr('id').removeClass('btn-wishlist');
+
+
+                if(!$('.wishlist').not('#block-add-wishlist').length){
+                    $('#block-add-wishlist').after("<h3 class='msg-empty'>У вас пока нет списка желаний</h3>");
+                }
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$('#cont-body').on('click', '.fa-edit', function(){
+    var list = $(this).closest('.wishlist');
+    var name = list.find('.container-head-list .head-list h3').html();
+
+    $(document).find('.container-change-name-wishlist').html('').addClass('hidden');
+    $(document).find('.container-head-list').removeClass('hidden');
+
+    list.find('.container-change-name-wishlist').removeClass('hidden').html(form_change_name_wishlist).find('#newName').val(name).select();
+    list.find('.container-head-list').addClass('hidden');
+});
+
+$('#cont-body').on('click', '.container-change-name-wishlist #exit', function(e){
+    $(this).closest('.container-change-name-wishlist').addClass('hidden').html('');
+    $('.container-head-list').removeClass('hidden');
+});
+
+$('#cont-body').on('click', '.container-change-name-wishlist #save', function(e){
+    e.preventDefault();
+    
+    var list = $(this).closest('.wishlist');
+    var list_id = list.data('id');
+    var name = list.find('.container-change-name-wishlist input[type=text]').val();
+
+    var regexp = /\S+/;
+
+    if(!regexp.test(name)){
+        list.find('.form-group').addClass('has-error');
+        return;
+    }
+
+    list.find('.form-group').removeClass('has-error');
+    
+    $.ajax({
+        url: 'http://' + host + '/wishlist/changeName',
+        type: 'post',
+        data: 'id=' + list_id + '&name=' + name,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                list.find('.head-list h3').html(data.name);
+                list.find('.container-change-name-wishlist').html('').addClass('hidden');
+                list.find('.container-head-list').removeClass('hidden');
+                alertSuccess('Название списка успешно изменено!');
+            }
+
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+
+$('.wishlist .fa-times-circle').click(function(){
+    var item = $(this).closest('.product-grids');
+    var product_id = item.data('id');
+    var list_id = item.closest('.wishlist').data('id');
+
+    $.ajax({
+        url: 'http://' + host + '/wishlist/delItem',
+        type: 'post',
+        data: 'product_id=' + product_id + '&list_id=' + list_id,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                if(data.count > 0){
+                    var p = item.closest('.wishlist').find('.container-head-list .final-summ p');
+                    console.log(p);
+                    p.find('#count-product-wishlist').html(data.count);
+                    p.find('#price').html(data.summ+'&nbsp;'+simbolCurrency);
+                    $('#wishlist').find('span').html(Number($('#wishlist').find('span').html()) - 1);
+                }else{
+                    item.closest('.wishlist').find('.container-head-list .final-summ').remove();
+                    item.closest('.wishlist').find('.container-change-name-wishlist').after("<p id='msg-empty-wishlist'>Ваш список желаний пока пуст</p>");
+                    $('#wishlist button').next('span').remove();
+                }
+
+                item.remove();
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$(":checkbox").change(function(){
+    if(this.checked){
+        $(this).closest('.product-grids').attr('data-check', 'check');
+    }else{
+        $(this).closest('.product-grids').attr('data-check', 'uncheck');
+    }
+
+    //console.log($(this).closest('.chkbox-wishlist').find('h6').html());
+
+    //var price = Number($(this).closest('.chkbox-wishlist').find('h6').html().match(/&nbsp;([0-9.]+)&nbsp;/)[1]);
+    var price = 0;
+    var count = 0;
+    console.log($(this).closest('.wishlist').find('.product-grids[data-check=check]'));
+    $.each($(this).closest('.wishlist').find('.product-grids[data-check=check]'), function(index, item){
+        price += Number($(item).find('h6').html().match(/&nbsp;([0-9.]+)&nbsp;/)[1]);
+        count++;
+    });
+    price = Math.round(price * 100) / 100;
+    $(this).closest('.wishlist').find('.final-summ #count-product-wishlist').html(count);
+    var newPrice = $(this).closest('.wishlist').find('.final-summ #price').html().replace(/([0-9.]+)(.*)/, price+'$2');
+    $(this).closest('.wishlist').find('.final-summ #price').html(newPrice);
+
+
+
+    if(price == 0){
+        var count = $(this).closest('.wishlist').find('.product-grids').length;
+        var price = 0;
+        $.each($(this).closest('.wishlist').find('.product-grids'), function(index, item){
+            price += Number($(item).find('h6').html().match(/&nbsp;([0-9.]+)&nbsp;/)[1]);
+        });
+        price = Math.round(price * 100) / 100;
+        var newPrice = $(this).closest('.wishlist').find('.final-summ #price').html().replace(/([0-9.]+)(.*)/, price+'$2');
+        $(this).closest('.wishlist').find('.final-summ #count-product-wishlist').html(count);
+        $(this).closest('.wishlist').find('.final-summ #price').html(newPrice);
+        $(this).closest('.wishlist').find('#btn-del-arr-wishlist').addClass('hidden');
+    }else{
+        $(this).closest('.wishlist').find('#btn-del-arr-wishlist').removeClass('hidden');
+    }
+});
+
+$('#cont-body').on('click', '#btn-del-arr-wishlist', function(){
+    var list = $(this).closest('.wishlist');
+    var list_id = list.data('id');
+    var product_ids = new Array;
+    $.each(list.find('.product-grids[data-check=check]'), function(index, item){
+        product_ids.push($(item).data('id'));
+    });
+    
+    $.ajax({
+        url: 'http://' + host + '/wishlist/delProducts',
+        type: 'post',
+        data: 'list_id=' + list_id + '&product_ids=' + product_ids,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                var c_product = list.find('.product-grids').length;
+
+                $.each(list.find('.product-grids[data-check=check]'), function(index, item){
+                    $(item).remove();
+                });
+
+                if(list.find('.product-grids').length > 0){
+                    
+                    var price = 0;
+                    $.each(list.find('.product-grids'), function(index, item){
+                        price += Number($(item).find('h6').html().match(/&nbsp;([0-9.]+)&nbsp;/)[1]);
+                    });
+
+                    price = Math.round(price * 100) / 100;
+                    var newPrice = list.find('.final-summ #price').html().replace(/([0-9.]+)(.*)/, price+'$2');
+                    list.find('.final-summ #price').html(newPrice);
+
+                    $('#wishlist span').html(c_product - product_ids.length);
+                    
+                    list.find('#count-product-wishlist').html(c_product - product_ids.length);
+                }else{
+                    $('#wishlist span').remove();
+                    list.find('.container-head-list .final-summ').remove();
+                    list.find('.container-change-name-wishlist').after("<p id='msg-empty-wishlist'>Ваш список желаний пока пуст</p>");
+                }
+
+                list.find('#btn-del-arr-wishlist').addClass('hidden');
+                alertSuccess('Товары успешно удалены из списка!');
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$('#add-to-cart-from-wishlist').click(function(){
+
+    var list = $(this).closest('.wishlist');
+    var ids = new Array;
+
+    if(list.find('.product-grids[data-check=check]').length){
+        //есть отмеченные товары
+        $.each(list.find('.product-grids[data-check=check]'), function(index, item){
+            ids.push($(item).data('id'));
+        });
+    }else{
+        $.each(list.find('.product-grids'), function(index, item){
+            ids.push($(item).data('id'));
+        });
+    }
+
+    $.ajax({
+        url: 'http://' + host + '/cart/addListItems',
+        type: 'post',
+        data: 'ids=' + ids,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if($('.modal-body').find('h3').attr('class') != 'hidden'){
+                $('.modal-body').find('h3').addClass('hidden');
+                $('.modal-body').find('table').removeClass('hidden');
+                $('.modal-footer').find('.btn_addOrder').removeClass('hidden');
+                $('.modal-footer').find('.clearCart').removeClass('hidden');
+            }
+            
+            $('.modal-body tbody').html();
+            var htmlSummCart = "<tr class='result_line_catr' style='background: #b2ff96;'></tr>";
+            $('.modal-body').find('tbody').html(htmlSummCart);
+
+            $.each(data['products'], function(index, item){
+                var html = "<tr data-id='"+item['id']+"'><td><img src='http://"+host+"/images/" + item['img'] + "' alt='img' style='width: 60px; '>";
+                html += "</td><td style='width: 50%;'><a href='http://"+host+'/product/'+item['alias']+"'>"+ item['title'] +"</a></td>";
+                html += "<td class='price'>" + simbolCurrency + '&nbsp;' + item['price'] +"</td><td><div><button class='btn_box_number delCountProduct'>&#8212;</button>";
+                html += "<input type='text' class='box_number' maxlength='3' readonly value='"+item['count']+"'><button class='btn_box_number addCountProduct'>+</button></div></td>";
+                html += "<td class='summProduct'>" + simbolCurrency + '&nbsp;'+ item['summ'] +"</td>";
+                html += "<td><span style='cursor: pointer;' class='glyphicon glyphicon-remove text-danger del-item delProductCart' aria-hidden='true'></span></td></tr>";
+
+
+                $('.modal-body tbody').prepend(html);
+            });
+                        
+            var resultCart = "<th scope='row' colspan='2' >Итоговая сумма</th><td></td>";
+            resultCart += "<td></td><td class='final_price' style='background: #0280e1;' colspan='2'><span>"+simbolCurrency+'&nbsp;'+data['cart.summ']+"</span></td>";   
+                                
+            $('.result_line_catr').html(resultCart);
+
+            if($('#countProductCart').attr('class') == 'hidden'){
+                $('#countProductCart').removeClass('hidden');
+                $('#countProductCart').html(ids.length);
+            }else{
+                var count = Number($('#countProductCart').html());
+                count += ids.length;
+                $('#countProductCart').html(count);
+            }
+
+            $.each(list.find('.product-grids[data-check=check]'), function(index, item){
+                $(item).attr('data-check', 'uncheck');
+                $(item).find('#container input[type=checkbox]').removeAttr('checked');
+            });
+
+            list.find('#count-product-wishlist').html(list.find('.product-grids').length);
+            var price = 0;
+            $.each(list.find('.product-grids'), function(index, item){
+                price += Number($(item).find('h6').html().match(/&nbsp;([0-9.]+)&nbsp;/)[1]);
+            });
+
+            price = Math.round(price * 100) / 100;
+            var newPrice = list.find('.final-summ #price').html().replace(/([0-9.]+)(.*)/, price+'$2');
+            list.find('.final-summ #price').html(newPrice);
+
+            list.find('#btn-del-arr-wishlist').addClass('hidden');
+            $('.modal').modal();
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
 
 
 
 
 });
-
-
 
 });

@@ -20,8 +20,11 @@ form_response += "</div><button type='button' id='close_form_add_response' class
 form_response += "</form></div>";
 // Форма добавления ответа на комментарий
 
-// Список ответов на комментарий
 
+// Форма изменения названия списка желаний
+var form_change_name_wishlist = "<form method='post' action='wishlist/changeName'><div class='form-group'>";
+form_change_name_wishlist += "<input type='text' id='newName' class='form-control'></div>";
+form_change_name_wishlist += "<input type='submit' id='save' value='Сохранить'>";
+form_change_name_wishlist += "<input type='button' id='exit' value='Отмена'></form>";
+// Форма изменения названия списка желаний
 
-
-// Список ответов на комментарий

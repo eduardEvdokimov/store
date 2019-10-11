@@ -3,16 +3,24 @@
 namespace app\controllers;
 
 use \store\base\Controller;
-use \store\Register;
+use \store\{Register, Db};
+
 
 class MainController extends Controller
 {
+    protected $db;
+
     public function __construct($route)
     {
         parent::__construct($route);
+        $db = Db::getInstance();
+        $this->db = $db;
+        $wishCount = 0;
 
         $cart = CartController::getAll();
-        
+        if(isset($_SESSION['user']) && $_SESSION['user']['auth'])
+            $wishCount = WishlistController::getCount();
+
         $cart['cart'] = array_reverse($cart['cart']);
 
         $hiddenCounterCart = 'hidden';
@@ -29,7 +37,7 @@ class MainController extends Controller
             $nameDrpMenuUser = $_SESSION['user']['name'];
         }
 
-        $this->setParams(['cart' => $cart, 'userAuth' => $userAuth, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart, 'nameDrpMenuUser' => $nameDrpMenuUser]);
+        $this->setParams(['cart' => $cart, 'userAuth' => $userAuth, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart, 'nameDrpMenuUser' => $nameDrpMenuUser, 'wishCount' => $wishCount]);
     }
 
     

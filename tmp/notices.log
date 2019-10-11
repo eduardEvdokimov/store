@@ -6004,3 +6004,1317 @@
 Файл: C:\OSPanel\domains\store.loc\app\controllers\CategoryController.php
 Код ошибки: 300
 
+Замечание № 1002: 05-10-2019 в 08:49:54
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1003: 05-10-2019 в 08:50:03
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1004: 05-10-2019 в 08:50:12
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1005: 05-10-2019 в 12:20:43
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1006: 05-10-2019 в 17:21:39
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1007: 05-10-2019 в 17:21:44
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1008: 05-10-2019 в 17:22:14
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1009: 05-10-2019 в 17:23:16
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 1010: 05-10-2019 в 17:23:30
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 1011: 05-10-2019 в 17:23:49
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 1012: 09-10-2019 в 15:56:41
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1013: 09-10-2019 в 15:56:47
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1014: 09-10-2019 в 15:57:29
+Ошибка: Undefined variable: block_comments
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\comments.php
+Код ошибки: 300
+
+Замечание № 1015: 09-10-2019 в 16:12:32
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1016: 09-10-2019 в 17:25:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1017: 09-10-2019 в 17:25:36
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1018: 09-10-2019 в 17:32:14
+Ошибка: Undefined variable: nameDrpMenuUserw
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\controllers\MainController.php
+Код ошибки: 300
+
+Замечание № 1019: 09-10-2019 в 17:51:35
+Ошибка: Undefined variable: wishCount
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\controllers\MainController.php
+Код ошибки: 300
+
+Замечание № 1020: 09-10-2019 в 19:34:18
+Ошибка: Undefined index: wishlist
+Строка: 63
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 1021: 10-10-2019 в 09:46:49
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1022: 10-10-2019 в 09:47:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1023: 10-10-2019 в 09:48:57
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1024: 10-10-2019 в 09:49:14
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1025: 10-10-2019 в 09:50:19
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1026: 10-10-2019 в 09:55:55
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1027: 10-10-2019 в 09:59:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1028: 10-10-2019 в 09:59:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1029: 10-10-2019 в 10:00:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1030: 10-10-2019 в 10:00:55
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1031: 10-10-2019 в 10:01:17
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1032: 10-10-2019 в 10:01:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1033: 10-10-2019 в 10:02:26
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1034: 10-10-2019 в 10:02:58
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1035: 10-10-2019 в 10:04:28
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1036: 10-10-2019 в 10:06:49
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1037: 10-10-2019 в 10:10:31
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1038: 10-10-2019 в 10:30:26
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1039: 10-10-2019 в 10:30:29
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1040: 10-10-2019 в 10:30:57
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1041: 10-10-2019 в 10:31:31
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1042: 10-10-2019 в 10:32:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1043: 10-10-2019 в 10:33:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1044: 10-10-2019 в 10:33:32
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1045: 10-10-2019 в 10:34:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1046: 10-10-2019 в 10:35:47
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1047: 10-10-2019 в 10:36:16
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1048: 10-10-2019 в 10:36:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1049: 10-10-2019 в 10:38:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1050: 10-10-2019 в 10:38:30
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1051: 10-10-2019 в 10:39:15
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1052: 10-10-2019 в 10:41:40
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1053: 10-10-2019 в 10:49:51
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1054: 10-10-2019 в 10:50:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1055: 10-10-2019 в 10:51:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1056: 10-10-2019 в 10:52:04
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1057: 10-10-2019 в 10:54:35
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1058: 10-10-2019 в 10:55:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1059: 10-10-2019 в 10:56:56
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1060: 10-10-2019 в 10:58:32
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1061: 10-10-2019 в 11:00:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1062: 10-10-2019 в 11:00:24
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1063: 10-10-2019 в 11:01:03
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1064: 10-10-2019 в 11:01:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1065: 10-10-2019 в 11:01:18
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1066: 10-10-2019 в 11:02:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1067: 10-10-2019 в 11:02:26
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1068: 10-10-2019 в 11:03:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1069: 10-10-2019 в 11:06:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1070: 10-10-2019 в 11:08:16
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1071: 10-10-2019 в 11:09:03
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1072: 10-10-2019 в 11:09:44
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1073: 10-10-2019 в 11:10:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1074: 10-10-2019 в 11:10:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1075: 10-10-2019 в 11:10:31
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1076: 10-10-2019 в 11:22:28
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1077: 10-10-2019 в 11:23:19
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1078: 10-10-2019 в 17:38:16
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1079: 10-10-2019 в 17:40:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1080: 10-10-2019 в 17:41:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1081: 10-10-2019 в 17:41:29
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1082: 10-10-2019 в 17:41:43
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1083: 10-10-2019 в 17:43:47
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1084: 10-10-2019 в 17:44:18
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1085: 10-10-2019 в 17:44:27
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1086: 10-10-2019 в 17:45:07
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1087: 10-10-2019 в 17:45:30
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1088: 10-10-2019 в 17:46:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1089: 10-10-2019 в 17:46:17
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1090: 10-10-2019 в 17:48:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1091: 10-10-2019 в 17:53:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1092: 10-10-2019 в 17:55:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1093: 10-10-2019 в 17:55:56
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1094: 10-10-2019 в 17:56:38
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1095: 10-10-2019 в 18:01:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1096: 10-10-2019 в 18:03:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1097: 10-10-2019 в 18:06:25
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1098: 10-10-2019 в 18:08:35
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1099: 10-10-2019 в 18:09:17
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1100: 10-10-2019 в 18:15:24
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1101: 10-10-2019 в 18:16:35
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1102: 10-10-2019 в 18:16:47
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1103: 10-10-2019 в 18:17:28
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1104: 10-10-2019 в 18:19:49
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1105: 10-10-2019 в 18:22:04
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1106: 10-10-2019 в 18:22:27
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1107: 10-10-2019 в 18:22:36
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1108: 10-10-2019 в 18:23:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1109: 10-10-2019 в 18:24:21
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1110: 10-10-2019 в 18:25:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1111: 10-10-2019 в 18:25:21
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1112: 10-10-2019 в 18:25:50
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1113: 10-10-2019 в 18:26:15
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1114: 10-10-2019 в 18:27:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1115: 10-10-2019 в 18:27:39
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1116: 10-10-2019 в 18:33:19
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1117: 10-10-2019 в 18:35:39
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1118: 10-10-2019 в 18:36:22
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1119: 10-10-2019 в 18:39:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1120: 10-10-2019 в 18:40:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1121: 10-10-2019 в 18:43:11
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1122: 10-10-2019 в 21:09:06
+Ошибка: Undefined property: app\controllers\ProfileController::$db
+Строка: 106
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProfileController.php
+Код ошибки: 300
+
+Замечание № 1123: 10-10-2019 в 21:20:32
+Ошибка: Undefined index: new
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 1124: 11-10-2019 в 10:28:36
+Ошибка: Undefined index: SUM(price)
+Строка: 124
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProfileController.php
+Код ошибки: 300
+
+Замечание № 1125: 11-10-2019 в 10:37:50
+Ошибка: Undefined index: count
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\desires.php
+Код ошибки: 300
+
+Замечание № 1126: 11-10-2019 в 13:01:42
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1127: 11-10-2019 в 13:01:50
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1128: 11-10-2019 в 13:01:56
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1129: 11-10-2019 в 13:02:02
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1130: 11-10-2019 в 13:20:09
+Ошибка: Undefined variable: data
+Строка: 133
+Файл: C:\OSPanel\domains\store.loc\app\controllers\WishlistController.php
+Код ошибки: 300
+
+Замечание № 1131: 11-10-2019 в 13:34:53
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1132: 11-10-2019 в 13:35:01
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1133: 11-10-2019 в 13:35:08
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1134: 11-10-2019 в 13:35:17
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1135: 11-10-2019 в 13:38:57
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 1136: 11-10-2019 в 13:39:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1137: 11-10-2019 в 13:39:08
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1138: 11-10-2019 в 13:39:15
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1139: 11-10-2019 в 13:39:24
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1140: 11-10-2019 в 13:41:12
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1141: 11-10-2019 в 13:41:22
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1142: 11-10-2019 в 13:44:03
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1143: 11-10-2019 в 13:44:08
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1144: 11-10-2019 в 13:44:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1145: 11-10-2019 в 13:45:31
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1146: 11-10-2019 в 17:03:25
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1147: 11-10-2019 в 17:03:31
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1148: 11-10-2019 в 17:03:37
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1149: 11-10-2019 в 17:03:42
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1150: 11-10-2019 в 17:03:47
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1151: 11-10-2019 в 17:03:53
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1152: 11-10-2019 в 19:00:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1153: 11-10-2019 в 19:00:18
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1154: 11-10-2019 в 19:00:27
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1155: 11-10-2019 в 19:00:36
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1156: 11-10-2019 в 19:00:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1157: 11-10-2019 в 19:15:34
+Ошибка: Array to string conversion
+Строка: 144
+Файл: C:\OSPanel\domains\store.loc\app\controllers\WishlistController.php
+Код ошибки: 300
+
+Замечание № 1158: 11-10-2019 в 19:21:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1159: 11-10-2019 в 19:21:18
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1160: 11-10-2019 в 19:21:24
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1161: 11-10-2019 в 19:21:33
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1162: 11-10-2019 в 19:21:42
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1163: 11-10-2019 в 19:27:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1164: 11-10-2019 в 19:27:52
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1165: 11-10-2019 в 19:28:01
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1166: 11-10-2019 в 19:28:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1167: 11-10-2019 в 19:32:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1168: 11-10-2019 в 19:32:15
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1169: 11-10-2019 в 19:32:28
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1170: 11-10-2019 в 19:33:46
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1171: 11-10-2019 в 19:33:52
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1172: 11-10-2019 в 19:33:59
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1173: 11-10-2019 в 19:34:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1174: 11-10-2019 в 19:34:30
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1175: 11-10-2019 в 19:34:35
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1176: 11-10-2019 в 19:34:40
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1177: 11-10-2019 в 19:34:47
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1178: 11-10-2019 в 19:36:26
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1179: 11-10-2019 в 19:36:49
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1180: 11-10-2019 в 19:36:52
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1181: 11-10-2019 в 19:36:55
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1182: 11-10-2019 в 19:37:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1183: 11-10-2019 в 19:37:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1184: 11-10-2019 в 19:55:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1185: 11-10-2019 в 19:55:32
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1186: 11-10-2019 в 19:55:42
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1187: 11-10-2019 в 20:21:21
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1188: 11-10-2019 в 20:21:50
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1189: 11-10-2019 в 20:23:05
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1190: 11-10-2019 в 20:27:55
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1191: 11-10-2019 в 20:29:40
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1192: 11-10-2019 в 20:31:47
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 60
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1193: 11-10-2019 в 20:32:17
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 61
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1194: 11-10-2019 в 20:32:23
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 61
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1195: 11-10-2019 в 20:33:08
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1196: 11-10-2019 в 20:33:31
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 61
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1197: 11-10-2019 в 20:33:58
+Ошибка: Undefined variable: keyIssetProduct
+Строка: 61
+Файл: C:\OSPanel\domains\store.loc\app\controllers\CartController.php
+Код ошибки: 300
+
+Замечание № 1198: 11-10-2019 в 20:50:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1199: 11-10-2019 в 20:50:21
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1200: 11-10-2019 в 20:51:54
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1201: 11-10-2019 в 20:52:03
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1202: 11-10-2019 в 20:52:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1203: 11-10-2019 в 20:57:05
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1204: 11-10-2019 в 20:57:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1205: 11-10-2019 в 20:57:22
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1206: 11-10-2019 в 20:57:29
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1207: 11-10-2019 в 20:59:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1208: 11-10-2019 в 21:00:59
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1209: 11-10-2019 в 21:01:07
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1210: 11-10-2019 в 21:01:31
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1211: 11-10-2019 в 21:01:38
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1212: 11-10-2019 в 21:01:44
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1213: 11-10-2019 в 21:03:14
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1214: 11-10-2019 в 21:03:20
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1215: 11-10-2019 в 21:03:25
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1216: 11-10-2019 в 21:08:44
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1217: 11-10-2019 в 21:08:52
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1218: 11-10-2019 в 21:08:58
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1219: 11-10-2019 в 21:09:06
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1220: 11-10-2019 в 21:09:41
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
