@@ -715,6 +715,11 @@ $('#add-comparison-list').click(function(){
         success: function(data){
             console.log(data);
 
+            if(data.type == 'max_lenght'){
+                alertNotice('Превышен лимит (5 товаров) для сравнения в одной категории!');
+                return;
+            }
+
             if(data.type == 'success'){
                 alertSuccess('Товар добавлен в список сравнений!');
                 $('#add-comparison-list').html('<i class="fas fa-balance-scale"></i>&nbsp;Сравнивается').attr('data-type', 'press');
