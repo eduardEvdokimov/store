@@ -2,6 +2,7 @@
 
 use store\Router;
 
+Router::add('^comparison/(?<key>[0-9]+)$', ['controller' => 'comparison', 'action' => 'comparison']);
 Router::add('^profile/comment/(?<id>\d+)$', ['controller' => 'profile', 'action' => 'comments']);
 Router::add('^login/service/(?<alias>\S+)$', ['controller' => 'login', 'action' => 'service']);
 Router::add('^category/(?<alias>\S+)$', ['controller' => 'category', 'action' => 'index']);

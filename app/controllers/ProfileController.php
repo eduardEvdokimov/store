@@ -18,7 +18,6 @@ class ProfileController extends MainController
         }
     }
 
-
     public function indexAction()
     {
         $msgSuccessConfirm = '';
@@ -253,6 +252,5 @@ class ProfileController extends MainController
 
         $mail->sendConfirmEmail($code, $_SESSION['user']['fast']);
         die(json_encode(['type' => 'success']));
-
     }
 }

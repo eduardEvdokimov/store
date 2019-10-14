@@ -86,7 +86,8 @@ $(document).ready(function() {
     $(document).ready(function() {
 
         // Dock the header to the top of the window when scrolled past the banner. This is the default behaviour.
-
+        var r = /comparison\/[0-9]+/;
+        if(!r.test(document.location.pathname))
         $('.header-two').scrollToFixed();  
         // previous summary up the page.
 
@@ -97,7 +98,7 @@ $(document).ready(function() {
 
             summary.scrollToFixed({
                 marginTop: $('.header-two').outerHeight(true) + 10, 
-                zIndex: 999
+                zIndex: 999 
             });
         });
     });
@@ -159,6 +160,7 @@ $(document).ready(function() {
                             <!--Список у авторизованного пользователя -->
                             <li><a href="<?= HOST ?>/profile">Личные данные</a></li>  
                             <li><a href="<?= HOST ?>/profile/desires">Список желаний</a></li>  
+                            <li><a href="<?= HOST ?>/profile/comparison">Список сравнений</a></li> 
                             <li><a href="<?= HOST ?>/profile/cart">Корзина</a></li>
                             <li><a href="<?= HOST ?>/profile/orders">Мои заказы</a></li>
                             <li><a href="<?= HOST ?>/profile/comments">Мои отзывы</a></li>
@@ -204,8 +206,13 @@ $(document).ready(function() {
                     </form>
                 </div>
                 <div class="header-cart">
-                    <div class="cart" title='Список сравнений'> 
-                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="fas fa-balance-scale" style="font-size: 25px; color: white;"></i></button><span>2</span>
+                    <div class="cart" id='comparison' title='Список сравнений'> 
+                        <button class="w3view-cart" type="submit" name="submit" value="">
+                            <i class="fas fa-balance-scale" style="font-size: 25px; color: white;"></i>
+                        </button>
+                        <?php if($comparisonCount): ?>
+                            <span><?= $comparisonCount ?></span>
+                        <?php endif; ?>
                     </div>
                     <div class="cart" id='wishlist' title='Список желаний'>
                         <button class="w3view-cart" type="submit" name="submit" value="">

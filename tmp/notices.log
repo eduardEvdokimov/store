@@ -7318,3 +7318,663 @@
 Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
 Код ошибки: 300
 
+Замечание № 1221: 12-10-2019 в 10:21:45
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1222: 12-10-2019 в 10:21:57
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1223: 12-10-2019 в 10:22:02
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1224: 12-10-2019 в 10:22:09
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1225: 12-10-2019 в 10:24:00
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1226: 12-10-2019 в 10:24:10
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1227: 12-10-2019 в 10:24:16
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1228: 12-10-2019 в 11:26:16
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1229: 12-10-2019 в 11:26:20
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1230: 12-10-2019 в 11:26:23
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1231: 12-10-2019 в 11:26:30
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1232: 12-10-2019 в 11:33:44
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 1233: 13-10-2019 в 12:20:36
+Ошибка: Array to string conversion
+Строка: 264
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProfileController.php
+Код ошибки: 300
+
+Замечание № 1234: 13-10-2019 в 12:21:55
+Ошибка: Undefined variable: comparison
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1235: 13-10-2019 в 12:22:45
+Ошибка: Undefined variable: comparison
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1236: 13-10-2019 в 12:23:40
+Ошибка: Undefined variable: comparison
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1237: 13-10-2019 в 12:32:49
+Ошибка: Undefined index: small_title
+Строка: 24
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1238: 13-10-2019 в 12:36:11
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1239: 13-10-2019 в 12:37:02
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1240: 13-10-2019 в 12:37:21
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1241: 13-10-2019 в 12:37:32
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1242: 13-10-2019 в 12:38:02
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1243: 13-10-2019 в 12:38:17
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1244: 13-10-2019 в 12:38:29
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1245: 13-10-2019 в 12:38:52
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1246: 13-10-2019 в 15:41:18
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1247: 13-10-2019 в 15:41:41
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1248: 13-10-2019 в 15:42:22
+Ошибка: Undefined index: category_id
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1249: 13-10-2019 в 15:43:53
+Ошибка: Undefined index: category_id
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1250: 13-10-2019 в 15:44:17
+Ошибка: Undefined index: category_id
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1251: 13-10-2019 в 15:44:51
+Ошибка: Undefined index: category_id
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1252: 13-10-2019 в 15:45:16
+Ошибка: Undefined index: category_id
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1253: 13-10-2019 в 15:45:42
+Ошибка: Undefined index: category_id
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1254: 13-10-2019 в 15:54:16
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1255: 13-10-2019 в 15:54:40
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1256: 13-10-2019 в 15:56:47
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1257: 13-10-2019 в 15:59:07
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1258: 13-10-2019 в 15:59:24
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1259: 13-10-2019 в 16:01:59
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1260: 13-10-2019 в 16:04:16
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1261: 13-10-2019 в 16:04:21
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1262: 13-10-2019 в 16:04:45
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1263: 13-10-2019 в 16:05:43
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1264: 13-10-2019 в 16:06:49
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1265: 13-10-2019 в 16:08:24
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1266: 13-10-2019 в 16:08:52
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1267: 13-10-2019 в 16:09:04
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1268: 13-10-2019 в 16:10:20
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1269: 13-10-2019 в 16:10:46
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1270: 13-10-2019 в 16:11:02
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1271: 13-10-2019 в 16:11:10
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1272: 13-10-2019 в 16:11:28
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1273: 13-10-2019 в 16:11:46
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1274: 13-10-2019 в 16:12:18
+Ошибка: Undefined variable: comparisonProducts
+Строка: 271
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProfileController.php
+Код ошибки: 300
+
+Замечание № 1275: 13-10-2019 в 16:15:42
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1276: 13-10-2019 в 16:17:57
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1277: 13-10-2019 в 16:18:02
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1278: 13-10-2019 в 16:18:24
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1279: 13-10-2019 в 16:18:27
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1280: 13-10-2019 в 16:19:00
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1281: 13-10-2019 в 16:19:02
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1282: 13-10-2019 в 16:19:35
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1283: 13-10-2019 в 16:20:35
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1284: 13-10-2019 в 16:28:24
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1285: 13-10-2019 в 16:29:09
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comparisonList.php
+Код ошибки: 300
+
+Замечание № 1286: 13-10-2019 в 16:33:40
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Comparison\index.php
+Код ошибки: 300
+
+Замечание № 1287: 13-10-2019 в 16:35:58
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Comparison\index.php
+Код ошибки: 300
+
+Замечание № 1288: 13-10-2019 в 16:36:05
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Comparison\index.php
+Код ошибки: 300
+
+Замечание № 1289: 13-10-2019 в 16:37:26
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Comparison\index.php
+Код ошибки: 300
+
+Замечание № 1290: 13-10-2019 в 16:38:06
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Comparison\index.php
+Код ошибки: 300
+
+Замечание № 1291: 13-10-2019 в 16:43:17
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Comparison\index.php
+Код ошибки: 300
+
+Замечание № 1292: 13-10-2019 в 16:43:19
+Ошибка: Undefined index: category_id
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\views\Comparison\index.php
+Код ошибки: 300
+
+Замечание № 1293: 13-10-2019 в 17:59:17
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 1294: 13-10-2019 в 18:00:00
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 1295: 13-10-2019 в 18:01:03
+Ошибка: Undefined variable: result
+Строка: 66
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 1296: 13-10-2019 в 20:03:45
+Ошибка: Trying to get property 'outertext' of non-object
+Строка: 114
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1297: 13-10-2019 в 20:06:16
+Ошибка: Trying to get property 'outertext' of non-object
+Строка: 115
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1298: 13-10-2019 в 20:06:16
+Ошибка: Trying to get property 'outertext' of non-object
+Строка: 115
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1299: 13-10-2019 в 20:06:17
+Ошибка: Trying to get property 'outertext' of non-object
+Строка: 115
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1300: 13-10-2019 в 20:12:03
+Ошибка: Trying to get property 'innertext' of non-object
+Строка: 116
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1301: 13-10-2019 в 20:19:03
+Ошибка: Undefined variable: arrAllSpec
+Строка: 121
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1302: 13-10-2019 в 21:18:10
+Ошибка: Undefined offset: 47
+Строка: 148
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1303: 13-10-2019 в 21:19:04
+Ошибка: Undefined offset: 47
+Строка: 148
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1304: 13-10-2019 в 21:19:30
+Ошибка: Undefined offset: 47
+Строка: 148
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1305: 13-10-2019 в 21:37:17
+Ошибка: Undefined variable: product
+Строка: 139
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1306: 14-10-2019 в 17:58:36
+Ошибка: Undefined variable: s
+Строка: 154
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1307: 14-10-2019 в 18:01:14
+Ошибка: Undefined variable: s
+Строка: 146
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1308: 14-10-2019 в 18:02:26
+Ошибка: Undefined variable: s
+Строка: 147
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1309: 14-10-2019 в 18:15:32
+Ошибка: Undefined variable: allSpec
+Строка: 152
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1310: 14-10-2019 в 18:17:04
+Ошибка: Undefined variable: allSpec
+Строка: 148
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1311: 14-10-2019 в 18:19:58
+Ошибка: Undefined variable: arrSpec
+Строка: 139
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1312: 14-10-2019 в 19:29:26
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1313: 14-10-2019 в 19:29:57
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1314: 14-10-2019 в 19:29:59
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1315: 14-10-2019 в 19:30:02
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1316: 14-10-2019 в 19:30:08
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1317: 14-10-2019 в 19:30:13
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1318: 14-10-2019 в 19:30:18
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1319: 14-10-2019 в 19:30:25
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1320: 14-10-2019 в 19:30:30
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1321: 14-10-2019 в 19:31:14
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1322: 14-10-2019 в 19:31:30
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1323: 14-10-2019 в 19:31:43
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1324: 14-10-2019 в 19:32:09
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1325: 14-10-2019 в 19:32:17
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1326: 14-10-2019 в 19:32:19
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1327: 14-10-2019 в 19:32:40
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1328: 14-10-2019 в 19:32:55
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1329: 14-10-2019 в 19:33:01
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\comments.php
+Код ошибки: 300
+
+Замечание № 1330: 14-10-2019 в 20:10:37
+Ошибка: Undefined index: new
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+

@@ -67,7 +67,11 @@
 						<?php else: ?>
 						<button class="w3ls-cart w3ls-cart-like" id='add-wish-list'><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;В список желаний</button>
 						<?php endif; ?>
-						<button class="w3ls-cart w3ls-cart-like"><i class="fas fa-balance-scale"></i>&nbsp;К сравнению</button>
+						<?php if($issetComparison): ?>
+						<button class="w3ls-cart w3ls-cart-like" data-type='press' id='add-comparison-list'><i class="fas fa-balance-scale"></i>&nbsp;Сравнивается</button>
+						<?php else: ?>
+						<button class="w3ls-cart w3ls-cart-like" id='add-comparison-list'><i class="fas fa-balance-scale"></i>&nbsp;К сравнению</button>
+						<?php endif; ?>
 					</div>
 				   <div class="clearfix"> </div>  
 				</div>

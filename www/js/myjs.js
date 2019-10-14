@@ -292,6 +292,10 @@ $('#add-wish-list').click(function(){
     });
 });
 
+$('#comparison').click(function(){
+    document.location = 'http://' + host + '/comparison';
+});
+
 $('#wishlist').click(function(){
      if(!userAuth){
         alertNotice('Чтобы использовать список желаний необходимо авторизоваться!');
@@ -688,10 +692,111 @@ $('#add-to-cart-from-wishlist').click(function(){
             alertDanger();
         }
     });
+});
 
+$(document).scroll(function(){
+    var r = /comparison\/[0-9]+/;
+    if(r.test(document.location.pathname))
+        toggleHeader();
+    
+});
 
+$('#add-comparison-list').click(function(){
+    if($(this).attr('data-type') == 'press')
+        document.location = 'http://' + host + '/profile/comparison';
 
+    var id = $(this).closest('.container').data('id');
 
+    $.ajax({
+        url: 'http://' + host + '/comparison/add',
+        type: 'post',
+        data: 'id=' + id,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+
+            if(data.type == 'success'){
+                alertSuccess('Товар добавлен в список сравнений!');
+                $('#add-comparison-list').html('<i class="fas fa-balance-scale"></i>&nbsp;Сравнивается').attr('data-type', 'press');
+
+                if($('#comparison').find('span').length){     
+                    $('#comparison').find('span').html(Number($('#comparison').find('span').html()) + 1);
+                }
+                else{
+                    $('#comparison button').after('<span>1</span>');
+                }
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$('.btn-del-comparison-product').click(function(){
+    var item = $(this);
+    var product_id = item.closest('.product-grids').data('id');
+    var key = item.closest('.comparison-list').data('id');
+
+    $.ajax({
+        url: 'http://' + host + '/comparison/delItem',
+        type: 'post',
+        data: 'product_id=' + product_id + '&key=' + key,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+        
+            if(data.removeList){
+                item.closest('.comparison-list').prev('h3').remove();
+                item.closest('.comparison-list').next('.clearfix').remove();
+                item.closest('.list-content').remove();
+            }
+
+            if(data.checkOne){
+                item.closest('.list-content').find('.comparison-products').remove();
+            }
+
+            item.closest('.product-grids').remove();
+
+            if(Number($('#comparison').find('span').html()) > 1){
+                $('#comparison').find('span').html(Number($('#comparison').find('span').html()) - 1);
+            }else{
+                $('#comparison').find('span').remove();
+            }
+
+            if($('.container').find('.list-content').length < 1){
+                $('.container .w3ls-title').after('<h3>У вас пока нет товаров для сравнения</h3>');
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
 });
 
 });
+
+
+function toggleHeader(){
+
+    var scroll_status = $(document).scrollTop();
+    s_top = $(window).scrollTop();
+    yes = $(".table-sravneniy thead").offset().top;
+
+    var tables = $('.container').find('.table-sravneniy');
+    $.each($(tables[0]).find('thead tr th'), function(index, item){
+        $($(tables[1]).find('thead tr th')[index]).width($(item).width());;
+    });
+    
+    if(s_top > yes){
+        $("#test").removeClass('hidden').css('width', $('.container').width());
+        var heightFooter = $('.footer').height() - 250;
+
+        if($(window).scrollTop() > $(document).height() - ($(window).height() + heightFooter))
+            $("#test").addClass('hidden');
+        else
+            $("#test").removeClass('hidden');
+    }else{
+        $("#test").addClass('hidden');
+    }
+}

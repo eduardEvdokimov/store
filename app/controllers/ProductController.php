@@ -59,8 +59,10 @@ class ProductController extends MainController
         $countComments = $commentsData['countComments'];
         $comments = $commentsData['comments'];
 
+        $issetComparison = ComparisonController::checkProduct($product['id']);
+
         $this->addViewed($product['id']);
-        $this->setParams(['product' => $product, 'breadcrumbs' => $breadcrumbs, 'viewedProducts' => $viewedProducts, 'comments' => $comments, 'countComments' => $countComments]);
+        $this->setParams(['product' => $product, 'breadcrumbs' => $breadcrumbs, 'viewedProducts' => $viewedProducts, 'comments' => $comments, 'countComments' => $countComments, 'issetComparison' => $issetComparison]);
         $this->setMeta($product['title'], $product['meta_description'], $product['meta_keywords']);
     }
 

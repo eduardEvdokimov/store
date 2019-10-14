@@ -37,7 +37,9 @@ class MainController extends Controller
             $nameDrpMenuUser = $_SESSION['user']['name'];
         }
 
-        $this->setParams(['cart' => $cart, 'userAuth' => $userAuth, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart, 'nameDrpMenuUser' => $nameDrpMenuUser, 'wishCount' => $wishCount]);
+        $comparisonCount = ComparisonController::getCount();
+
+        $this->setParams(['cart' => $cart, 'userAuth' => $userAuth, 'simbolCurrency' => Register::get('simbolCurrency'), 'hiddenCounterCart' => $hiddenCounterCart, 'countProductCart' => $countProductCart, 'nameDrpMenuUser' => $nameDrpMenuUser, 'wishCount' => $wishCount, 'comparisonCount' => $comparisonCount]);
     }
 
     

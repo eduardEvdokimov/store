@@ -5002,6 +5002,99 @@ form > #exit{
     display: inline-block;
 }
 
+
+.table-sravneniy{
+    display: block;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 10px;
+}
+
+.table-sravneniy > thead > tr > th{
+    width: 200px;
+    padding: 5px;
+}
+
+.table-sravneniy > thead > tr > th > div{
+    position: relative;
+}
+
+.table-sravneniy > thead > tr > th > div > i{
+    position: absolute;
+    cursor: pointer;
+    color: #d3d3d3
+}
+
+.table-sravneniy > thead > tr > th > div > i:hover{
+    color: #a7a6a6;
+}
+
+.table-sravneniy > thead > tr > th > div > a > img{
+    max-height: 100px;
+    width: auto;
+    max-width: 90px;
+    vertical-align: initial;
+}
+
+.table-sravneniy > thead > tr > th .title{
+    font-size: 0.8em;
+    width: 55%;
+    display: inline-block;
+    padding: 3px;
+}
+
+.table-sravneniy > thead > tr > th p{
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.8em;
+    background: #0280e1;
+    display: inline-block;
+    padding: 0 3px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.table-sravneniy > tbody > tr > td {
+    padding: 10px;
+}
+
+.table-sravneniy > tbody > tr > .spec{
+    border-right: 1px solid #ececec;
+}
+
+.table-sravneniy > tbody > tr > td > p{
+    color: black
+}
+
+.comparison-list .fa-times-circle{
+    float: right;
+    cursor: pointer;
+    color: #d3d3d3;
+}
+
+.comparison-list .fa-times-circle:hover{
+    color: #a7a6a6;
+}
+
+.comparison-products{
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 7px 0;
+    font-size: 1.2em;
+    border: none;
+    background: #0280e1;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    
+}
+
+.comparison-products:hover{
+    color: white;
+}
+
 /* Страница пользователя */
 
 
