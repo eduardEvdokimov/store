@@ -9,6 +9,7 @@ use \app\models\ProductModel;
 use \widgets\pagination\Pagination;
 use \widgets\sort\Sort;
 use \store\Register;
+use \widgets\filter\Filter;
 
 class CategoryController extends MainController
 {
@@ -73,12 +74,28 @@ class CategoryController extends MainController
 
             $countProductOnePage = Register::get('config')['countProductOnePage'];
             $startProduct = ($currentPage - 1) * $countProductOnePage;
-            
-            $sql = "SELECT * FROM product JOIN product_info ON product.id=product_info.id_product WHERE category_id=? ORDER BY $sort LIMIT {$startProduct},{$countProductOnePage}";
-            $sqlCountProduct = "SELECT COUNT(*) FROM product WHERE category_id=?";    
-            $products = $db->execute($sql, [$currentCategory['id']]);
+                
+            $sql_part = '';
+            if(!empty($_GET['filter'])){
+                $filter = Filter::getFilter();
+                if($filter){
 
+                    $cnt = Filter::getCountGroups($filter, $alias);
+
+                    $sql_part = "AND product.id IN (SELECT product_id FROM filter_product WHERE filter_value_id IN ({$filter}) GROUP BY product_id HAVING COUNT(product_id) = {$cnt})";
+                }
+            }
+
+
+
+            $sql = "SELECT * FROM product JOIN product_info ON product.id=product_info.id_product WHERE category_id=? $sql_part ORDER BY $sort LIMIT {$startProduct}, {$countProductOnePage}";
+
+            $sqlCountProduct = "SELECT COUNT(*) FROM product WHERE category_id=? $sql_part";    
+            $products = $db->execute($sql, [$currentCategory['id']]);
+            
+            
             $countProduct = $db->execute($sqlCountProduct, [$currentCategory['id']])[0]['COUNT(*)'];
+
             
             $pagination = new Pagination($countProduct);
             
@@ -91,6 +108,10 @@ class CategoryController extends MainController
             }
 
             $this->setParams(['breadcrumbs' => $breadcrumbs, 'products' => $products, 'pagination' => $pagination, 'titleCategory' => $currentCategory['title'], 'keySort' => $keySort]);
+
+            if(isAjax()){
+                $this->loadView();
+            }
         }
        
 

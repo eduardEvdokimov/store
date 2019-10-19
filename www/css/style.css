@@ -5134,8 +5134,26 @@ form > #exit{
     margin-bottom: 0;
 }
 
-    
 
 /* Страницы заказов */
+
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    background: #fefefe;
+    opacity: .7;
+}
+
+.preloader > img{
+    position: relative;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+}
+
 
 /* Мои стили */

@@ -7,7 +7,7 @@
 
                     <?= $breadcrumbs->getHtml(); ?>
 
-                </ol> 
+                </ol>
                 <div class="clearfix"> </div>
                 <!-- //breadcrumbs -->
                 <div class="product-top">
@@ -18,7 +18,8 @@
                     <div class="clearfix"> </div>
                 </div>
 
-                <div class="products-row">
+                <div id='p_cont'>
+                    <div class="products-row">
                    
                     <?php foreach($products as $product): ?>
                     <div class="col-md-3 product-grids" style="width: 280px;"> 
@@ -46,6 +47,7 @@
 
 
                     <div class="clearfix"> </div>
+                    </div>
                 </div>
 
                 
@@ -59,4 +61,5 @@
             <div class="clearfix"> </div>
         </div>
     </div>
+    <div class="preloader"><img src="<?= HOST ?>/images/ring.svg"></div>
     <!--//products-->  

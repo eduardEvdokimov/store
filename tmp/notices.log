@@ -8578,3 +8578,21 @@
 Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
 Код ошибки: 300
 
+Замечание № 1431: 19-10-2019 в 09:16:31
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1432: 19-10-2019 в 11:42:42
+Ошибка: Undefined variable: view
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\vendor\app\base\Controller.php
+Код ошибки: 300
+
+Замечание № 1433: 19-10-2019 в 12:02:03
+Ошибка: Undefined variable: attr_id
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\layouts\index.php
+Код ошибки: 300
+

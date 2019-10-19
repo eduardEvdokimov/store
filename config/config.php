@@ -11,7 +11,7 @@ return [
     'data_id_carusel_index_page' => [
         'home', 'carl', 'james', 'decor'
     ],
-    'countProductOnePage' => 9,
+    'countProductOnePage' => 12,
     'countProductSearchPage' => 12,
 
     'vk' => [

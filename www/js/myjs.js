@@ -516,7 +516,7 @@ $('.wishlist .fa-times-circle').click(function(){
     });
 });
 
-$(":checkbox").change(function(){
+$(".cont-body :checkbox").change(function(){
     if(this.checked){
         $(this).closest('.product-grids').attr('data-check', 'check');
     }else{
@@ -826,6 +826,52 @@ $('#btn-checkout-order').click(function(e){
             alertDanger();
         }
     });
+});
+
+
+$('body').on('change', '.rsidebar-top input', function(){
+    var change = $('.rsidebar-top input:checked'),
+        data = '';
+
+    change.each(function(){
+        data += this.value + ',';
+    });
+
+    console.log(data);
+
+    $.ajax({
+        url: location.href,
+        type: 'GET',
+        data: {filter: data},
+        beforeSend: function(){
+            $('.preloader').fadeIn(500, function(){
+                //$('#c').fadeOut();
+            });
+        },
+        success: function(res){
+            $('.preloader').delay(500).fadeOut(300, function(){
+                $('#c').html(res).fadeIn();
+
+                var url = location.search.replace(/filter=(.+?)(&|$)/, '');
+                
+                var newUrl = location.pathname + url + (location.search ? '&' : '?') + 'filter=' + data;
+
+                newUrl = newUrl.replace('&&', '&');
+                newUrl = newUrl.replace('?&', '?');
+                history.pushState({}, '', newUrl);
+                
+            });
+        },
+        error: function(){
+            console.log('Ошибка');
+        },
+        complete: function(){
+            console.log('Завершен');
+            $('.preloader').delay(500).fadeOut(300);
+        }
+    });
+   
+
 });
 
 });

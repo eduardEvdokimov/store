@@ -249,7 +249,9 @@ $(document).ready(function() {
             </div>
         </div>
     </div>
+    <div id='c'>
     <?= $content ?>
+    </div>
     <!-- //header -->
     
     <!-- footer -->
