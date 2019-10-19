@@ -137,7 +137,7 @@
     <div id='mail'>
         <div id='header'>
             <div class="header-logo">
-                <h1><a href="http://beststore.ddns.net"><span>S</span>mart</a></h1>
+                <h1><a href="<?= HOST ?>"><span>S</span>mart</a></h1>
             </div>
             <span>Мы заботимся о вас и ваших покупках</span>
         </div>

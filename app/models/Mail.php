@@ -55,14 +55,10 @@ class Mail{
     public function sendRestorePassword($email, $name, $code)
     {
         ob_start();
-        
-
         require VIEWS .  '/Mail/restore_pass_code.php';
 
         $mailBody = ob_get_clean();
         
-        
-
         $message = (new \Swift_Message())
         ->setSubject('Код восстановления пароля')
         ->setFrom($this->from, 'BestStore Smart')
@@ -74,8 +70,6 @@ class Mail{
 
     public function sendResponse($comment, $response)
     {
-
-
         $message = (new \Swift_Message())
         ->setSubject('Ответ на Ваш отзыв')
         ->setFrom($this->from, 'BestStore Smart')
@@ -83,21 +77,25 @@ class Mail{
 
         $inline_attachment = \Swift_Image::fromPath(HOST . '/images/' . $comment['img']);
         $cid = $message->embed($inline_attachment);
-
         ob_start();
-
-        
-
         require VIEWS .  '/Mail/response_comment.php';
-
         $mailBody = ob_get_clean();
-        
-
-        
         $message->setBody($mailBody, 'text/html');
+        $this->mailer->send($message);
+    }
 
-        
-        
+    public function sendCheckoutOrder($products)
+    {
+         $message = (new \Swift_Message())
+        ->setSubject('Оформлен заказ')
+        ->setFrom($this->from, 'BestStore Smart')
+        ->setTo($this->to);
+
+        $simbolCurrency = \store\Register::get('simbolCurrency');
+        ob_start();
+        require VIEWS .  '/Mail/checkoutOrder.php';
+        $mailBody = ob_get_clean();
+        $message->setBody($mailBody, 'text/html');
         $this->mailer->send($message);
     }
 

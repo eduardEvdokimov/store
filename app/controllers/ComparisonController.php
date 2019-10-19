@@ -53,7 +53,7 @@ class ComparisonController extends MainController
 
         $cookie = !empty($_COOKIE['comparison']) ? json_decode($_COOKIE['comparison'], 1) : [];
             
-        if(count($cookie[$category_id]) == 5)
+        if(isset($cookie[$category_id]) && count($cookie[$category_id]) == 5)
             die(json_encode(['type' => 'max_lenght']));
 
         $cookie[$category_id][] = $id;

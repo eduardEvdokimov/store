@@ -306,6 +306,9 @@ $('.clearCart').click(function(){
             $('.clearCart').addClass('hidden');
             $('#countProductCart').html('');
             $('#countProductCart').addClass('hidden');
+
+            if(document.location.pathname == '/order')
+                document.location.reload();
         },
         error:function(){
             alertDanger();
@@ -349,6 +352,9 @@ $('tbody').on('click', '.delProductCart', function(){
             resultCart += "<td></td><td class='final_price' style='background: #0280e1;' colspan='2'><span>"+simbolCurrency+'&nbsp;'+data['summCart']+"</span></td>";   
                                 
             $('.result_line_catr').html(resultCart);
+
+            if(document.location.pathname == '/order')
+                document.location.reload();
             
         },
         error:function()
@@ -357,7 +363,7 @@ $('tbody').on('click', '.delProductCart', function(){
         }
     });
 });
-
+let timerId;
 
 $('tbody').on('click', '.delCountProduct', function(){
     var element = $(this).closest('tr');
@@ -365,7 +371,7 @@ $('tbody').on('click', '.delCountProduct', function(){
     var count = parseInt($(this).closest('tr').find('.box_number').val());
     
     if(!id || count < 2) return;
-    
+    clearTimeout(timerId);
     $.ajax({
         url: 'http://' + host + '/cart/delCountProduct',
         type: 'post',
@@ -377,6 +383,10 @@ $('tbody').on('click', '.delCountProduct', function(){
             $('.final_price span').html(simbolCurrency+'&nbsp;'+data['cartSumm']);
             $('#countProductCart').html(data['cartCount']);
 
+            timerId = setTimeout(function(){
+                if(document.location.pathname == '/order')
+                    document.location.reload();
+            }, 2000);
         },
         error: function(){
             alertDanger();
@@ -388,11 +398,12 @@ $('tbody').on('click', '.delCountProduct', function(){
 /* custom script */
 
 $('tbody').on('click', '.addCountProduct', function(){
+    
     var element = $(this).closest('tr');
     var id = $(this).closest('tr').data('id');
 
     if(!id) return;
-
+    clearTimeout(timerId);
     $.ajax({
         url: 'http://' + host + '/cart/addCountProduct',
         type: 'post',
@@ -403,6 +414,11 @@ $('tbody').on('click', '.addCountProduct', function(){
             element.find('.summProduct').html(simbolCurrency + '&nbsp;' + data['product']['summ']);
             $('.final_price span').html(simbolCurrency+'&nbsp;'+data['cartSumm']);
             $('#countProductCart').html(data['cartCount']);
+
+            timerId = setTimeout(function(){
+                if(document.location.pathname == '/order')
+                    document.location.reload();
+            }, 2000);
         },
         error: function(){
             alertDanger();

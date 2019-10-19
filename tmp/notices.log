@@ -7978,3 +7978,603 @@
 Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
 Код ошибки: 300
 
+Замечание № 1331: 17-10-2019 в 10:04:50
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1332: 17-10-2019 в 10:05:30
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1333: 17-10-2019 в 10:06:59
+Ошибка: Undefined variable: data
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1334: 17-10-2019 в 10:07:46
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1335: 17-10-2019 в 10:07:53
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1336: 17-10-2019 в 10:08:01
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1337: 17-10-2019 в 10:08:13
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1338: 17-10-2019 в 10:08:55
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1339: 17-10-2019 в 10:10:38
+Ошибка: Undefined variable: data
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1340: 17-10-2019 в 10:11:33
+Ошибка: Undefined variable: data
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1341: 17-10-2019 в 10:13:20
+Ошибка: Undefined variable: data
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1342: 17-10-2019 в 10:15:18
+Ошибка: Undefined variable: data
+Строка: 51
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1343: 17-10-2019 в 10:15:30
+Ошибка: Undefined variable: data
+Строка: 48
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1344: 17-10-2019 в 10:16:08
+Ошибка: Undefined variable: data
+Строка: 48
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1345: 17-10-2019 в 10:20:40
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1346: 17-10-2019 в 10:22:06
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1347: 17-10-2019 в 10:25:49
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1348: 17-10-2019 в 10:26:38
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1349: 17-10-2019 в 10:28:48
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1350: 17-10-2019 в 10:29:05
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1351: 17-10-2019 в 10:29:57
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1352: 17-10-2019 в 10:30:55
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1353: 17-10-2019 в 10:30:59
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1354: 17-10-2019 в 10:31:11
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1355: 17-10-2019 в 10:31:23
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1356: 17-10-2019 в 10:31:58
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1357: 17-10-2019 в 10:32:48
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1358: 17-10-2019 в 10:33:32
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1359: 17-10-2019 в 10:33:47
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1360: 17-10-2019 в 10:33:59
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1361: 17-10-2019 в 10:35:35
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1362: 17-10-2019 в 10:36:08
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1363: 17-10-2019 в 10:36:18
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1364: 17-10-2019 в 10:37:21
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1365: 17-10-2019 в 10:38:45
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1366: 17-10-2019 в 10:39:10
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1367: 17-10-2019 в 10:40:00
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1368: 17-10-2019 в 10:40:15
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1369: 17-10-2019 в 10:43:02
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1370: 17-10-2019 в 10:43:25
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1371: 17-10-2019 в 10:43:46
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1372: 17-10-2019 в 10:47:14
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1373: 17-10-2019 в 10:47:31
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1374: 17-10-2019 в 10:47:38
+Ошибка: Undefined variable: data
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1375: 17-10-2019 в 10:50:17
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1376: 17-10-2019 в 10:54:01
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1377: 17-10-2019 в 10:54:13
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1378: 17-10-2019 в 10:54:56
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1379: 17-10-2019 в 10:55:00
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1380: 17-10-2019 в 10:55:19
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1381: 17-10-2019 в 10:55:54
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1382: 17-10-2019 в 10:56:11
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1383: 17-10-2019 в 10:56:31
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1384: 17-10-2019 в 10:56:38
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1385: 17-10-2019 в 10:56:53
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1386: 17-10-2019 в 11:00:21
+Ошибка: Undefined variable: symbolCurrency
+Строка: 49
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1387: 17-10-2019 в 11:00:40
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1388: 17-10-2019 в 11:00:58
+Ошибка: Undefined variable: data
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\Order\index.php
+Код ошибки: 300
+
+Замечание № 1389: 17-10-2019 в 12:20:17
+Ошибка: Undefined index: lastName
+Строка: 215
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ProfileController.php
+Код ошибки: 300
+
+Замечание № 1390: 17-10-2019 в 12:21:57
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1391: 17-10-2019 в 12:22:03
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1392: 17-10-2019 в 12:22:20
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1393: 17-10-2019 в 12:22:24
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1394: 17-10-2019 в 12:23:36
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1395: 17-10-2019 в 12:23:40
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1396: 17-10-2019 в 20:23:33
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1397: 17-10-2019 в 20:23:38
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1398: 17-10-2019 в 20:23:57
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1399: 17-10-2019 в 20:24:03
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1400: 17-10-2019 в 20:24:09
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1401: 17-10-2019 в 20:26:13
+Ошибка: Undefined variable: hiddenH3
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\app\views\Profile\viewed.php
+Код ошибки: 300
+
+Замечание № 1402: 17-10-2019 в 20:29:17
+Ошибка: Undefined offset: 6
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1403: 17-10-2019 в 20:29:20
+Ошибка: Undefined offset: 6
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1404: 17-10-2019 в 20:29:23
+Ошибка: Undefined offset: 6
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1405: 17-10-2019 в 20:29:31
+Ошибка: Undefined offset: 6
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1406: 17-10-2019 в 20:29:42
+Ошибка: Undefined offset: 6
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1407: 17-10-2019 в 20:30:23
+Ошибка: Undefined offset: 6
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\app\controllers\ComparisonController.php
+Код ошибки: 300
+
+Замечание № 1408: 18-10-2019 в 14:02:58
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1409: 18-10-2019 в 14:04:13
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1410: 18-10-2019 в 14:05:13
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1411: 18-10-2019 в 14:05:22
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1412: 18-10-2019 в 14:05:30
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1413: 18-10-2019 в 14:05:36
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1414: 18-10-2019 в 14:05:41
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1415: 18-10-2019 в 14:05:55
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1416: 18-10-2019 в 14:06:12
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1417: 18-10-2019 в 14:06:52
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1418: 18-10-2019 в 14:07:04
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1419: 18-10-2019 в 14:07:09
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1420: 18-10-2019 в 14:07:13
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1421: 18-10-2019 в 14:07:25
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1422: 18-10-2019 в 14:09:19
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1423: 18-10-2019 в 14:09:25
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 1424: 18-10-2019 в 19:17:08
+Ошибка: Undefined property: widgets\filter\Filter::$groups
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\layouts\index.php
+Код ошибки: 300
+
+Замечание № 1425: 18-10-2019 в 19:17:58
+Ошибка: Undefined variable: result
+Строка: 64
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
+Код ошибки: 300
+
+Замечание № 1426: 18-10-2019 в 19:34:07
+Ошибка: Undefined variable: result
+Строка: 51
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
+Код ошибки: 300
+
+Замечание № 1427: 18-10-2019 в 19:37:10
+Ошибка: Undefined variable: result
+Строка: 59
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
+Код ошибки: 300
+
+Замечание № 1428: 18-10-2019 в 19:37:31
+Ошибка: Undefined variable: result
+Строка: 61
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
+Код ошибки: 300
+
+Замечание № 1429: 18-10-2019 в 19:38:22
+Ошибка: Undefined variable: result
+Строка: 61
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
+Код ошибки: 300
+
+Замечание № 1430: 18-10-2019 в 19:38:44
+Ошибка: Undefined variable: result
+Строка: 61
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
+Код ошибки: 300
+

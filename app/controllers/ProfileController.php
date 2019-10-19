@@ -23,6 +23,7 @@ class ProfileController extends MainController
         $msgSuccessConfirm = '';
         $firstName = '';
         $lastName = '';
+        
 
         if(isset($_SESSION['user']['confirm_action']) && $_SESSION['user']['confirm_action']){
             $msgSuccessConfirm = "<div class='alert alert-success'><i class='fa fa-check-circle'></i>&nbsp;" . 'Электронная почта успешно подтверждена!';

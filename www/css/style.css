@@ -5098,4 +5098,44 @@ form > #exit{
 /* Страница пользователя */
 
 
+/* Страницы заказов */
+
+.block-info-order{
+    margin-left: 10%;
+    background: red;
+    padding: 5px 15px;
+    background: #eaf6fb;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    box-shadow: 3px 5px 7px 0 rgba(230,244,251,.5), inset 0 -3px 0 0 #bbc5c9;
+    width: 300px;
+    height: 300px;
+}
+
+.block-info-order > p{
+    color: black;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.block-info-order > p > .val{
+    float: right;
+}
+
+.block-info-order > a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block-info-order > .form-group{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+    
+
+/* Страницы заказов */
+
 /* Мои стили */

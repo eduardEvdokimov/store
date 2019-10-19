@@ -160,9 +160,9 @@ $(document).ready(function() {
                             <!--Список у авторизованного пользователя -->
                             <li><a href="<?= HOST ?>/profile">Личные данные</a></li>  
                             <li><a href="<?= HOST ?>/profile/desires">Список желаний</a></li>  
-                            <li><a href="<?= HOST ?>/profile/comparison">Список сравнений</a></li> 
+                            <li><a href="<?= HOST ?>/comparison">Список сравнений</a></li> 
                             <li><a href="<?= HOST ?>/profile/cart">Корзина</a></li>
-                            <li><a href="<?= HOST ?>/profile/orders">Мои заказы</a></li>
+                            <li><a href="<?= HOST ?>/order/my">Мои заказы</a></li>
                             <li><a href="<?= HOST ?>/profile/comments">Мои отзывы</a></li>
                             <li><a href="<?= HOST ?>/profile/viewed">Просмотренные товары</a></li>
                             <li><a href="<?= HOST ?>/login/logout">Выход</a></li>   
@@ -239,7 +239,7 @@ $(document).ready(function() {
                     
                 </div>
                 <div class="move-text">
-                    <div class="marquee"><a href="offers.html"> Новые коллекции доступны здесь...... <span>Получи дополнительную скидку 10% на все | без дополнительных налогов </span> <span> Попробуйте бесплатную доставку на 15 дней без ограничений</span></a></div>
+                    <div class="marquee"><a href="#"> Новые коллекции доступны здесь...... <span>Получи дополнительную скидку 10% на все | без дополнительных налогов </span> <span> Попробуйте бесплатную доставку на 15 дней без ограничений</span></a></div>
                     <script type="text/javascript" src="<?= HOST ?>/js/jquery.marquee.min.js"></script>
                     <script>
                       $('.marquee').marquee({ pauseOnHover: true });
@@ -385,15 +385,11 @@ $(document).ready(function() {
                         </tr>
                         </tbody>
                         </table>
-                        
-
-
-
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
                     <button type="button" class="btn btn-danger clearCart <?= $hiddenCart ?>">Очистить корзину</button>
-                    <button type="button" class="btn btn-primary <?= $hiddenCart ?> btn_addOrder" >Оформить заказ</button>
+                    <a href='<?= HOST ?>/order' type="button" class="btn btn-primary <?= $hiddenCart ?> btn_addOrder">Оформить заказ</a>
                 </div>
             </div>
             

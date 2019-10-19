@@ -702,8 +702,10 @@ $(document).scroll(function(){
 });
 
 $('#add-comparison-list').click(function(){
-    if($(this).attr('data-type') == 'press')
-        document.location = 'http://' + host + '/profile/comparison';
+    if($(this).attr('data-type') == 'press'){
+        document.location = 'http://' + host + '/comparison';
+        return;
+    }
 
     var id = $(this).closest('.container').data('id');
 
@@ -771,6 +773,53 @@ $('.btn-del-comparison-product').click(function(){
 
             if($('.container').find('.list-content').length < 1){
                 $('.container .w3ls-title').after('<h3>У вас пока нет товаров для сравнения</h3>');
+            }
+        },
+        error: function(){
+            alertDanger();
+        }
+    });
+});
+
+$('#btn-change-order').click(function(){
+    $('.modal').modal();
+});
+
+$('#btn-checkout-order').click(function(e){
+    e.preventDefault();
+
+    var field = map('.form-user-data input, textarea');
+    
+    var emptyField = filterEmptyField(field);
+    
+    if(!emptyField){
+        alertDanger('Заполните поля!');
+        return;
+    } 
+
+    var request = '';
+    for(var key in field){
+        request += key + '=' + field[key] + '&';
+    }
+
+    $.ajax({
+        url: 'http://' + host + '/order/checkout',
+        type: 'post',
+        data: request,
+        dataType: 'json',
+        success: function(data){
+            console.log(data);
+            
+            if(data.type == 'user_exist'){
+                $('#msg_user_exist').removeClass('hidden');
+                return;
+            }
+
+            if(data.type == 'success'){
+                $('#msg_success').removeClass('hidden');
+                $('#msg_user_exist').addClass('hidden');
+                $('#countProductCart').remove();
+                $('.block-info-order').addClass('hidden');
             }
         },
         error: function(){
