@@ -191,25 +191,25 @@
 			<h3 class="w3ls-title">Основные категории</h3>
 			<div class="deals-row">
 				<div class="col-md-3 focus-grid"> 
-					<a href="products.html" class="wthree-btn"> 
+					<a href="<?= HOST ?>/category/link" class="wthree-btn"> 
 						<div class="focus-image"><i class="fa fa-mobile"></i></div>
-						<h4 class="clrchg">Мобильные телефоны</h4> 
+						<h4 class="clrchg">Связь</h4> 
 					</a>
 				</div>
 				<div class="col-md-3 focus-grid"> 
-					<a href="products.html" class="wthree-btn wthree1"> 
+					<a href="<?= HOST ?>/category/notebooks_&_compucters" class="wthree-btn wthree1"> 
 						<div class="focus-image"><i class="fa fa-laptop"></i></div>
 						<h4 class="clrchg">Ноутбуки и компьютеры</h4> 
 					</a>
 				</div>
 				<div class="col-md-3 focus-grid"> 
-					<a href="products3.html" class="wthree-btn wthree3"> 
+					<a href="<?= HOST ?>/category/household_products" class="wthree-btn wthree3"> 
 						<div class="focus-image"><i class="fa fa-home"></i></div>
-						<h4 class="clrchg">Домашний декор</h4>
+						<h4 class="clrchg">Товары для дома</h4>
 					</a>
 				</div> 
 				<div class="col-md-3 focus-grid"> 
-					<a href="products4.html" class="wthree-btn wthree5"> 
+					<a href="<?= HOST ?>/category/white_goods" class="wthree-btn wthree5"> 
 						<div class="focus-image"><i class="fas fa-blender" style="font-size: 40px;"></i></div>
 						<h4 class="clrchg">Бытовая техника</h4> 
 					</a>

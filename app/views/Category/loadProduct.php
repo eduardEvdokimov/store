@@ -1,5 +1,5 @@
 <div class="products-row">
-                   
+<?php if($product): ?>      
 <?php foreach($products as $product): ?>
 <div class="col-md-3 product-grids" style="width: 280px;"> 
     <div class="agile-products">
@@ -24,6 +24,9 @@
 
 <?php endforeach; ?>
 
+<?php else: ?>
+<h3>Товары по данному фильтру не найденны</h3>
 
+<?php endif; ?>
 <div class="clearfix"> </div>
 </div>

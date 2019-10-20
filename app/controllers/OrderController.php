@@ -93,4 +93,30 @@ class OrderController extends MainController
             $this->db->exec("INSERT INTO order_product (order_id, product_id, qty, title, price, summ) VALUES ($order_id, {$product['id']}, {$product['count']}, '{$product['title']}', $price, {$product['summ']})");
         }
     }
+
+    public function myAction()
+    {
+        if(isset($_SESSION['user']) && $_SESSION['user']['auth']){
+            $orders = $this->db->query("SELECT orders.id, orders.number, orders.currency, orders.summ, orders.count_product, orders.date, orders.update_date FROM orders WHERE user_id={$_SESSION['user']['id']}");
+            d($orders);
+
+            if($orders){
+                foreach ($orders as $key => $order) {
+                    $products = $this->db->query("SELECT qty, title, price, summ FROM order_product WHERE id={$order['id']}");
+
+                    $order['products'] = $products;
+                    $orders[$key] = $order;
+                }
+                $this->setParams(['orders' => $orders]);
+            }
+            
+            
+        }else{
+            redirect();
+        }
+
+        
+        
+        
+    }
 }

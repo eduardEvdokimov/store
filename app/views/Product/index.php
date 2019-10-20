@@ -31,7 +31,7 @@
 					</div>
 					<div class="col-md-6 single-top-right">
 						<h3 class="item_name"><?= $product['title'] ?></h3>
-						<p>Processing Time: Item will be shipped out within 2-3 working days. </p>
+						
 						<div class="single-rating">
 							<ul>
 								<?php for($x = 0; $x < 5; $x++): ?>
@@ -53,8 +53,6 @@
 								<li><span class="w3off"><?= $product['discount'] ?>% СКИДКА</span></li> 
 								
 								<?php endif; ?>
-								
-								<li><a href="#"><i class="fa fa-gift" aria-hidden="true"></i> Coupon</a></li>
 							</ul>	
 						</div> 
 						<p class="single-price-text"><?= $product['little_specifications'] ?></p>
@@ -107,7 +105,7 @@
 							<?php foreach ($comments as $comment): ?>
 							<?php if($comment['type'] == 'otzuv'): ?>
 							<li data-id='<?= $comment['id'] ?>'>
-								<p>
+								<div>
 									<b class="name_user"><?= $comment['name'] ?></b>
 									<div class='widget_stars'>
 										<ul>
@@ -117,7 +115,7 @@
 										</ul> 
 									</div>
 									<span class='date_comment'><?= $comment['date'] ?></span>
-								</p>
+								</div>
 
 								<p style="clear: left;"><?= $comment['comment'] ?></p>
 								<p>
@@ -145,10 +143,10 @@
 							</li>
 							<?php else: ?>
 								<li data-id='<?= $comment['id'] ?>'>
-								<p>
+								<div>
 									<b class="name_user"><?= $comment['name'] ?></b>
 									<span class='date_comment'><?= $comment['date'] ?></span>
-								</p>
+								</div>
 								<p style="clear: left;"><?= $comment['comment'] ?></p>
 								<div style="margin-top: 10px;" class='footer_comment'>
 									<div style="margin-top: 10px;" class='footer_response'>

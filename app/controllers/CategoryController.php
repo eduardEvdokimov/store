@@ -70,23 +70,27 @@ class CategoryController extends MainController
             $db = Db::getInstance();
             $model = new ProductModel;
 
+
+
             $currentPage = !empty($_GET['page']) ? $_GET['page'] : 1;
+
+            if(isAjax()){
+                $currentPage = 1;
+            }
 
             $countProductOnePage = Register::get('config')['countProductOnePage'];
             $startProduct = ($currentPage - 1) * $countProductOnePage;
                 
             $sql_part = '';
+           
             if(!empty($_GET['filter'])){
                 $filter = Filter::getFilter();
+
                 if($filter){
-
                     $cnt = Filter::getCountGroups($filter, $alias);
-
                     $sql_part = "AND product.id IN (SELECT product_id FROM filter_product WHERE filter_value_id IN ({$filter}) GROUP BY product_id HAVING COUNT(product_id) = {$cnt})";
                 }
             }
-
-
 
             $sql = "SELECT * FROM product JOIN product_info ON product.id=product_info.id_product WHERE category_id=? $sql_part ORDER BY $sort LIMIT {$startProduct}, {$countProductOnePage}";
 
@@ -96,8 +100,7 @@ class CategoryController extends MainController
             
             $countProduct = $db->execute($sqlCountProduct, [$currentCategory['id']])[0]['COUNT(*)'];
 
-            
-            $pagination = new Pagination($countProduct);
+            $pagination = new Pagination($countProduct, $currentPage, $countProductOnePage);
             
 
             if(!empty($products)){

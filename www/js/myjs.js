@@ -3,7 +3,7 @@ $(document).ready(function(){
 $('.list_comments').on('click', '.fa-thumbs-up', function(){
 
     if(!userAuth){
-        alertDanger('Вы не авторизованы!');
+        alertNotice('Вы не авторизованы!');
         return;
     }
 
@@ -50,7 +50,7 @@ $('.list_comments').on('click', '.fa-thumbs-up', function(){
 
 $('.list_comments').on('click', '.fa-thumbs-down', function(){
     if(!userAuth){
-        alertDanger('Вы не авторизованы!');
+        alertNotice('Вы не авторизованы!');
         return;
     }
     var comment = $(this).closest('li');
@@ -236,16 +236,41 @@ $('#btn-get-response').click(function(){
 });
 
 
-$('#sort-product li a').click(function(e){
+$('#c').on('click', ' #sort-product li a', function(e){
     e.preventDefault();
     var item = $(this);
-    var sort = item.data('sort');
-
+    var data = item.data('sort');
+    
     if(item.is('.active'))
         return;
 
-    //Доделать сортировку
+    var search = document.location.search;
 
+    $.ajax({
+        url: location.href,
+        type: 'get',
+        data: 'sort='+ data,
+        success: function(res)
+        {
+            console.log(res);
+            $('.preloader').delay(500).fadeOut(300, function(){
+                $('#c').html(res).fadeIn();
+
+                var url = location.search.replace(/sort=(.+?)(&|$)/, '');
+                url = url.replace(/sort=/, '');
+                var newUrl = location.pathname + url + (data ? (url ? '&' : '?') + 'sort=' + data : '');
+                newUrl = newUrl.replace('&&', '&');
+                newUrl = newUrl.replace('?&', '?');
+                history.pushState({}, '', newUrl);
+                $('body .scroll-pane').jScrollPane();
+            });
+            
+        },
+        error: function()
+        {
+            alertDanger();
+        }
+    });
 });
 
 
@@ -837,7 +862,9 @@ $('body').on('change', '.rsidebar-top input', function(){
         data += this.value + ',';
     });
 
-    console.log(data);
+    
+    // var url = location.search.replace(/page=(\d+)/, 'page=1');
+    // console.log(url);
 
     $.ajax({
         url: location.href,
@@ -853,12 +880,17 @@ $('body').on('change', '.rsidebar-top input', function(){
                 $('#c').html(res).fadeIn();
 
                 var url = location.search.replace(/filter=(.+?)(&|$)/, '');
-                
-                var newUrl = location.pathname + url + (location.search ? '&' : '?') + 'filter=' + data;
-
+                console.log('url - ' + url);
+                console.log('search - ' + location.search);
+                console.log('location.pathname - ' + location.pathname);
+                var newUrl = location.pathname + url + (data ? (url ? '&' : '?') + 'filter=' + data : '');
+                console.log('newUrl - ' + newUrl);
                 newUrl = newUrl.replace('&&', '&');
                 newUrl = newUrl.replace('?&', '?');
+                newUrl = newUrl.replace(/page=(\d+)/, 'page=1');
+                console.log('newUrl - ' + newUrl);
                 history.pushState({}, '', newUrl);
+                $('body .scroll-pane').jScrollPane();
                 
             });
         },
@@ -866,7 +898,7 @@ $('body').on('change', '.rsidebar-top input', function(){
             console.log('Ошибка');
         },
         complete: function(){
-            console.log('Завершен');
+            
             $('.preloader').delay(500).fadeOut(300);
         }
     });

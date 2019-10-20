@@ -4047,8 +4047,8 @@ h3.w3ls-title.w3ls-title1 {
     margin-bottom: 20px;
 }
 
-ul > li > p > .name_user{
-    float: left; 
+ul > li > div > .name_user{
+    display: inline-block;
     margin-right: 10px; 
     font-size: 1.3em;
     color: black;
@@ -4066,7 +4066,7 @@ ul > li > p > .name_user{
 
 .widget_stars{
     margin-top: 3px;
-    float: left;
+    display: inline-block;
 }
 
 .counter-like{
@@ -4249,6 +4249,10 @@ ul > li > p > .name_user{
     padding: 5px;
 }
 
+.response p .name_user{
+    color: black;
+    font-size: 1.3em;
+}
 
 
 .response:last-child{

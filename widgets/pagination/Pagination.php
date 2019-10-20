@@ -7,8 +7,9 @@ class Pagination
     private $countProduct;
     private $href;
 
-    public function __construct($countProduct, $countProductOnePage = 9, $layout = 'default')
+    public function __construct($countProduct, $currentPage = '', $countProductOnePage = 9, $layout = 'default')
     {
+        $this->currentPage = $currentPage ?: 1;
         $this->countProduct = $countProduct;
         $this->layout = $layout;
         $this->countProductOnePage = $countProductOnePage;
@@ -16,7 +17,6 @@ class Pagination
 
     public function run()
     {
-        $this->currentPage = !empty($_GET['page']) ? $_GET['page'] : 1;
         $this->reformUri();
         $this->countPage = $this->calcCountPage();
         if($this->countPage < 2) return '';
@@ -25,23 +25,29 @@ class Pagination
 
     private function reformUri()
     {
-        $queryString = explode('?', $_SERVER['REQUEST_URI']);
-        $href = '?page=';
-        if(isset($queryString[1])){
-            $reqs = explode('&', $queryString[1]);
-        
-            foreach ($reqs as $key => $value) {
-                if(strpos($value, 'page') !== false){
-                    unset($reqs[$key]);
-                }
-            }
-
-            $reqs[] = 'page=';
-
-            $href = '?' . implode('&', $reqs);
+        $url = $_SERVER['REQUEST_URI'];
+        preg_match_all("#filter=[\d,&]#", $url, $matches);
+        if(count($matches[0]) > 1){
+            $url = preg_replace("#filter=[\d,&]+#", "", $url, 1);
         }
         
-        $this->href = HOST . $queryString[0] . $href;
+        
+        preg_match_all('#sort=[\d\w_]+#', $url, $matches);
+        if(count($matches[0]) > 1){
+            $url = preg_replace('#sort=[\d\w_]+&?#', '', $url, 1);  
+        }
+
+
+        $url = explode('?', $url);
+        $uri = $url[0] . '?';
+        if(isset($url[1]) && $url[1] != ''){
+            $params = explode('&', $url[1]);
+            foreach($params as $param){
+                if(!preg_match("#page=#", $param)) $uri .= "{$param}&amp;";
+            }
+        }
+        $uri .= 'page=';
+        $this->href =  urldecode($uri); 
     }
 
     private function calcCountPage()
@@ -63,8 +69,6 @@ class Pagination
 
         $file_layout = 'layouts/' . $this->layout . '.php';
         
-
-
         $btn_current = "<li class='page-item active'><span class='page-link'>{$this->currentPage}</span></li>";
 
         if($this->currentPage > 1 ){

@@ -11,7 +11,7 @@
             <?php foreach ($comments as $comment): ?>
             <?php if($comment['type'] == 'otzuv'): ?>
             <li data-id='<?= $comment['id'] ?>'>
-                <p>
+                <div>
                     <b class="name_user"><?= $comment['name'] ?></b>
                     <div class='widget_stars'>
                         <ul>
@@ -21,7 +21,7 @@
                         </ul> 
                     </div>
                     <span class='date_comment'><?= $comment['date'] ?></span>
-                </p>
+                </div>
 
                 <p style="clear: left;"><?= $comment['comment'] ?></p>
                 <p>
@@ -49,10 +49,10 @@
             </li>
             <?php else: ?>
                 <li data-id='<?= $comment['id'] ?>'>
-                <p>
+                <div>
                     <b class="name_user"><?= $comment['name'] ?></b>
                     <span class='date_comment'><?= $comment['date'] ?></span>
-                </p>
+                </div>
                 <p style="clear: left;"><?= $comment['comment'] ?></p>
                 <div style="margin-top: 10px;" class='footer_comment'>
                     <div style="margin-top: 10px;" class='footer_response'>

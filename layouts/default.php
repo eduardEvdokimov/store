@@ -132,14 +132,9 @@ $(document).ready(function() {
     </script>
     <!-- //smooth-scrolling-of-move-up -->
 
-<script type="text/javascript" src="<?= HOST ?>/js/jquery.jscrollpane.min.js"></script>
 
-<script type="text/javascript" id="sourcecode">
-    $(function()
-    {
-        $('.scroll-pane').jScrollPane();
-    });
-</script>
+
+
 <script type="text/javascript" src="<?= HOST ?>/js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="<?= HOST ?>/js/jquery.autocomplete.js"></script>
 </head>
@@ -469,6 +464,13 @@ $(document).ready(function() {
         </script>
     <!-- //countdown.js -->
     <!-- menu js aim -->
+    <script type="text/javascript" src="<?= HOST ?>/js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" id="sourcecode">
+    $(function()
+    {
+        $('body .scroll-pane').jScrollPane();
+    });
+    </script>
     <script src="<?= HOST ?>/js/jquery.menu-aim.js"> </script>
     <script type="text/javascript" src='<?= HOST ?>/js/html.js'></script>
     <script src="<?= HOST ?>/js/main.js"></script> <!-- Resource jQuery -->

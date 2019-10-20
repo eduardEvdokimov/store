@@ -19,6 +19,7 @@
                 </div>
 
                 <div id='p_cont'>
+                    <?php if($products): ?>
                     <div class="products-row">
                    
                     <?php foreach($products as $product): ?>
@@ -45,9 +46,13 @@
 
                     <?php endforeach; ?>
 
-
+                    <?= $pagination->run() ?>
                     <div class="clearfix"> </div>
+
                     </div>
+                    <?php else: ?>
+                    <h3>Товары по данному фильтру не найденны</h3>
+                    <?php endif; ?>
                 </div>
 
                 
@@ -57,7 +62,7 @@
 
             <?= new \widgets\filter\Filter($this->route['alias']) ?>
             
-            <?= $pagination->run() ?>
+            
             <div class="clearfix"> </div>
         </div>
     </div>

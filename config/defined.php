@@ -1,6 +1,6 @@
 <?php
 
-define('HOST', 'http://beststore.ddns.net');
+define('HOST', 'http://store.loc');
 define('DIR', dirname(__DIR__));
 define('APP', DIR . '/app');
 define('DEBUG', 1);
