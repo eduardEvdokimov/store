@@ -250,6 +250,11 @@ $('#c').on('click', ' #sort-product li a', function(e){
         url: location.href,
         type: 'get',
         data: 'sort='+ data,
+        beforeSend: function(){
+            $('.preloader').fadeIn(500, function(){
+                //$('#c').fadeOut();
+            });
+        },
         success: function(res)
         {
             console.log(res);
@@ -269,6 +274,10 @@ $('#c').on('click', ' #sort-product li a', function(e){
         error: function()
         {
             alertDanger();
+        },
+        complete: function(){
+            
+            $('.preloader').delay(500).fadeOut(300);
         }
     });
 });
@@ -865,6 +874,7 @@ $('body').on('change', '.rsidebar-top input', function(){
     
     // var url = location.search.replace(/page=(\d+)/, 'page=1');
     // console.log(url);
+
 
     $.ajax({
         url: location.href,

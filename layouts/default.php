@@ -43,7 +43,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- font-awesome icons -->
 <link href="<?= HOST ?>/css/all.css" rel="stylesheet"> 
 <link href="<?= HOST ?>/css/font-awesome.css" rel="stylesheet"> 
-
+<meta name="interkassa-verification" content="4bd253b110a8358ba2ed0fdb818f2ca7" />
 <!--flex slider-->
 <script defer src="<?= HOST ?>/js/jquery.flexslider.js"></script>
 <link rel="stylesheet" href="<?= HOST ?>/css/flexslider.css" type="text/css" media="screen" />
@@ -171,16 +171,9 @@ $(document).ready(function() {
                     <?php new \widgets\currency\Currency; ?>
 
 
+                    
                     <li class="dropdown head-dpdn">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-globe"></i> Язык<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="offers.html">Русский</a></li> 
-                            <li><a href="offers.html">Украiнська</a></li>
-                            <li><a href="offers.html">English</a></li> 
-                        </ul> 
-                    </li>
-                    <li class="dropdown head-dpdn">
-                        <a href="help.html" class="dropdown-toggle"><i class="fa fa-question-circle" aria-hidden="true"></i>Помощь</a>
+                        <a href="#" class="dropdown-toggle"><i class="fa fa-question-circle" aria-hidden="true"></i>Помощь</a>
                     </li>
                 </ul>
             </div>
@@ -255,7 +248,7 @@ $(document).ready(function() {
             <div class="footer-info w3-agileits-info">
                 <div class="col-md-4 address-left agileinfo">
                     <div class="footer-logo header-logo">
-                        <h2><a href="index.html"><span>S</span>mart</a></h2>
+                        <h2><a href="<?= HOST ?>"><span>S</span>mart</a></h2>
                         <h6>Your stores. Your place.</h6>
                     </div>
                     <ul>
@@ -267,32 +260,30 @@ $(document).ready(function() {
                 </div>
                 <div class="col-md-8 address-right">
                     <div class="col-md-4 footer-grids">
-                        <h3>Company</h3>
+                        <h3>Компания</h3>
                         <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="marketplace.html">Marketplace</a></li>  
-                            <li><a href="values.html">Core Values</a></li>  
-                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="#">О нас</a></li>     
+                            <li><a href="#">Главные ценности</a></li>  
+                            <li><a href="#">политика конфиденциальности</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 footer-grids">
-                        <h3>Services</h3>
+                        <h3>Службы</h3>
                         <ul>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="login.html">Returns</a></li> 
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="sitemap.html">Site Map</a></li>
-                            <li><a href="login.html">Order Status</a></li>
+                            <li><a href="#">Свяжитесь с нами</a></li>
+                            <li><a href="#">Возвраты</a></li> 
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Карта сайта</a></li>
+                            <li><a href="#">Статус заказа</a></li>
                         </ul> 
                     </div>
                     <div class="col-md-4 footer-grids">
-                        <h3>Payment Methods</h3>
+                        <h3>Способы оплаты</h3>
                         <ul>
-                            <li><i class="fa fa-laptop" aria-hidden="true"></i> Net Banking</li>
-                            <li><i class="fa fa-money" aria-hidden="true"></i> Cash On Delivery</li>
-                            <li><i class="fa fa-pie-chart" aria-hidden="true"></i>EMI Conversion</li>
-                            <li><i class="fa fa-gift" aria-hidden="true"></i> E-Gift Voucher</li>
-                            <li><i class="fa fa-credit-card" aria-hidden="true"></i> Debit/Credit Card</li>
+                            <li><i class="fa fa-laptop" aria-hidden="true"></i> Интернет банкинг</li>
+                            <li><i class="fa fa-money" aria-hidden="true"></i> Наложенный платеж</li>
+                            <li><i class="fa fa-gift" aria-hidden="true"></i> Ваучер</li>
+                            <li><i class="fa fa-credit-card" aria-hidden="true"></i> Кредитная карта</li>
                         </ul>  
                     </div>
                     <div class="clearfix"></div>

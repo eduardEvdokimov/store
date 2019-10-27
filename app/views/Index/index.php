@@ -163,21 +163,21 @@
 		<div class="container">  
 			<div class="add-products-row">
 				<div class="w3ls-add-grids">
-					<a href="products1.html"> 
-						<h4>TOP 10 TRENDS FOR YOU FLAT <span>20%</span> OFF</h4>
-						<h6>Shop now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
+					<a href="<?= HOST ?>/category/smartphones?sort=pop"> 
+						<h4>ТОП-10 ТЕНДЕНЦИЙ ДЛЯ ВАС <span>20%</span> СКИДКА</h4>
+						<h6>Купить <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
 					</a>
 				</div>
 				<div class="w3ls-add-grids w3ls-add-grids-mdl">
-					<a href="products1.html"> 
-						<h4>SUNDAY SPECIAL DISCOUNT FLAT <span>40%</span> OFF</h4>
-						<h6>Shop now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
+					<a href="<?= HOST ?>/category/office_chair"> 
+						<h4>НОВЫЕ КРЕСЛА С <span>40%</span> СКИДКОЙ</h4>
+						<h6>Купить <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
 					</a>
 				</div>
 				<div class="w3ls-add-grids w3ls-add-grids-mdl1">
-					<a href="products.html"> 
-						<h4>LATEST DESIGNS FOR YOU <span> Hurry !</span></h4>
-						<h6>Shop now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
+					<a href="<?= HOST ?>/category/apple"> 
+						<h4>ПОСЛЕДНИЕ ПОСТУПЛЕНИЯ <span> ТОРОПИСЬ !</span></h4>
+						<h6>Купить <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
 					</a>
 				</div>
 				<div class="clerfix"> </div>

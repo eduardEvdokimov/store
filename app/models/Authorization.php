@@ -13,7 +13,9 @@ class Authorization extends MainModel
                 'confirm' => false,
                 'auth' => false,
                 'remember' => false,
-                'fast' => false 
+                'fast' => false,
+                'role' => 'user',
+                'date_registration' => '',
             ]
         ];
 
@@ -35,10 +37,12 @@ class Authorization extends MainModel
             'id' => $data['id'], 
             'email' => $data['email'],  
             'name' => $data['name'], 
-            'password' => $data['password'], 
+            'password' => $data['password'],
+
         ];
 
         $session = array_merge($session['user'], $user);
+
         $_SESSION['user'] = $session;
     }
 }

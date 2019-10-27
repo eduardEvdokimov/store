@@ -18,13 +18,14 @@ class View
         $this->view = $view;
         $this->meta = $meta;
         $this->params = $params;
+        $this->prefix = !empty($route['prefix']) ? $route['prefix'] . '/' : '';
     }
 
     public function show()
     {
         extract($this->params);
         
-        $file_view = VIEWS . "/{$this->route['controller']}/{$this->view}.php";
+        $file_view = VIEWS . "/{$this->prefix}{$this->route['controller']}/{$this->view}.php";
        
         if(file_exists($file_view)){
             

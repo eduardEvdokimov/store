@@ -1,6 +1,8 @@
 <?php
 
-define('HOST', 'http://store.loc');
+define('HOST', 'http://beststore.ddns.net');
+define('HOST_ADMIN', HOST . '/admin');
+define('ADMIN_PATH', HOST . '/adminLTE');
 define('DIR', dirname(__DIR__));
 define('APP', DIR . '/app');
 define('DEBUG', 1);
@@ -14,5 +16,4 @@ define('WIDGET', DIR . '/widgets');
 define('CURRENT_LAYOUT', 'default');
 define('VIEWS', DIR . '/app/views');
 define('SOL_CONFIRM_EMAIL', 'xer0x');
-
 

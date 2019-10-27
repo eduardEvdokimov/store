@@ -8,7 +8,6 @@ class Router{
     private static $routes = [];
     private $route = [];
     
-
     public function __construct()
     {
         $this->dispatch();
@@ -27,10 +26,9 @@ class Router{
                 $controller = isset($m['controller']) ? $m['controller'] : $path['controller'];
                 $action = isset($m['action']) ? $m['action'] : $path['action'];
 
-
                 $this->route['controller'] = $this->strToUpper($controller) ?: 'Index';
                 $this->route['action'] = $this->strToLower($action) ?: 'index';
-                $this->route['prefix'] = isset($path['prefix']) ? '/' . $path['prefix'] : '';
+                $this->route['prefix'] = isset($path['prefix']) ? '\\' . $path['prefix'] : '';
                 
                 return true;
             }
@@ -46,17 +44,19 @@ class Router{
     private function dispatch()
     {   
         $uri = $this->removeQuery($_SERVER['REQUEST_URI']);
-        
         if($this->matchRoute($uri)){
 
             $controller = $this->route['controller'] . 'Controller';
             $action = $this->route['action'] . 'Action';
 
-            $file_controller = str_replace('/', '\\', APP . "{$this->route['prefix']}" . '/controllers/' . $controller . '.php');
+            $file_controller = str_replace('/', '\\', APP  . '/controllers' . $this->route['prefix'] . '/'  . $controller . '.php');
+            
 
             if(file_exists($file_controller)){
                 include $file_controller;
-                $class_name = '\app\controllers\\' . $controller;
+
+                $class_name = "\app\controllers{$this->route['prefix']}\\" . $controller;
+                
                 if(class_exists($class_name)){
                     $class_controller = new $class_name($this->route);
                     

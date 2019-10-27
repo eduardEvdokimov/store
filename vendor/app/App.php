@@ -11,6 +11,8 @@ class App{
         new Errors;
         $config = require CONFIG . '/config.php';
         Register::add('config', $config);
+        $simbols_currency = require CONFIG . '/simbols_currency.php';
+        Register::add('simbols_currency', $simbols_currency);
         Register::setCurrency();
         new Router;
     }

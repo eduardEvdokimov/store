@@ -76,6 +76,7 @@ class ProductModel extends MainModel
                 }
             }
             $price *= $currentCurrency['value'];
+            
             return round($price, 2);
         }
         return 0;

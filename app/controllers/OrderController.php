@@ -10,9 +10,8 @@ class OrderController extends MainController
     {
         if(empty($_SESSION['cart'])) redirect();
 
-        $model = new ProductModel;
         $data['count'] = $_SESSION['cart.count'];
-        $data['summ'] = $model->recalcPrice($_SESSION['cart.summ']);
+        $data['summ'] = $_SESSION['cart.summ'];
         $this->setParams(['order' => $data]);
     }
 
@@ -97,19 +96,25 @@ class OrderController extends MainController
     public function myAction()
     {
         if(isset($_SESSION['user']) && $_SESSION['user']['auth']){
-            $orders = $this->db->query("SELECT orders.id, orders.number, orders.currency, orders.summ, orders.count_product, orders.date, orders.update_date FROM orders WHERE user_id={$_SESSION['user']['id']}");
-            d($orders);
+            $orders = [];
+            $orders = $this->db->query("SELECT orders.id, orders.status, orders.currency, orders.summ, orders.count_product, orders.date, orders.update_date FROM orders WHERE user_id={$_SESSION['user']['id']}");
+            
 
             if($orders){
                 foreach ($orders as $key => $order) {
-                    $products = $this->db->query("SELECT qty, title, price, summ FROM order_product WHERE id={$order['id']}");
+                    $products = $this->db->query("SELECT qty, title, price, summ FROM order_product WHERE order_id={$order['id']}");
+
+
 
                     $order['products'] = $products;
+
                     $orders[$key] = $order;
                 }
-                $this->setParams(['orders' => $orders]);
+
+                
+                
             }
-            
+            $this->setParams(['orders' => $orders]);
             
         }else{
             redirect();

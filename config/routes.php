@@ -2,6 +2,8 @@
 
 use store\Router;
 
+Router::add('^admin/(?<controller>[a-z0-9-_&]+)/?(?<action>[a-z0-9-_&]*)$', ['prefix' => 'admin']);
+Router::add('^admin$', ['controller' => 'index', 'action' => 'index', 'prefix' => 'admin']);
 Router::add('^comparison/(?<key>[0-9]+)$', ['controller' => 'comparison', 'action' => 'comparison']);
 Router::add('^profile/comment/(?<id>\d+)$', ['controller' => 'profile', 'action' => 'comments']);
 Router::add('^login/service/(?<alias>\S+)$', ['controller' => 'login', 'action' => 'service']);

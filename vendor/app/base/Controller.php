@@ -34,7 +34,7 @@ abstract class Controller
     {
         extract($this->params);
         $view = !empty($tpl) ? $tpl : $this->view;
-        include VIEWS . "/{$this->route['controller']}/{$view}.php";
+        include VIEWS . "{$this->route['prefix']}/{$this->route['controller']}/{$view}.php";
         die;
     }
 
