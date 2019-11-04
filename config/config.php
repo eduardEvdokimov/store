@@ -25,7 +25,9 @@ return [
     ],
 
     'admin' => [
-        'view_count_orders' => 20
+        'view_count_orders' => 20,
+        'view_count_users' => 20,
+        'view_count_products' => 20
     ]
 ];
 

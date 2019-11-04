@@ -30,18 +30,23 @@ class Category
     private function getHtml()
     {
         $view = '';
+
         foreach ($this->categoryTree as $key => $value) {
-            $view .= $this->loadView($value);
+            $view .= $this->loadView($value, $key);
         }
         require 'layouts/' . $this->layout . '.php';
     }
 
-    private function loadView($item)
+    private function loadView($item, $key = null)
     {
+        $parent_keys = [];
+        foreach ($this->category as $value){
+            if(!in_array($value['parent_id'], $parent_keys))
+                $parent_keys[] = $value['parent_id'];
+        }
         ob_start();
         include 'layouts/' . $this->tpl . '.php';
-        return ob_get_clean(); 
-
+        return ob_get_clean();
     }
 
     public static function get()
@@ -54,16 +59,12 @@ class Category
             $category = $cache->get('category');
 
             if(empty($category)){
-               
                 $db = Db::getInstance();
                 $category = $db->query('SELECT * FROM category');
                 Register::add('category', $category);
                 $cache->add('category', $category, time() + 60 * 60 * 24 * 30);
-                
             }else{
-
                 Register::add('category', $category);
-                
             }
         }
 
@@ -72,8 +73,8 @@ class Category
             unset($value['id']);
             $newCategory[$id] = $value;
         }
-        return $newCategory;
 
+        return $newCategory;
     }
 
     private function getTree($category)
@@ -87,8 +88,6 @@ class Category
                 $category[$value['parent_id']]['child'][$key] = &$value;
             }
         }
-
-        
         return $tree;
     }
 }

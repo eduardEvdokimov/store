@@ -1,3 +1,4 @@
+<?php if(!empty($this->values)): ?>
 <div class="col-md-3 rsidebar">
     <div class="rsidebar-top">
        <?php foreach ($this->group as $g): ?>
@@ -25,3 +26,4 @@
                     
     </div>
 </div>
+<?php endif; ?>

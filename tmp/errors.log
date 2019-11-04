@@ -37018,3 +37018,2745 @@
 Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
 Код ошибки: 500
 
+Произошла ошибка № 6171: 28-10-2019 в 09:14:37
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6172: 28-10-2019 в 09:14:50
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6173: 28-10-2019 в 09:48:18
+Ошибка: Call to a member function run() on null
+Строка: 45
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\User\list.php
+Код ошибки: 0
+
+Произошла ошибка № 6174: 28-10-2019 в 09:48:18
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6175: 28-10-2019 в 09:49:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6176: 28-10-2019 в 09:50:57
+Ошибка: Метод editAction класса - \app\controllers\admin\UserController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6177: 28-10-2019 в 09:50:58
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6178: 28-10-2019 в 09:56:02
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\User\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6179: 28-10-2019 в 09:56:03
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6180: 28-10-2019 в 10:02:04
+Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42000
+
+Произошла ошибка № 6181: 28-10-2019 в 10:02:04
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6182: 28-10-2019 в 10:02:46
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6183: 28-10-2019 в 10:03:57
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6184: 28-10-2019 в 10:13:37
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6185: 28-10-2019 в 10:14:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6186: 28-10-2019 в 10:14:46
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6187: 28-10-2019 в 10:15:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6188: 28-10-2019 в 10:15:58
+Ошибка: syntax error, unexpected '}'
+Строка: 35
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\UserController.php
+Код ошибки: 0
+
+Произошла ошибка № 6189: 28-10-2019 в 10:15:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6190: 28-10-2019 в 10:16:07
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6191: 28-10-2019 в 10:23:14
+Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role']}' WHERE id=109' at line 1
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42000
+
+Произошла ошибка № 6192: 28-10-2019 в 10:23:14
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6193: 28-10-2019 в 10:24:14
+Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role']}' WHERE id=109' at line 1
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42000
+
+Произошла ошибка № 6194: 28-10-2019 в 10:24:14
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6195: 28-10-2019 в 10:24:19
+Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role']}' WHERE id=109' at line 1
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42000
+
+Произошла ошибка № 6196: 28-10-2019 в 10:24:19
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6197: 28-10-2019 в 10:24:22
+Ошибка: Метод indexAction класса - \app\controllers\admin\UserController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6198: 28-10-2019 в 10:24:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6199: 28-10-2019 в 10:24:38
+Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role']}' WHERE id=109' at line 1
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42000
+
+Произошла ошибка № 6200: 28-10-2019 в 10:24:38
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6201: 28-10-2019 в 16:21:36
+Ошибка: Метод indexAction класса - \app\controllers\admin\UserController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6202: 28-10-2019 в 16:21:36
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6203: 28-10-2019 в 16:23:28
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\CacheController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6204: 28-10-2019 в 16:23:28
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6205: 28-10-2019 в 16:51:24
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\CategoryController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6206: 28-10-2019 в 16:51:24
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6207: 28-10-2019 в 16:54:07
+Ошибка: Метод editAction класса - \app\controllers\admin\CategoryController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6208: 28-10-2019 в 16:54:08
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6209: 28-10-2019 в 17:04:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6210: 28-10-2019 в 17:23:38
+Ошибка: Метод editAction класса - \app\controllers\admin\CategoryController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6211: 28-10-2019 в 17:23:39
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6212: 28-10-2019 в 17:33:41
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6213: 28-10-2019 в 17:33:42
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6214: 28-10-2019 в 17:56:42
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6215: 28-10-2019 в 17:56:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6216: 28-10-2019 в 17:57:24
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6217: 28-10-2019 в 17:57:24
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6218: 28-10-2019 в 17:59:12
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6219: 28-10-2019 в 17:59:13
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6220: 28-10-2019 в 18:00:24
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6221: 28-10-2019 в 18:00:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6222: 28-10-2019 в 18:00:46
+Ошибка: syntax error, unexpected '?>'
+Строка: 31
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6223: 28-10-2019 в 18:00:46
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6224: 28-10-2019 в 18:00:56
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6225: 28-10-2019 в 18:00:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6226: 28-10-2019 в 18:06:16
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6227: 28-10-2019 в 18:07:08
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6228: 28-10-2019 в 18:09:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6229: 28-10-2019 в 18:09:24
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6230: 28-10-2019 в 18:31:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6231: 29-10-2019 в 10:18:21
+Ошибка: Метод addAction класса - \app\controllers\admin\CategoryController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6232: 29-10-2019 в 10:18:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6233: 29-10-2019 в 10:18:41
+Ошибка: syntax error, unexpected '}'
+Строка: 15
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ProductController.php
+Код ошибки: 0
+
+Произошла ошибка № 6234: 29-10-2019 в 10:18:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6235: 29-10-2019 в 10:20:48
+Ошибка: Метод addAction класса - \app\controllers\admin\CategoryController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6236: 29-10-2019 в 10:20:48
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6237: 29-10-2019 в 10:21:58
+Ошибка: Метод addAction класса - \app\controllers\admin\CategoryController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6238: 29-10-2019 в 10:21:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6239: 29-10-2019 в 10:22:28
+Ошибка: Class 'app\widgets\menu\Menu' not found
+Строка: 27
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\add.php
+Код ошибки: 0
+
+Произошла ошибка № 6240: 29-10-2019 в 10:22:30
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6241: 29-10-2019 в 10:25:58
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6242: 29-10-2019 в 10:25:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6243: 29-10-2019 в 10:26:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6244: 29-10-2019 в 10:27:13
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6245: 29-10-2019 в 10:27:22
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6246: 29-10-2019 в 10:30:26
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6247: 29-10-2019 в 10:38:26
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6248: 29-10-2019 в 10:40:59
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminlteproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6249: 29-10-2019 в 10:44:59
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminlteproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6250: 29-10-2019 в 10:45:27
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminlteproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6251: 29-10-2019 в 10:46:46
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminlteproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6252: 29-10-2019 в 10:51:50
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminlteproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6253: 29-10-2019 в 11:00:10
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6254: 29-10-2019 в 11:06:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6255: 29-10-2019 в 11:09:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6256: 29-10-2019 в 11:17:48
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6257: 29-10-2019 в 11:23:18
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6258: 29-10-2019 в 11:34:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6259: 29-10-2019 в 11:37:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6260: 29-10-2019 в 11:37:18
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6261: 29-10-2019 в 11:43:29
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6262: 29-10-2019 в 11:47:51
+Ошибка: Метод deleteAction класса - \app\controllers\admin\CategoryController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6263: 29-10-2019 в 11:47:51
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6264: 29-10-2019 в 11:56:47
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6265: 29-10-2019 в 11:58:04
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6266: 29-10-2019 в 11:59:09
+Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DELECT FROM category WHERE id=53' at line 1
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42000
+
+Произошла ошибка № 6267: 29-10-2019 в 11:59:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6268: 29-10-2019 в 12:04:43
+Ошибка: syntax error, unexpected '}'
+Строка: 15
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ProductController.php
+Код ошибки: 0
+
+Произошла ошибка № 6269: 29-10-2019 в 12:04:44
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6270: 29-10-2019 в 12:10:25
+Ошибка: Too few arguments to function widgets\pagination\Pagination::__construct(), 0 passed in C:\OSPanel\domains\store.loc\app\controllers\admin\ProductController.php on line 15 and at least 1 expected
+Строка: 17
+Файл: C:\OSPanel\domains\store.loc\widgets\pagination\Pagination.php
+Код ошибки: 0
+
+Произошла ошибка № 6271: 29-10-2019 в 12:10:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6272: 29-10-2019 в 12:10:33
+Ошибка: syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Строка: 16
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ProductController.php
+Код ошибки: 0
+
+Произошла ошибка № 6273: 29-10-2019 в 12:10:33
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6274: 29-10-2019 в 12:16:42
+Ошибка: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 23000
+
+Произошла ошибка № 6275: 29-10-2019 в 12:16:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6276: 29-10-2019 в 12:18:52
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6277: 29-10-2019 в 12:20:21
+Ошибка: Метод editAction класса - \app\controllers\admin\ProductController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6278: 29-10-2019 в 12:20:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6279: 29-10-2019 в 12:23:49
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6280: 29-10-2019 в 12:23:50
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6281: 29-10-2019 в 12:33:06
+Ошибка: Метод addAction класса - \app\controllers\admin\ProductController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6282: 29-10-2019 в 12:33:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6283: 29-10-2019 в 12:33:19
+Ошибка: Class 'app\widgets\menu\Menu' not found
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\add.php
+Код ошибки: 0
+
+Произошла ошибка № 6284: 29-10-2019 в 12:33:20
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6285: 29-10-2019 в 12:36:02
+Ошибка: Class 'app\widgets\filter\Filter' not found
+Строка: 75
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\add.php
+Код ошибки: 0
+
+Произошла ошибка № 6286: 29-10-2019 в 12:36:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6287: 29-10-2019 в 12:36:15
+Ошибка: Class 'app\widgets\filter\Filter' not found
+Строка: 75
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\add.php
+Код ошибки: 0
+
+Произошла ошибка № 6288: 29-10-2019 в 12:36:16
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6289: 29-10-2019 в 13:13:37
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6290: 29-10-2019 в 19:03:09
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6291: 29-10-2019 в 19:03:10
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6292: 30-10-2019 в 18:31:17
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\CurrencyController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6293: 30-10-2019 в 18:31:18
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6294: 30-10-2019 в 18:54:53
+Ошибка: Метод indexAction класса - \app\controllers\admin\CurrencyController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6295: 30-10-2019 в 18:54:54
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6296: 30-10-2019 в 19:00:32
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6297: 30-10-2019 в 19:00:42
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6298: 30-10-2019 в 19:00:51
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6299: 30-10-2019 в 19:42:25
+Ошибка: syntax error, unexpected '$_SESSION' (T_VARIABLE)
+Строка: 26
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\CurrencyController.php
+Код ошибки: 0
+
+Произошла ошибка № 6300: 30-10-2019 в 19:42:26
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6301: 30-10-2019 в 19:42:55
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6302: 30-10-2019 в 19:45:00
+Ошибка: SQLSTATE[HY000]: General error
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: HY000
+
+Произошла ошибка № 6303: 30-10-2019 в 19:45:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6304: 30-10-2019 в 19:46:52
+Ошибка: SQLSTATE[HY000]: General error
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: HY000
+
+Произошла ошибка № 6305: 30-10-2019 в 19:46:53
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6306: 30-10-2019 в 19:48:42
+Ошибка: SQLSTATE[HY000]: General error
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: HY000
+
+Произошла ошибка № 6307: 30-10-2019 в 19:48:42
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6308: 30-10-2019 в 19:49:23
+Ошибка: SQLSTATE[HY000]: General error
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: HY000
+
+Произошла ошибка № 6309: 30-10-2019 в 19:49:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6310: 30-10-2019 в 19:49:34
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6311: 30-10-2019 в 19:51:48
+Ошибка: SQLSTATE[HY000]: General error
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: HY000
+
+Произошла ошибка № 6312: 30-10-2019 в 19:51:49
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6313: 30-10-2019 в 20:53:05
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6314: 30-10-2019 в 20:59:27
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6315: 30-10-2019 в 21:00:37
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6316: 30-10-2019 в 21:03:52
+Ошибка: syntax error, unexpected ''$name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6317: 30-10-2019 в 21:04:15
+Ошибка: syntax error, unexpected ''$name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6318: 30-10-2019 в 21:04:16
+Ошибка: syntax error, unexpected ''$name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6319: 30-10-2019 в 21:04:48
+Ошибка: syntax error, unexpected ''$name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6320: 30-10-2019 в 21:04:48
+Ошибка: syntax error, unexpected ''$name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6321: 30-10-2019 в 21:05:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6322: 30-10-2019 в 21:05:58
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6323: 30-10-2019 в 21:06:44
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6324: 30-10-2019 в 21:07:27
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6325: 30-10-2019 в 21:08:34
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6326: 30-10-2019 в 21:09:39
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6327: 30-10-2019 в 21:09:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6328: 30-10-2019 в 21:09:47
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6329: 30-10-2019 в 21:10:17
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6330: 30-10-2019 в 21:10:17
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6331: 30-10-2019 в 21:11:34
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6332: 30-10-2019 в 21:11:49
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6333: 30-10-2019 в 21:12:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6334: 30-10-2019 в 21:12:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6335: 30-10-2019 в 21:12:50
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6336: 30-10-2019 в 21:12:50
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6337: 30-10-2019 в 21:14:06
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6338: 30-10-2019 в 21:14:07
+Ошибка: syntax error, unexpected 'fas' (T_STRING), expecting ']'
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 0
+
+Произошла ошибка № 6339: 30-10-2019 в 21:14:38
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6340: 30-10-2019 в 21:15:35
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6341: 30-10-2019 в 21:15:50
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6342: 30-10-2019 в 21:16:13
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6343: 30-10-2019 в 21:16:27
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6344: 30-10-2019 в 21:16:34
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6345: 30-10-2019 в 21:18:13
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6346: 30-10-2019 в 21:20:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6347: 30-10-2019 в 21:20:55
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6348: 30-10-2019 в 21:21:13
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6349: 30-10-2019 в 21:22:07
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6350: 30-10-2019 в 21:22:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6351: 30-10-2019 в 21:22:34
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6352: 30-10-2019 в 21:22:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6353: 30-10-2019 в 21:23:51
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6354: 30-10-2019 в 21:24:32
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6355: 30-10-2019 в 21:25:03
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6356: 30-10-2019 в 21:25:10
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6357: 30-10-2019 в 21:26:31
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6358: 30-10-2019 в 21:28:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6359: 30-10-2019 в 21:28:33
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6360: 30-10-2019 в 21:28:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6361: 30-10-2019 в 21:31:05
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6362: 30-10-2019 в 21:31:47
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6363: 30-10-2019 в 21:35:33
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6364: 30-10-2019 в 21:36:17
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6365: 30-10-2019 в 21:38:32
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6366: 30-10-2019 в 21:40:04
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6367: 30-10-2019 в 21:41:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6368: 30-10-2019 в 21:44:16
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6369: 30-10-2019 в 21:45:40
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6370: 31-10-2019 в 10:39:20
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6371: 31-10-2019 в 10:39:26
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6372: 31-10-2019 в 10:45:56
+Ошибка: Метод editAction класса - \app\controllers\admin\CurrencyController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6373: 31-10-2019 в 10:45:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6374: 31-10-2019 в 10:51:05
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6375: 31-10-2019 в 10:52:33
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6376: 31-10-2019 в 10:53:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6377: 31-10-2019 в 10:53:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6378: 31-10-2019 в 10:53:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6379: 31-10-2019 в 10:58:17
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6380: 31-10-2019 в 11:14:27
+Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'field list'
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42S22
+
+Произошла ошибка № 6381: 31-10-2019 в 11:14:28
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6382: 31-10-2019 в 11:16:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6383: 31-10-2019 в 11:17:28
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6384: 31-10-2019 в 11:17:47
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6385: 31-10-2019 в 11:18:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6386: 31-10-2019 в 11:18:48
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6387: 31-10-2019 в 11:30:03
+Ошибка: Call to undefined method app\controllers\admin\CurrencyController::exec()
+Строка: 72
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\CurrencyController.php
+Код ошибки: 0
+
+Произошла ошибка № 6388: 31-10-2019 в 11:30:03
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6389: 31-10-2019 в 11:30:41
+Ошибка: Метод deleteAction класса - \app\controllers\admin\CurrencyController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6390: 31-10-2019 в 11:30:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6391: 31-10-2019 в 11:32:54
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6392: 31-10-2019 в 11:33:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6393: 31-10-2019 в 11:36:18
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6394: 31-10-2019 в 11:37:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6395: 31-10-2019 в 11:41:16
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6396: 31-10-2019 в 11:43:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6397: 31-10-2019 в 11:43:58
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6398: 31-10-2019 в 11:44:08
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6399: 31-10-2019 в 11:44:37
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6400: 31-10-2019 в 11:44:40
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6401: 31-10-2019 в 11:44:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6402: 31-10-2019 в 11:44:44
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6403: 31-10-2019 в 11:45:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6404: 31-10-2019 в 11:48:03
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6405: 31-10-2019 в 11:48:05
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6406: 31-10-2019 в 11:50:38
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6407: 31-10-2019 в 11:51:40
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6408: 31-10-2019 в 12:10:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6409: 31-10-2019 в 12:21:06
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\FilterController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6410: 31-10-2019 в 12:21:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6411: 31-10-2019 в 12:27:02
+Ошибка: Метод groupAddAction класса - \app\controllers\admin\FilterController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6412: 31-10-2019 в 12:27:03
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6413: 31-10-2019 в 12:30:51
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\FilterController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6414: 31-10-2019 в 12:30:52
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6415: 31-10-2019 в 12:31:50
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6416: 31-10-2019 в 12:31:50
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6417: 31-10-2019 в 13:07:29
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminlteproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6418: 31-10-2019 в 13:11:10
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6419: 31-10-2019 в 13:11:47
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6420: 31-10-2019 в 13:12:24
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6421: 31-10-2019 в 13:13:08
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6422: 31-10-2019 в 13:17:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6423: 31-10-2019 в 13:21:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6424: 31-10-2019 в 13:23:07
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6425: 31-10-2019 в 13:24:22
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\AdminproductController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6426: 31-10-2019 в 13:27:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6427: 31-10-2019 в 15:50:56
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6428: 31-10-2019 в 15:50:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6429: 31-10-2019 в 16:26:14
+Ошибка: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM filter_group WHERE category_id=20' at line 1
+Строка: 32
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42000
+
+Произошла ошибка № 6430: 31-10-2019 в 17:09:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6431: 31-10-2019 в 17:09:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6432: 31-10-2019 в 17:09:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6433: 31-10-2019 в 17:10:10
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6434: 31-10-2019 в 17:14:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6435: 31-10-2019 в 17:21:27
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6436: 31-10-2019 в 17:23:37
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6437: 31-10-2019 в 17:25:03
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6438: 31-10-2019 в 17:25:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6439: 31-10-2019 в 17:26:11
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6440: 31-10-2019 в 17:26:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6441: 31-10-2019 в 17:37:46
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6442: 31-10-2019 в 17:51:04
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6443: 31-10-2019 в 17:51:15
+Ошибка: Call to undefined method app\controllers\admin\ProductController::exec()
+Строка: 51
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ProductController.php
+Код ошибки: 0
+
+Произошла ошибка № 6444: 31-10-2019 в 17:51:16
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6445: 31-10-2019 в 17:51:51
+Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'asus' in 'field list'
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42S22
+
+Произошла ошибка № 6446: 31-10-2019 в 17:51:52
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6447: 31-10-2019 в 17:55:24
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6448: 31-10-2019 в 17:56:01
+Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'asus' in 'field list'
+Строка: 56
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Db.php
+Код ошибки: 42S22
+
+Произошла ошибка № 6449: 31-10-2019 в 17:56:01
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6450: 31-10-2019 в 17:58:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6451: 31-10-2019 в 17:59:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6452: 31-10-2019 в 17:59:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6453: 31-10-2019 в 17:59:55
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6454: 31-10-2019 в 17:59:55
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6455: 31-10-2019 в 17:59:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6456: 31-10-2019 в 17:59:58
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6457: 31-10-2019 в 17:59:58
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6458: 31-10-2019 в 17:59:58
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6459: 31-10-2019 в 18:00:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6460: 31-10-2019 в 18:00:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6461: 31-10-2019 в 18:00:04
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6462: 31-10-2019 в 18:00:07
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6463: 31-10-2019 в 18:04:54
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6464: 31-10-2019 в 18:05:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6465: 31-10-2019 в 18:05:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6466: 31-10-2019 в 18:06:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6467: 31-10-2019 в 18:07:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6468: 31-10-2019 в 18:07:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6469: 31-10-2019 в 18:07:55
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6470: 31-10-2019 в 18:07:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6471: 31-10-2019 в 18:08:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6472: 31-10-2019 в 18:08:20
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6473: 31-10-2019 в 18:08:20
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6474: 31-10-2019 в 18:08:24
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6475: 31-10-2019 в 18:08:26
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6476: 31-10-2019 в 18:08:26
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6477: 31-10-2019 в 18:13:37
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6478: 31-10-2019 в 18:13:37
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6479: 31-10-2019 в 18:13:38
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6480: 31-10-2019 в 18:13:38
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6481: 31-10-2019 в 18:13:38
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6482: 31-10-2019 в 18:15:53
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6483: 31-10-2019 в 18:18:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6484: 31-10-2019 в 18:25:03
+Ошибка: Метод deleteAction класса - \app\controllers\admin\ProductController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6485: 31-10-2019 в 18:25:03
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6486: 31-10-2019 в 18:29:36
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6487: 31-10-2019 в 18:29:55
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6488: 31-10-2019 в 18:40:48
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6489: 31-10-2019 в 18:40:48
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6490: 01-11-2019 в 09:39:59
+Ошибка: Call to undefined function h()
+Строка: 22
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 0
+
+Произошла ошибка № 6491: 01-11-2019 в 09:40:01
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6492: 01-11-2019 в 10:00:15
+Ошибка: Метод indexAction класса - \app\controllers\admin\UserController не найден
+Строка: 68
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6493: 01-11-2019 в 10:00:16
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6494: 01-11-2019 в 10:02:27
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6495: 01-11-2019 в 10:02:27
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6496: 01-11-2019 в 10:03:20
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6497: 01-11-2019 в 10:03:20
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6498: 01-11-2019 в 10:03:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6499: 01-11-2019 в 10:04:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6500: 01-11-2019 в 10:04:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6501: 01-11-2019 в 10:04:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6502: 01-11-2019 в 10:04:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6503: 01-11-2019 в 10:04:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6504: 01-11-2019 в 10:04:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6505: 01-11-2019 в 10:04:28
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6506: 01-11-2019 в 10:04:29
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6507: 01-11-2019 в 10:04:29
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6508: 01-11-2019 в 10:04:46
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6509: 01-11-2019 в 10:04:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6510: 01-11-2019 в 10:04:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6511: 01-11-2019 в 10:26:49
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6512: 01-11-2019 в 10:26:49
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6513: 01-11-2019 в 10:26:49
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6514: 01-11-2019 в 10:35:47
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6515: 01-11-2019 в 10:35:47
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6516: 01-11-2019 в 10:35:47
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6517: 01-11-2019 в 10:36:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6518: 01-11-2019 в 10:36:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6519: 01-11-2019 в 10:36:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6520: 01-11-2019 в 10:37:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6521: 01-11-2019 в 10:37:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6522: 01-11-2019 в 10:37:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6523: 01-11-2019 в 11:21:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6524: 01-11-2019 в 11:21:59
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6525: 01-11-2019 в 12:27:06
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6526: 01-11-2019 в 12:32:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6527: 01-11-2019 в 12:33:04
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6528: 01-11-2019 в 12:34:05
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6529: 01-11-2019 в 13:11:02
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6530: 01-11-2019 в 16:48:57
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6531: 01-11-2019 в 16:54:17
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6532: 01-11-2019 в 16:54:17
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6533: 01-11-2019 в 16:54:17
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6534: 01-11-2019 в 16:56:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6535: 01-11-2019 в 16:56:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6536: 01-11-2019 в 16:56:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6537: 02-11-2019 в 15:49:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6538: 03-11-2019 в 16:03:28
+Ошибка: Call to a member function read() on boolean
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6539: 03-11-2019 в 16:03:29
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6540: 03-11-2019 в 16:03:52
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6541: 03-11-2019 в 16:04:35
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6542: 03-11-2019 в 16:13:57
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6543: 03-11-2019 в 16:14:49
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6544: 03-11-2019 в 16:21:41
+Ошибка: DateTime::__construct(): Failed to parse time string (Дата создания - 2019-11-03 04:18:30) at position 0 (�): Unexpected character
+Строка: 26
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6545: 03-11-2019 в 16:21:42
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6546: 03-11-2019 в 16:23:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6547: 03-11-2019 в 16:23:47
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6548: 03-11-2019 в 16:24:00
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6549: 03-11-2019 в 16:24:05
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6550: 03-11-2019 в 16:37:53
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6551: 03-11-2019 в 16:37:54
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6552: 03-11-2019 в 16:38:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6553: 03-11-2019 в 16:38:25
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6554: 03-11-2019 в 16:38:40
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6555: 03-11-2019 в 16:38:40
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6556: 03-11-2019 в 16:40:14
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\ViewController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6557: 03-11-2019 в 16:40:14
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6558: 03-11-2019 в 16:40:37
+Ошибка: Файл контроллера не наден - C:\OSPanel\domains\store.loc\app\controllers\admin\ViewController.php
+Строка: 74
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6559: 03-11-2019 в 16:40:38
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6560: 03-11-2019 в 17:08:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6561: 03-11-2019 в 17:08:19
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6562: 03-11-2019 в 17:11:39
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6563: 03-11-2019 в 17:11:49
+Ошибка: Call to undefined function app\controllers\admin\expode()
+Строка: 48
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6564: 03-11-2019 в 17:11:49
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6565: 03-11-2019 в 17:28:40
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6566: 03-11-2019 в 17:29:22
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6567: 03-11-2019 в 17:30:04
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6568: 03-11-2019 в 17:30:30
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6569: 03-11-2019 в 17:30:50
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6570: 03-11-2019 в 17:32:51
+Ошибка: Call to undefined function app\controllers\admin\expode()
+Строка: 54
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6571: 03-11-2019 в 17:32:52
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6572: 03-11-2019 в 17:40:12
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6573: 03-11-2019 в 17:40:33
+Ошибка: Класс не найден - ChatController
+Строка: 71
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6574: 03-11-2019 в 17:40:34
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6575: 03-11-2019 в 17:40:45
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6576: 03-11-2019 в 17:41:19
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6577: 03-11-2019 в 17:41:24
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6578: 03-11-2019 в 18:27:09
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6579: 04-11-2019 в 09:44:53
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6580: 04-11-2019 в 09:50:39
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6581: 04-11-2019 в 09:52:01
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6582: 04-11-2019 в 10:06:00
+Ошибка: DateTime::__construct(): Failed to parse time string (Эдуард Евдокимов#|&amp;asd#|&amp;2019-11-04 10:04:58) at position 0 (�): Unexpected character
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6583: 04-11-2019 в 10:06:01
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6584: 04-11-2019 в 10:06:07
+Ошибка: DateTime::__construct(): Failed to parse time string (Эдуард Евдокимов#|&amp;asd#|&amp;2019-11-04 10:04:58) at position 0 (�): Unexpected character
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6585: 04-11-2019 в 10:06:08
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6586: 04-11-2019 в 10:07:29
+Ошибка: DateTime::__construct(): Failed to parse time string (Эдуард Евдокимов#|&amp;asd#|&amp;2019-11-04 10:04:58) at position 0 (�): Unexpected character
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6587: 04-11-2019 в 10:07:30
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6588: 04-11-2019 в 10:07:43
+Ошибка: DateTime::__construct(): Failed to parse time string (Эдуард Евдокимов#|&amp;asd#|&amp;2019-11-04 10:04:58) at position 0 (�): Unexpected character
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6589: 04-11-2019 в 10:07:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6590: 04-11-2019 в 10:07:54
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6591: 04-11-2019 в 10:21:50
+Ошибка: DateTime::__construct(): Failed to parse time string (#|&amp;#|&amp;2019-11-04 10:08:03) at position 0 (#): Unexpected character
+Строка: 27
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6592: 04-11-2019 в 10:21:51
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6593: 04-11-2019 в 10:30:15
+Ошибка: DateTime::__construct(): Failed to parse time string (#|&amp;#|&amp;2019-11-04 10:27:53) at position 0 (#): Unexpected character
+Строка: 27
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6594: 04-11-2019 в 10:30:16
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6595: 04-11-2019 в 10:30:17
+Ошибка: DateTime::__construct(): Failed to parse time string (#|&amp;#|&amp;2019-11-04 10:27:53) at position 0 (#): Unexpected character
+Строка: 27
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6596: 04-11-2019 в 10:30:18
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6597: 04-11-2019 в 11:03:14
+Ошибка: DateTime::__construct(): Failed to parse time string (#|&amp;#|&amp;2019-11-04 10:30:59) at position 0 (#): Unexpected character
+Строка: 27
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6598: 04-11-2019 в 11:03:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6599: 04-11-2019 в 11:03:21
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6600: 04-11-2019 в 11:03:29
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6601: 04-11-2019 в 11:06:26
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6602: 04-11-2019 в 11:06:29
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6603: 04-11-2019 в 11:06:32
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6604: 04-11-2019 в 11:06:35
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6605: 04-11-2019 в 11:08:41
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6606: 04-11-2019 в 11:10:31
+Ошибка: DateTime::__construct(): Failed to parse time string (#|&amp;#|&amp;2019-11-04 11:08:45) at position 0 (#): Unexpected character
+Строка: 27
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6607: 04-11-2019 в 11:10:32
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6608: 04-11-2019 в 11:13:43
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6609: 04-11-2019 в 11:13:44
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6610: 04-11-2019 в 11:18:17
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6611: 04-11-2019 в 11:18:23
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6612: 04-11-2019 в 11:22:54
+Ошибка: DateTime::__construct(): Failed to parse time string (#|&amp;ads#|&amp;2019-11-04 11:22:31) at position 0 (#): Unexpected character
+Строка: 27
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 0
+
+Произошла ошибка № 6613: 04-11-2019 в 11:22:54
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6614: 04-11-2019 в 11:24:46
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6615: 04-11-2019 в 11:27:20
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6616: 04-11-2019 в 11:27:24
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6617: 04-11-2019 в 11:29:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6618: 04-11-2019 в 11:38:01
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6619: 04-11-2019 в 11:39:56
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6620: 04-11-2019 в 11:40:13
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6621: 04-11-2019 в 12:18:40
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6622: 04-11-2019 в 16:44:17
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6623: 04-11-2019 в 16:46:29
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6624: 04-11-2019 в 16:49:27
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6625: 04-11-2019 в 16:49:39
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6626: 04-11-2019 в 16:50:15
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+
+Произошла ошибка № 6627: 04-11-2019 в 16:50:57
+Ошибка: Маршрут не найден
+Строка: 77
+Файл: C:\OSPanel\domains\store.loc\vendor\app\Router.php
+Код ошибки: 500
+

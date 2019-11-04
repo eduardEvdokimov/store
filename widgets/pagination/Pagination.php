@@ -7,6 +7,13 @@ class Pagination
     private $countProduct;
     private $href;
 
+    /**
+     * Pagination constructor.
+     * @param $countProduct
+     * @param string $currentPage
+     * @param int $countProductOnePage
+     * @param string $layout
+     */
     public function __construct($countProduct, $currentPage = '', $countProductOnePage = 9, $layout = 'default')
     {
         $this->currentPage = $currentPage ?: 1;

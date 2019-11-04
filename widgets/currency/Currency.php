@@ -44,7 +44,16 @@ class Currency
     public static function getCurrentCurrency($currencies)
     {
         if(isset($_COOKIE['currency'])){
-            return $_COOKIE['currency'];
+            foreach ($currencies as $currency){
+                if($currency['name'] == $_COOKIE['currency'])
+                    return $_COOKIE['currency'];
+
+                if($currency['base'] == 1){
+                    $base = $currency;
+                }
+            }
+            return $base['name'];
+
         }else{
             foreach ($currencies as $currency) {
                 if($currency['base'] == 1){
@@ -62,19 +71,10 @@ class Currency
 
     public function getHtml()
     {
-        $li = file(WIDGET . '\currency\layouts\view.html');
-        $html = '';
-        
-        foreach ($this->currencies as $curr) {
-            foreach ($li as $value) {
-                if(strpos($value, $curr['name'])){
-                    $active = $this->currenctCurrency == $curr['name'] ? "class='active'" : '';
-                    $html .= sprintf($value, $active);
-                    break;
-                }
-            }
-        }
-        return $html;
+        ob_start();
+        $currentCurrency = $this->currenctCurrency;
+        include WIDGET . '\currency\layouts\view.php';
+        return ob_get_clean();
     }
 
     public static function getSimbol()
@@ -86,6 +86,8 @@ class Currency
             $currentCurrency = self::getCurrentCurrency(self::getCurrencies());
         }
         $simbolCurrency = $simbolsCurrencies[$currentCurrency];
+
         return $simbolCurrency;
     }
+
 }

@@ -1,3 +1,4 @@
+
 $('.delete').click(function(){
     var res = confirm('Подтвердите действие');
     if(!res) return false;
@@ -43,7 +44,7 @@ $('.sidebar-menu a').each(function(){
 });
 
 // CKEDITOR.replace('editor1');
-$( '#editor1' ).ckeditor();
+$( '.editor' ).ckeditor();
 
 $('#reset-filter').click(function(){
     $('#filter input[type=radio]').prop('checked', false);
@@ -72,6 +73,8 @@ $(".select2").select2({
     }
 });
 
+
+
 if($('div').is('#single')){
     var buttonSingle = $("#single"),
         buttonMulti = $("#multi"),
@@ -79,8 +82,9 @@ if($('div').is('#single')){
 }
 
 if(buttonSingle){
+
     new AjaxUpload(buttonSingle, {
-        action: adminpath + buttonSingle.data('url') + "?upload=1",
+        action: adminpath + '/' + buttonSingle.data('url') + "?upload=1",
         data: {name: buttonSingle.data('name')},
         name: buttonSingle.data('name'),
         onSubmit: function(file, ext){
@@ -89,14 +93,13 @@ if(buttonSingle){
                 return false;
             }
             buttonSingle.closest('.file-upload').find('.overlay').css({'display':'block'});
-
         },
         onComplete: function(file, response){
             setTimeout(function(){
                 buttonSingle.closest('.file-upload').find('.overlay').css({'display':'none'});
-
+                console.log(response);
                 response = JSON.parse(response);
-                $('.' + buttonSingle.data('name')).html('<img src="/images/' + response.file + '" style="max-height: 150px;">');
+                $('.' + buttonSingle.data('name')).html("<img src='" + host + "/images/tmp/" + response.file + "' style='max-height: 150px;'>");
             }, 1000);
         }
     });
@@ -104,7 +107,7 @@ if(buttonSingle){
 
 if(buttonMulti){
     new AjaxUpload(buttonMulti, {
-        action: adminpath + buttonMulti.data('url') + "?upload=1",
+        action: adminpath + '/' + buttonMulti.data('url') + "?upload=1",
         data: {name: buttonMulti.data('name')},
         name: buttonMulti.data('name'),
         onSubmit: function(file, ext){
@@ -120,19 +123,156 @@ if(buttonMulti){
                 buttonMulti.closest('.file-upload').find('.overlay').css({'display':'none'});
 
                 response = JSON.parse(response);
-                $('.' + buttonMulti.data('name')).append('<img src="/images/' + response.file + '" style="max-height: 150px;">');
+                $('.' + buttonMulti.data('name')).append("<img src='" + host + "/images/tmp/" + response.file +  "' style='max-height: 150px;'>");
             }, 1000);
         }
     });
 }
 
 $('#add').on('submit', function(){
-     if(!isNumeric( $('#category_id').val() )){
-         alert('Выберите категорию');
-         return false;
-     }
+     // if(!isNumeric( $('#category_id').val() )){
+     //     alert('Выберите категорию');
+     //     return false;
+     // }
 });
+
+$('#table-chats-admin-panel tr').click(function(){
+    var hash = $(this).data('hash');
+    document.location = adminpath + '/chat/view?chat=' + hash;
+});
+
+
+var sock;
+var tim;
+
+
+$('#block-chat-user button[id=connect]').click(function(){
+    if($(this).is('.active'))
+        return;
+
+    $(this).addClass('active');
+    $('#block-chat-user button[id=disconnect]').removeClass('active');
+
+    var hash = $('#block-chat-user .chat').data('hash');
+
+    var socket = new WebSocket("ws://" + sytename + ':7000');
+    sock = socket;
+
+    socket.onopen = function() {
+        addMsgAdmin('Консультант ' + adminName + ' подключился к чату!', '', 'info');
+        var data = JSON.stringify({'hash': hash, 'from': 'admin', 'type': 'connect', 'name': adminName, 'admin_id': adminId});
+        socket.send(data);
+    };
+
+    socket.onclose = function(event) {
+        if (event.wasClean) {
+            console.log('Соединение закрыто чисто');
+        } else {
+            alert('Обрыв соединения'); // например, "убит" процесс сервера
+        }
+    };
+
+    socket.onmessage = function(event) {
+        var data = JSON.parse(event.data);
+        if(data.type == 'info'){
+            addMsgAdmin(data.msg, data.time, 'info');
+        }else if(data.type == 'msg'){
+            addMsgAdmin(data.msg, data.time, 'yourMsg');
+        }else if(data.type == 'write'){
+            clearTimeout(tim);
+            if(!$('#block-chat-user .chat  .notice-write').length){
+                addMsgAdmin('', '', 'write');
+            }
+            tim = setTimeout(function(){
+                $('#block-chat-user .chat .notice-write').remove();
+            }, 2000);
+        }
+
+    };
+
+    socket.onerror = function(error) {
+        alert("Ошибка " + error.message);
+    };
+});
+
+$('#block-chat-user button[id=disconnect]').click(function(){
+    if($(this).is('.active'))
+        return;
+
+    $(this).addClass('active');
+    $('#block-chat-user button[id=connect]').removeClass('active');
+    addMsgAdmin('Консультант ' + adminName + ' отключен от чата!', getTime(), 'info');
+    sock.close();
+});
+
+$('#block-chat-user .box-footer #field-msg').keyup(function(e){
+   if(e.keyCode == 13){
+       var msg = $('#block-chat-user .box-footer #field-msg').val();
+       if(msg.match(/^\s*$/))
+           return;
+       $('#block-chat-user .box-footer #field-msg').val('');
+       var data = JSON.stringify({'from': 'admin', 'msg': msg, 'type': 'msg', 'name': adminName});
+       addMsgAdmin(msg, getTime(), 'myMsg');
+       sock.send(data);
+   }else{
+       var data = JSON.stringify({'from': 'admin', 'type': 'write'});
+       sock.send(data);
+   }
+});
+
+
+$('#send-new-msg-admin-panel').click(function(e){
+    e.preventDefault();
+    var msg = $('#block-chat-user .box-footer #field-msg').val();
+    if(msg.match(/^\s*$/))
+        return;
+    $('#block-chat-user .box-footer #field-msg').val('');
+    var data = JSON.stringify({'from': 'admin', 'msg': msg, 'type': 'msg', 'name': adminName});
+    addMsgAdmin(msg, getTime(), 'myMsg');
+    sock.send(data);
+});
+
+
+
+function addMsgAdmin(msg, date, type)
+{
+    if(type == 'info'){
+        var html = '';
+        html += "<li class='notice-msg'><p>"+msg+"</p></li>";
+        $('#block-chat-user .chat ul').append(html);
+
+    }else if(type == 'myMsg'){
+        var html = '';
+        html = "<li><div class='my-msg'>"+msg+"</div><span class='my-msg-date'>"+date+"</span></li>";
+        $('#block-chat-user .chat ul').append(html);
+    }else if(type == 'yourMsg'){
+        var html = '';
+        html = "<li><div class='your-msg'>"+msg+"</div><span class='your-msg-date'>"+date+"</span></li>";
+        $('#block-chat-user .chat ul').append(html);
+    }else if(type == 'write'){
+        var html = "<li class='notice-write'><p>Пользователь набирает сообщение <img src='http://"+sytename+"/images/827.svg' alt=''></p></li>";
+        $('#block-chat-user .chat ul').append(html);
+    }
+    var block = $('#block-chat-user .chat ul')[0];
+
+    block.scrollTop = block.scrollHeight;
+
+}
+
 
 function isNumeric(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+function getTime()
+{
+    var objDate = new Date();
+    var hour = objDate.getHours().toString();
+    var minut = objDate.getMinutes().toString();
+
+    hour = (hour.length == 1) ? '0' + hour : hour;
+    minut = (minut.length == 1) ? '0' + minut : minut;
+    hour = (hour == '0') ? '00' : hour;
+    minut = (minut == '0') ? '00' : minut;
+    return hour + ':' + minut;
 }

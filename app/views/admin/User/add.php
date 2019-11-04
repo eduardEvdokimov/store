@@ -18,8 +18,8 @@
                 <form method="post" action="<?= HOST_ADMIN ?>/user/signup" role="form" data-toggle="validator" id="form-add-user-from-admin-panel">
                     <div class="box-body">
                         <div class="form-group has-feedback">
-                            <label for="login">Логин</label>
-                            <input class="form-control" name="login" id="login" type="text" value="<?= isset($_SESSION['form_data']['login']) ? $_SESSION['form_data']['login'] : '' ?>" required>
+                            <label for="name">Имя и фамилия</label>
+                            <input class="form-control" name="name" pattern="\s*\S+\s\S+" id="name" type="text" value="<?= isset($_SESSION['form_data']['name']) ? $_SESSION['form_data']['name'] : '' ?>" required>
                         </div>
                         <div class="form-group has-feedback">
                             <label for="password">Пароль</label>
@@ -29,10 +29,6 @@
                         <div class="form-group has-feedback">
                             <label for="email">Электронная почта</label>
                             <input class="form-control"  name="email" id="email" type="email" value="<?= isset($_SESSION['form_data']['email']) ? $_SESSION['form_data']['email'] : '' ?>" required>
-                        </div>
-                        <div class="form-group has-feedback">
-                            <label for="name">Имя и фамилия</label>
-                            <input class="form-control" name="name" pattern="\s*\S+\s\S+" id="name" type="text" value="<?= isset($_SESSION['form_data']['name']) ? $_SESSION['form_data']['name'] : '' ?>" required>
                         </div>
                         <div class="form-group">
                             <label>Роль</label>

@@ -48,6 +48,20 @@ function filterData($data)
     return $result;
 }
 
+function isAuth($isAdmin = false)
+{
+    $check = false;
+
+    if($isAdmin){
+        if(isset($_SESSION['user']) && $_SESSION['user']['auth'] == true && $_SESSION['user']['role'] == 'admin')
+            $check = true;
+    }else{
+        if(isset($_SESSION['user']) && $_SESSION['user']['auth'] == true)
+            $check = true;
+    }
+    return $check;
+}
+
 //Формирует относительную дату
 function relativeDate($date)
 {

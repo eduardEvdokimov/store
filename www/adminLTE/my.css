@@ -41,3 +41,54 @@
 .overlay{
     display: none;
 }
+
+.chat > ul{
+    list-style: none;
+}
+
+.chat > ul > li{
+    margin-bottom: 20px;
+    clear: both;
+    width: 100%;
+    float: left;
+}
+
+.my-msg{
+    max-width: 400px;
+    padding: 7px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #d0d0d0;
+    display: inline-block;
+    float: right;
+}
+
+.my-msg-date{
+    float: left;
+}
+
+.your-msg{
+    max-width: 400px;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #d0d0d0;
+    float: left;
+}
+
+.your-msg-date{
+    float: right;
+}
+
+.chat > ul > .notice-msg{
+    text-align: center;
+}
+
+.chat > ul > .notice-write{
+    text-align: left;
+}
+
+.chat > ul > .notice-write img{
+    width: 15px;
+}

@@ -48,6 +48,10 @@ class Filter
         return $groups;
     }
 
+    /**
+     * @param $category
+     * @return mixed
+     */
     public static function getValues($category)
     {
         $db = Db::getInstance();
@@ -62,7 +66,7 @@ class Filter
             $result[$value['group_id']][$value['id']] = $value['value']; 
         }
 
-        return $result;
+        return isset($result) ? $result : null;
     }
 
     public static function getFilter(){

@@ -4,7 +4,7 @@
         Панель управления
     </h1>
     <ol class="breadcrumb">
-        <li><a href="<?=HOST_ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
+        <li><a href="<?=HOST_HOST_ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
     </ol>
 </section>
 
@@ -22,7 +22,7 @@
                 <div class="icon">
                     <i class="ion ion-bag"></i>
                 </div>
-                <a href="<?=HOST_ADMIN;?>/order" class="small-box-footer">Все заказы <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?=HOST_HOST_ADMIN;?>/order" class="small-box-footer">Все заказы <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>
         <!-- ./col -->
@@ -36,7 +36,7 @@
                 <div class="icon">
                     <i class="ion ion-stats-bars"></i>
                 </div>
-                <a href="<?=ADMIN;?>/product" class="small-box-footer">Смотреть все <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?=HOST_ADMIN;?>/product" class="small-box-footer">Смотреть все <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>
         <!-- ./col -->
@@ -50,7 +50,7 @@
                 <div class="icon">
                     <i class="ion ion-person-add"></i>
                 </div>
-                <a href="<?=ADMIN;?>/user" class="small-box-footer">Смотреть всех <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?=HOST_ADMIN;?>/user/list" class="small-box-footer">Смотреть всех <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>
         <!-- ./col -->
@@ -64,7 +64,7 @@
                 <div class="icon">
                     <i class="ion ion-pie-graph"></i>
                 </div>
-                <a href="<?=ADMIN;?>/category" class="small-box-footer">Смотреть все <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="<?=HOST_ADMIN;?>/category" class="small-box-footer">Смотреть все <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>
         <!-- ./col -->

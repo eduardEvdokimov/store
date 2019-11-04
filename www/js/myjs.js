@@ -1,5 +1,16 @@
 $(document).ready(function(){
 
+    setInterval(function(){
+        if($('.widget-chat button span').is('.hidden')){
+            $('.widget-chat button span').removeClass('hidden');
+            $('.widget-chat button i').addClass('hidden');
+        }else{
+            $('.widget-chat button span').addClass('hidden');
+            $('.widget-chat button i').removeClass('hidden');
+        }
+    }, 10000);
+
+
 $('.list_comments').on('click', '.fa-thumbs-up', function(){
 
     if(!userAuth){
@@ -912,9 +923,19 @@ $('body').on('change', '.rsidebar-top input', function(){
             $('.preloader').delay(500).fadeOut(300);
         }
     });
-   
-
 });
+
+$('.widget-chat button').click(function(){
+    $('.widget-chat-modal').removeClass('hidden');
+    $('.widget-chat').addClass('hidden');
+});
+
+$('.widget-chat-modal .head i').click(function(){
+    $('.widget-chat-modal').addClass('hidden');
+    $('.widget-chat').removeClass('hidden');
+});
+
+    
 
 });
 

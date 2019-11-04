@@ -225,25 +225,23 @@
                 <li class="treeview">
                     <a href="#"><i class="fa fa-usd"></i> <span>Валюты</span>
                         <span class="pull-right-container">
-<i class="fa fa-angle-left pull-right"></i>
-</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
                     </a>
                     <ul class="treeview-menu">
                         <li><a href="<?= HOST_ADMIN ?>/currency">Список валют</a></li>
                         <li><a href="<?= HOST_ADMIN ?>/currency/add">Добавить валюту</a></li>
                     </ul>
                 </li>
-                <li class="treeview">
-                    <a href="#"><i class="fa fa-filter"></i> <span>Фильтры</span>
-                        <span class="pull-right-container">
-<i class="fa fa-angle-left pull-right"></i>
-</span>
+
+
+                <li>
+                    <a href="<?= HOST_ADMIN ?>/chat"><i class="fa fa-envelope"></i> <span>Тех. поддержка</span>
+                        <small class="label pull-right bg-green">16</small>
                     </a>
-                    <ul class="treeview-menu">
-                        <li><a href="<?= HOST_ADMIN ?>/filter/attribute-group">Группы фильтров</a></li>
-                        <li><a href="<?= HOST_ADMIN ?>/filter/attribute">Фильтры</a></li>
-                    </ul>
                 </li>
+
+
             </ul>
         </section>
         <!-- /.sidebar -->
@@ -282,12 +280,16 @@
 <!-- ./wrapper -->
 
 <script>
-    var path = '<?=PATH;?>',
-        adminpath = '<?= ADMIN_PATH ?>';
+    var host = '<?=HOST;?>',
+        sytename = '<?= $_SERVER['HTTP_HOST'] ?>',
+        adminpath = '<?= HOST_ADMIN ?>',
+        adminName = '<?= $_SESSION['user']['name'] ?>',
+        adminId = '<?= $_SESSION['user']['id'] ?>';
 </script>
 
 <!-- jQuery 3 -->
 <script src="<?= ADMIN_PATH ?>/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?= HOST ?>/js/ajaxupload.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="<?= ADMIN_PATH ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="<?= ADMIN_PATH ?>/bower_components/select2/dist/js/select2.full.js"></script>

@@ -13,7 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link rel="shortcut icon" href="<?= HOST ?>/images/favicon1.png" type='image/png'/>
 </head>
 <script type="application/x-javascript"> 
-    var host = "<?= $_SERVER['HTTP_HOST']; ?>";
+    var host = "<?= $_SERVER['HTTP_HOST'] ?>";
     var simbolCurrency = "<?= $simbolCurrency; ?>";
     var userAuth = "<?= $userAuth ?>";
     var userName = '';
@@ -384,7 +384,42 @@ $(document).ready(function() {
         </div>
     </div>
 
+    <div class='widget-chat-modal'>
+        <div class='head'>
+            <h4>Онлайн консультация</h4>
+            <i class="fas fa-minus"></i>
+        </div>
+        <div class='body'>
+            <div class="block-content-msgs hidden">
 
+            </div>
+
+            <form data-toggle="validator" role="form">
+                <div class="form-group">
+                    <label for="name">Как к Вам обращаться</label>
+                    <input type="text" class="form-control" id="name" placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <label for="msg">Опишите проблему</label>
+                    <textarea class="form-control" rows="4" id="msg" placeholder="Сообщение" required></textarea>
+                </div>
+                <button type="submit" style="float: right" class="btn btn-primary">Отправить</button>
+            </form>
+        </div>
+
+        <div class="field-msg hidden">
+            <input type="text" placeholder="Сообщение..."><button>
+                <i class="fas fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="widget-chat hidden">
+        <button>
+            <span class="hidden">Спроси у нас</span>
+            <i class="far fa-comment"></i>
+        </button>
+    </div>
 
 
     <!-- Окно корзины -->
@@ -466,6 +501,7 @@ $(document).ready(function() {
     <script type="text/javascript" src='<?= HOST ?>/js/html.js'></script>
     <script src="<?= HOST ?>/js/main.js"></script> <!-- Resource jQuery -->
     <script src="<?= HOST ?>/js/myjs.js"></script>
+    <script src="<?= HOST ?>/js/socket.js"></script>
     <!-- //menu js aim --> 
     <!-- Bootstrap core JavaScript
     ================================================== -->

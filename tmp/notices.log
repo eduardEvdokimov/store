@@ -12346,3 +12346,1455 @@
 Файл: C:\OSPanel\domains\store.loc\layouts\adminLTE.php
 Код ошибки: 300
 
+Замечание № 2059: 28-10-2019 в 09:14:50
+Ошибка: Undefined index: login
+Строка: 29
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\UserController.php
+Код ошибки: 300
+
+Замечание № 2060: 28-10-2019 в 09:18:29
+Ошибка: Trying to get property 'countPages' of non-object
+Строка: 45
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\User\list.php
+Код ошибки: 300
+
+Замечание № 2061: 28-10-2019 в 09:19:09
+Ошибка: Trying to get property 'countPages' of non-object
+Строка: 45
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\User\list.php
+Код ошибки: 300
+
+Замечание № 2062: 28-10-2019 в 09:48:18
+Ошибка: Undefined variable: pagination
+Строка: 45
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\User\list.php
+Код ошибки: 300
+
+Замечание № 2063: 28-10-2019 в 10:02:04
+Ошибка: Uninitialized string offset: 0
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\UserController.php
+Код ошибки: 300
+
+Замечание № 2064: 28-10-2019 в 10:04:19
+Ошибка: Undefined index: update_at
+Строка: 73
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\User\edit.php
+Код ошибки: 300
+
+Замечание № 2065: 28-10-2019 в 16:54:04
+Ошибка: Undefined variable: category
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_layout.php
+Код ошибки: 300
+
+Замечание № 2066: 28-10-2019 в 16:54:09
+Ошибка: Undefined variable: category
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_layout.php
+Код ошибки: 300
+
+Замечание № 2067: 28-10-2019 в 17:02:15
+Ошибка: Undefined variable: category
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_layout.php
+Код ошибки: 300
+
+Замечание № 2068: 28-10-2019 в 17:12:23
+Ошибка: Undefined variable: category
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2069: 28-10-2019 в 17:14:49
+Ошибка: Undefined variable: category
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2070: 28-10-2019 в 17:15:51
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2071: 28-10-2019 в 17:16:57
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2072: 28-10-2019 в 17:17:53
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2073: 28-10-2019 в 17:18:27
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2074: 28-10-2019 в 17:19:51
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2075: 28-10-2019 в 17:22:15
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2076: 28-10-2019 в 17:23:25
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2077: 28-10-2019 в 17:23:40
+Ошибка: Undefined variable: id
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2078: 28-10-2019 в 17:25:26
+Ошибка: Undefined variable: key
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2079: 28-10-2019 в 17:25:35
+Ошибка: Undefined variable: key
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2080: 28-10-2019 в 17:26:21
+Ошибка: Undefined variable: value
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2081: 28-10-2019 в 17:33:41
+Ошибка: Trying to get property 'title' of non-object
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 300
+
+Замечание № 2082: 28-10-2019 в 17:56:42
+Ошибка: Trying to get property 'title' of non-object
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 300
+
+Замечание № 2083: 28-10-2019 в 17:57:24
+Ошибка: Trying to get property 'title' of non-object
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 300
+
+Замечание № 2084: 28-10-2019 в 17:59:12
+Ошибка: Trying to get property 'title' of non-object
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Category\edit.php
+Код ошибки: 300
+
+Замечание № 2085: 28-10-2019 в 18:01:10
+Ошибка: Undefined variable: parent_id
+Строка: 1
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\select_view.php
+Код ошибки: 300
+
+Замечание № 2086: 28-10-2019 в 18:11:05
+Ошибка: Undefined variable: parent_id
+Строка: 13
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\select_view.php
+Код ошибки: 300
+
+Замечание № 2087: 28-10-2019 в 18:12:36
+Ошибка: Undefined variable: parent_id
+Строка: 13
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\select_view.php
+Код ошибки: 300
+
+Замечание № 2088: 28-10-2019 в 18:25:32
+Ошибка: Undefined variable: item
+Строка: 7
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\select_layout.php
+Код ошибки: 300
+
+Замечание № 2089: 28-10-2019 в 18:26:01
+Ошибка: Undefined variable: item
+Строка: 7
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\select_layout.php
+Код ошибки: 300
+
+Замечание № 2090: 28-10-2019 в 18:40:58
+Ошибка: Trying to get property 'countPages' of non-object
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\index.php
+Код ошибки: 300
+
+Замечание № 2091: 29-10-2019 в 10:23:30
+Ошибка: Undefined index: 
+Строка: 3
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\select_layout.php
+Код ошибки: 300
+
+Замечание № 2092: 29-10-2019 в 11:11:39
+Ошибка: Undefined variable: result
+Строка: 65
+Файл: C:\OSPanel\domains\store.loc\widgets\filter\Filter.php
+Код ошибки: 300
+
+Замечание № 2093: 29-10-2019 в 11:27:04
+Ошибка: Undefined index: child
+Строка: 10
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\view.php
+Код ошибки: 300
+
+Замечание № 2094: 29-10-2019 в 11:28:14
+Ошибка: Undefined index: child
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\app\views\Category\index.php
+Код ошибки: 300
+
+Замечание № 2095: 29-10-2019 в 11:46:12
+Ошибка: Undefined variable: parent_keys
+Строка: 2
+Файл: C:\OSPanel\domains\store.loc\widgets\category\layouts\admin_view.php
+Код ошибки: 300
+
+Замечание № 2096: 29-10-2019 в 12:10:39
+Ошибка: Trying to get property 'countPages' of non-object
+Строка: 50
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\index.php
+Код ошибки: 300
+
+Замечание № 2097: 29-10-2019 в 12:11:45
+Ошибка: Trying to get property 'countPages' of non-object
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\index.php
+Код ошибки: 300
+
+Замечание № 2098: 29-10-2019 в 12:17:33
+Ошибка: Undefined property: widgets\pagination\Pagination::$countPages
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\index.php
+Код ошибки: 300
+
+Замечание № 2099: 29-10-2019 в 12:18:05
+Ошибка: Undefined property: widgets\pagination\Pagination::$countPages
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\index.php
+Код ошибки: 300
+
+Замечание № 2100: 29-10-2019 в 12:19:16
+Ошибка: Undefined property: widgets\pagination\Pagination::$countPages
+Строка: 46
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\index.php
+Код ошибки: 300
+
+Замечание № 2101: 29-10-2019 в 12:23:49
+Ошибка: Trying to get property 'title' of non-object
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 300
+
+Замечание № 2102: 29-10-2019 в 19:03:09
+Ошибка: Trying to get property 'title' of non-object
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 300
+
+Замечание № 2103: 30-10-2019 в 18:55:35
+Ошибка: Undefined variable: currencies
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\add.php
+Код ошибки: 300
+
+Замечание № 2104: 30-10-2019 в 18:57:28
+Ошибка: Undefined variable: currencies
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\add.php
+Код ошибки: 300
+
+Замечание № 2105: 30-10-2019 в 18:57:53
+Ошибка: Undefined variable: currencies
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\index.php
+Код ошибки: 300
+
+Замечание № 2106: 30-10-2019 в 20:39:39
+Ошибка: Undefined variable: li
+Строка: 71
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2107: 30-10-2019 в 20:41:00
+Ошибка: Undefined variable: li
+Строка: 71
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2108: 30-10-2019 в 20:45:38
+Ошибка: Array to string conversion
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\layouts\view.php
+Код ошибки: 300
+
+Замечание № 2109: 30-10-2019 в 20:45:58
+Ошибка: Undefined property: widgets\currency\Currency::$currentCurrency
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\layouts\view.php
+Код ошибки: 300
+
+Замечание № 2110: 30-10-2019 в 20:49:18
+Ошибка: Undefined property: widgets\currency\Currency::$currentCurrency
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\layouts\view.php
+Код ошибки: 300
+
+Замечание № 2111: 30-10-2019 в 20:49:37
+Ошибка: Undefined property: widgets\currency\Currency::$currentCurrency
+Строка: 5
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\layouts\view.php
+Код ошибки: 300
+
+Замечание № 2112: 30-10-2019 в 20:59:14
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2113: 30-10-2019 в 20:59:15
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2114: 30-10-2019 в 20:59:24
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2115: 30-10-2019 в 20:59:27
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2116: 30-10-2019 в 21:00:36
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2117: 30-10-2019 в 21:03:52
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2118: 30-10-2019 в 21:05:25
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2119: 30-10-2019 в 21:05:25
+Ошибка: Undefined variable: value
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 300
+
+Замечание № 2120: 30-10-2019 в 21:05:58
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2121: 30-10-2019 в 21:05:58
+Ошибка: Undefined variable: value
+Строка: 9
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 300
+
+Замечание № 2122: 30-10-2019 в 21:06:43
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2123: 30-10-2019 в 21:06:44
+Ошибка: Undefined variable: value
+Строка: 8
+Файл: C:\OSPanel\domains\store.loc\config\simbols_currency.php
+Код ошибки: 300
+
+Замечание № 2124: 30-10-2019 в 21:07:26
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2125: 30-10-2019 в 21:08:33
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2126: 30-10-2019 в 21:08:34
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2127: 30-10-2019 в 21:09:38
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2128: 30-10-2019 в 21:09:39
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2129: 30-10-2019 в 21:09:40
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2130: 30-10-2019 в 21:09:41
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2131: 30-10-2019 в 21:09:47
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2132: 30-10-2019 в 21:11:33
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2133: 30-10-2019 в 21:11:34
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2134: 30-10-2019 в 21:11:48
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2135: 30-10-2019 в 21:11:49
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2136: 30-10-2019 в 21:12:01
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2137: 30-10-2019 в 21:12:02
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2138: 30-10-2019 в 21:12:13
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2139: 30-10-2019 в 21:12:15
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2140: 30-10-2019 в 21:25:03
+Ошибка: Undefined variable: content
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\CurrencyController.php
+Код ошибки: 300
+
+Замечание № 2141: 30-10-2019 в 21:36:03
+Ошибка: Undefined variable: currencies
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\index.php
+Код ошибки: 300
+
+Замечание № 2142: 30-10-2019 в 21:38:54
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2143: 30-10-2019 в 21:39:34
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2144: 30-10-2019 в 21:39:48
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2145: 30-10-2019 в 21:39:51
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2146: 30-10-2019 в 21:40:03
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\MainController.php
+Код ошибки: 300
+
+Замечание № 2147: 30-10-2019 в 21:41:58
+Ошибка: Undefined index: user
+Строка: 20
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\MainController.php
+Код ошибки: 300
+
+Замечание № 2148: 30-10-2019 в 21:44:15
+Ошибка: Undefined index: user
+Строка: 19
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\MainController.php
+Код ошибки: 300
+
+Замечание № 2149: 31-10-2019 в 10:39:09
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2150: 31-10-2019 в 10:41:22
+Ошибка: Undefined variable: currencies
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\index.php
+Код ошибки: 300
+
+Замечание № 2151: 31-10-2019 в 10:51:12
+Ошибка: Undefined index: base
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\edit.php
+Код ошибки: 300
+
+Замечание № 2152: 31-10-2019 в 10:51:46
+Ошибка: Undefined index: base
+Строка: 40
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\edit.php
+Код ошибки: 300
+
+Замечание № 2153: 31-10-2019 в 10:53:14
+Ошибка: Undefined index: value
+Строка: 34
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\edit.php
+Код ошибки: 300
+
+Замечание № 2154: 31-10-2019 в 10:53:43
+Ошибка: Undefined index: code
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\edit.php
+Код ошибки: 300
+
+Замечание № 2155: 31-10-2019 в 10:54:07
+Ошибка: Undefined index: tag
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Currency\edit.php
+Код ошибки: 300
+
+Замечание № 2156: 31-10-2019 в 11:36:17
+Ошибка: Undefined index: currency
+Строка: 117
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\CurrencyController.php
+Код ошибки: 300
+
+Замечание № 2157: 31-10-2019 в 11:41:16
+Ошибка: Undefined index: currency
+Строка: 118
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\CurrencyController.php
+Код ошибки: 300
+
+Замечание № 2158: 31-10-2019 в 11:43:57
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2159: 31-10-2019 в 11:43:58
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2160: 31-10-2019 в 11:44:06
+Ошибка: Undefined variable: currentCurrency
+Строка: 78
+Файл: C:\OSPanel\domains\store.loc\app\models\ProductModel.php
+Код ошибки: 300
+
+Замечание № 2161: 31-10-2019 в 11:44:08
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2162: 31-10-2019 в 11:44:36
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2163: 31-10-2019 в 11:44:37
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2164: 31-10-2019 в 11:44:39
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2165: 31-10-2019 в 11:44:40
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2166: 31-10-2019 в 11:44:42
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2167: 31-10-2019 в 11:44:43
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2168: 31-10-2019 в 11:44:43
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2169: 31-10-2019 в 11:44:44
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2170: 31-10-2019 в 11:45:12
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2171: 31-10-2019 в 11:45:12
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2172: 31-10-2019 в 11:48:02
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2173: 31-10-2019 в 11:48:03
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2174: 31-10-2019 в 11:48:04
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2175: 31-10-2019 в 11:48:05
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2176: 31-10-2019 в 11:50:37
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2177: 31-10-2019 в 11:50:38
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2178: 31-10-2019 в 11:51:38
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2179: 31-10-2019 в 11:51:40
+Ошибка: Undefined index: YEN
+Строка: 80
+Файл: C:\OSPanel\domains\store.loc\widgets\currency\Currency.php
+Код ошибки: 300
+
+Замечание № 2180: 31-10-2019 в 12:23:44
+Ошибка: Undefined variable: attrs_group
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Filter\attributeGroup.php
+Код ошибки: 300
+
+Замечание № 2181: 31-10-2019 в 12:23:54
+Ошибка: Undefined variable: attrs_group
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Filter\attributeGroup.php
+Код ошибки: 300
+
+Замечание № 2182: 31-10-2019 в 12:25:52
+Ошибка: Undefined variable: attrs_group
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Filter\attributeGroup.php
+Код ошибки: 300
+
+Замечание № 2183: 31-10-2019 в 12:26:06
+Ошибка: Trying to get property 'id' of non-object
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Filter\attributeGroup.php
+Код ошибки: 300
+
+Замечание № 2184: 31-10-2019 в 12:31:50
+Ошибка: Trying to get property 'title' of non-object
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 300
+
+Замечание № 2185: 31-10-2019 в 15:50:56
+Ошибка: Trying to get property 'title' of non-object
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 300
+
+Замечание № 2186: 31-10-2019 в 17:25:03
+Ошибка: Undefined variable: categories
+Строка: 33
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ProductController.php
+Код ошибки: 300
+
+Замечание № 2187: 31-10-2019 в 18:06:59
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2188: 31-10-2019 в 18:08:24
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2189: 31-10-2019 в 18:13:33
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2190: 31-10-2019 в 18:13:36
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2191: 31-10-2019 в 18:17:57
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2192: 31-10-2019 в 18:17:59
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2193: 31-10-2019 в 18:40:48
+Ошибка: Trying to get property 'title' of non-object
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 300
+
+Замечание № 2194: 01-11-2019 в 09:39:59
+Ошибка: Trying to get property 'title' of non-object
+Строка: 4
+Файл: C:\OSPanel\domains\store.loc\app\views\admin\Product\edit.php
+Код ошибки: 300
+
+Замечание № 2195: 01-11-2019 в 12:33:00
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2196: 01-11-2019 в 12:34:02
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2197: 01-11-2019 в 12:36:08
+Ошибка: Undefined index: id
+Строка: 336
+Файл: C:\OSPanel\domains\store.loc\app\views\Product\index.php
+Код ошибки: 300
+
+Замечание № 2198: 02-11-2019 в 11:33:53
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2199: 02-11-2019 в 11:34:59
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2200: 02-11-2019 в 11:36:29
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2201: 02-11-2019 в 11:36:45
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2202: 02-11-2019 в 13:10:13
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2203: 02-11-2019 в 13:10:52
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2204: 02-11-2019 в 13:11:05
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2205: 02-11-2019 в 13:11:11
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2206: 02-11-2019 в 13:11:25
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2207: 02-11-2019 в 13:14:38
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2208: 02-11-2019 в 13:15:11
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2209: 02-11-2019 в 13:15:15
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2210: 02-11-2019 в 13:15:37
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2211: 02-11-2019 в 13:16:51
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2212: 02-11-2019 в 13:16:54
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2213: 02-11-2019 в 13:20:05
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2214: 02-11-2019 в 13:26:12
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2215: 02-11-2019 в 13:27:34
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2216: 02-11-2019 в 13:31:02
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2217: 02-11-2019 в 13:31:41
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2218: 02-11-2019 в 13:31:44
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2219: 02-11-2019 в 13:32:08
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2220: 02-11-2019 в 13:40:26
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2221: 02-11-2019 в 14:36:05
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2222: 02-11-2019 в 14:37:30
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2223: 02-11-2019 в 14:38:07
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2224: 02-11-2019 в 14:43:14
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2225: 02-11-2019 в 15:10:01
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2226: 02-11-2019 в 15:13:31
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2227: 02-11-2019 в 15:17:52
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2228: 02-11-2019 в 15:21:37
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2229: 02-11-2019 в 15:23:40
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2230: 02-11-2019 в 15:24:01
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2231: 02-11-2019 в 15:24:15
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2232: 02-11-2019 в 15:24:18
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2233: 02-11-2019 в 15:24:28
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2234: 02-11-2019 в 15:32:13
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2235: 02-11-2019 в 15:46:36
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2236: 02-11-2019 в 15:46:55
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2237: 02-11-2019 в 15:46:59
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2238: 02-11-2019 в 15:47:10
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2239: 02-11-2019 в 15:47:37
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2240: 02-11-2019 в 15:49:30
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2241: 02-11-2019 в 15:49:34
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2242: 02-11-2019 в 15:49:45
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2243: 02-11-2019 в 16:58:52
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2244: 02-11-2019 в 17:12:00
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2245: 02-11-2019 в 18:13:37
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2246: 03-11-2019 в 10:23:21
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2247: 03-11-2019 в 10:23:26
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2248: 03-11-2019 в 10:28:58
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2249: 03-11-2019 в 13:55:03
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2250: 03-11-2019 в 13:57:49
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2251: 03-11-2019 в 16:21:41
+Ошибка: Undefined offset: 1
+Строка: 24
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2252: 03-11-2019 в 16:23:20
+Ошибка: Undefined offset: 1
+Строка: 24
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2253: 03-11-2019 в 16:23:47
+Ошибка: Undefined offset: 1
+Строка: 24
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2254: 03-11-2019 в 17:08:07
+Ошибка: Undefined offset: 1
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2255: 03-11-2019 в 17:08:18
+Ошибка: Undefined offset: 1
+Строка: 28
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2256: 03-11-2019 в 17:11:37
+Ошибка: Undefined variable: headersArr
+Строка: 25
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2257: 03-11-2019 в 17:28:39
+Ошибка: Undefined variable: newChats
+Строка: 36
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2258: 03-11-2019 в 17:29:21
+Ошибка: Undefined variable: newChats
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2259: 03-11-2019 в 17:30:03
+Ошибка: Undefined variable: newChats
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2260: 03-11-2019 в 17:30:29
+Ошибка: Undefined variable: newChats
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2261: 03-11-2019 в 17:30:48
+Ошибка: Undefined variable: newChats
+Строка: 37
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2262: 03-11-2019 в 17:40:11
+Ошибка: Undefined variable: body
+Строка: 70
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2263: 03-11-2019 в 17:40:43
+Ошибка: Undefined variable: body
+Строка: 71
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2264: 03-11-2019 в 17:41:18
+Ошибка: Undefined variable: body
+Строка: 71
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2265: 03-11-2019 в 17:41:23
+Ошибка: Undefined variable: body
+Строка: 71
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2266: 03-11-2019 в 18:27:07
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2267: 03-11-2019 в 19:19:42
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2268: 04-11-2019 в 09:13:12
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2269: 04-11-2019 в 09:44:52
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2270: 04-11-2019 в 09:50:19
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2271: 04-11-2019 в 09:52:01
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2272: 04-11-2019 в 10:06:00
+Ошибка: Undefined offset: 1
+Строка: 26
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2273: 04-11-2019 в 10:06:07
+Ошибка: Undefined offset: 1
+Строка: 26
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2274: 04-11-2019 в 10:07:29
+Ошибка: Undefined offset: 1
+Строка: 26
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2275: 04-11-2019 в 10:07:43
+Ошибка: Undefined offset: 1
+Строка: 26
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2276: 04-11-2019 в 10:21:50
+Ошибка: Undefined offset: 1
+Строка: 25
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2277: 04-11-2019 в 10:30:15
+Ошибка: Undefined offset: 1
+Строка: 25
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2278: 04-11-2019 в 10:30:17
+Ошибка: Undefined offset: 1
+Строка: 25
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2279: 04-11-2019 в 11:03:14
+Ошибка: Undefined offset: 1
+Строка: 25
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2280: 04-11-2019 в 11:03:19
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2281: 04-11-2019 в 11:03:27
+Ошибка: Undefined offset: 2
+Строка: 59
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2282: 04-11-2019 в 11:06:25
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2283: 04-11-2019 в 11:06:27
+Ошибка: Undefined offset: 2
+Строка: 59
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2284: 04-11-2019 в 11:06:30
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2285: 04-11-2019 в 11:06:33
+Ошибка: Undefined offset: 2
+Строка: 59
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2286: 04-11-2019 в 11:08:39
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2287: 04-11-2019 в 11:10:31
+Ошибка: Undefined offset: 1
+Строка: 25
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2288: 04-11-2019 в 11:13:41
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2289: 04-11-2019 в 11:13:43
+Ошибка: Undefined offset: 2
+Строка: 59
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2290: 04-11-2019 в 11:18:16
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2291: 04-11-2019 в 11:18:21
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2292: 04-11-2019 в 11:22:54
+Ошибка: Undefined offset: 1
+Строка: 25
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2293: 04-11-2019 в 11:24:46
+Ошибка: Undefined index: chat
+Строка: 44
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2294: 04-11-2019 в 11:27:18
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2295: 04-11-2019 в 11:27:23
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2296: 04-11-2019 в 11:29:54
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2297: 04-11-2019 в 11:37:59
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2298: 04-11-2019 в 11:39:55
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2299: 04-11-2019 в 11:40:11
+Ошибка: Undefined offset: 1
+Строка: 30
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
+Замечание № 2300: 04-11-2019 в 12:18:40
+Ошибка: Undefined index: chat
+Строка: 44
+Файл: C:\OSPanel\domains\store.loc\app\controllers\admin\ChatController.php
+Код ошибки: 300
+
