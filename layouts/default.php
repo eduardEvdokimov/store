@@ -384,7 +384,7 @@ $(document).ready(function() {
         </div>
     </div>
 
-    <div class='widget-chat-modal'>
+    <div class='widget-chat-modal hidden'>
         <div class='head'>
             <h4>Онлайн консультация</h4>
             <i class="fas fa-minus"></i>
@@ -414,7 +414,7 @@ $(document).ready(function() {
         </div>
     </div>
 
-    <div class="widget-chat hidden">
+    <div class="widget-chat">
         <button>
             <span class="hidden">Спроси у нас</span>
             <i class="far fa-comment"></i>

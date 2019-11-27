@@ -62,7 +62,7 @@ function addWriteNotice()
 }
 
 $('.widget-chat-modal .head i').click(function(){
-    sock.close();
+    if(sock) sock.close();
 });
 
 $('.widget-chat-modal .field-msg input[type=text]').keyup(function(e){
