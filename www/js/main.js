@@ -750,6 +750,7 @@ setTimeout(function(){
 
 $('.login-body').on('click', '#form-restore-password input[type=submit]', function(e){
     e.preventDefault();
+    
 
     var form = $('#form-restore-password');
 
@@ -771,7 +772,6 @@ $('.login-body').on('click', '#form-restore-password input[type=submit]', functi
         dataType: 'json',
         success: function(data){
             console.log(data);
-
             if(data.type == 'error'){
                 $('.block-notice-form').removeClass('hidden').find('p').html(data.msg);
             }

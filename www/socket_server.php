@@ -4,7 +4,7 @@ require dirname(__DIR__) . '/libs/Chat.php';
 require dirname(__DIR__) . '/libs/functions.php';
 
 $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP );
-socket_bind($socket, '192.168.0.103', 7000);
+socket_bind($socket, '192.168.0.105', 7000);
 socket_set_option($socket, SOL_SOCKET, SO_REUSEADDR, 100);
 socket_listen($socket);
 
