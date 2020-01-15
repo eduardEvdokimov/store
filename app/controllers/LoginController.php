@@ -110,7 +110,7 @@ class LoginController extends MainController
         if($db->exec("UPDATE users SET restore_pass_code=$code WHERE id={$user['id']}")){
 
             $mail = new Mail($user['email']);
-            $mail->sendRestorePassword($_SESSION['user']['email'], $_SESSION['user']['name'], $code);
+            $mail->sendRestorePassword($user['email'], $user['name'], $code);
 
             $response['type'] = 'success';
             die(json_encode($response));

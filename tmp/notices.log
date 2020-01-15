@@ -14392,3 +14392,75 @@
 Файл: C:\OSPanel\domains\store.loc\layouts\default.php
 Код ошибки: 300
 
+Замечание № 2400: 15-01-2020 в 21:31:37
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2401: 15-01-2020 в 21:31:46
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2402: 15-01-2020 в 21:32:05
+Ошибка: Undefined variable: _SESSION
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2403: 15-01-2020 в 21:32:32
+Ошибка: Undefined variable: _SESSION
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2404: 15-01-2020 в 21:32:40
+Ошибка: Undefined variable: _SESSION
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2405: 15-01-2020 в 21:32:44
+Ошибка: Undefined variable: _SESSION
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2406: 15-01-2020 в 21:33:04
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2407: 15-01-2020 в 21:33:09
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2408: 15-01-2020 в 21:33:12
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2409: 15-01-2020 в 21:33:17
+Ошибка: Undefined index: user
+Строка: 113
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
+Замечание № 2410: 15-01-2020 в 21:34:28
+Ошибка: Undefined index: user
+Строка: 23
+Файл: C:\OSPanel\domains\store.loc\layouts\default.php
+Код ошибки: 300
+
+Замечание № 2411: 15-01-2020 в 21:35:37
+Ошибка: Undefined index: user
+Строка: 147
+Файл: C:\OSPanel\domains\store.loc\app\controllers\LoginController.php
+Код ошибки: 300
+
