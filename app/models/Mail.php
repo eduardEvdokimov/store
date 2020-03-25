@@ -12,8 +12,8 @@ class Mail{
     public function __construct($to)
     {
         $transport = (new \Swift_SmtpTransport('smtp.mail.ru', 465, 'ssl'))
-            ->setUsername('eduard.evdokimov@inbox.ru')
-            ->setPassword('kosmas746');
+            ->setUsername()
+            ->setPassword();
 
         $mailer = new \Swift_Mailer($transport);
         $message = new \Swift_Message();
